@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3  Date: jue 30 ene 2014 23:10:47 COT
+#encoding utf-8
+#
+# LM35
+#
+DEF LM35 TS 0 40 Y Y 1 F N
+F0 "TS" 450 500 60 H V C CNN
+F1 "LM35" -200 50 60 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S 250 -200 -250 200 0 1 0 N
+X VS 1 0 350 150 D 50 50 1 1 I
+X Vout 2 400 0 150 L 50 50 1 1 I
+X GND 3 0 -350 150 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

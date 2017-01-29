@@ -1,0 +1,355 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:iMX28
+LIBS:iMX23
+LIBS:110VAC
+LIBS:ABM8G
+LIBS:ad7699
+LIBS:ad8627
+LIBS:adm3101e
+LIBS:ap2281
+LIBS:atsam3n0aa-au
+LIBS:ba50dd0whfp
+LIBS:bat_con
+LIBS:Carlolib-dev
+LIBS:con-jack
+LIBS:crystal
+LIBS:EEPROM
+LIBS:fsusb20
+LIBS:fsusb43
+LIBS:ftdichip
+LIBS:gl850g
+LIBS:i.mx233stamp-cache
+LIBS:ili9325
+LIBS:IOUT
+LIBS:ipc-7351-diode
+LIBS:ipc-7351-transistor
+LIBS:lm35
+LIBS:lm3478
+LIBS:lt1117cst
+LIBS:m25p32
+LIBS:mcp130
+LIBS:mcp73812
+LIBS:mic29301
+LIBS:micron_ddr_512Mb
+LIBS:microsd
+LIBS:mmdt3904
+LIBS:m-pad-2.1
+LIBS:opendous
+LIBS:pasives-connectors
+LIBS:PROpendous-cache
+LIBS:PWR
+LIBS:r_pack2
+LIBS:rclamp0502b
+LIBS:ref-packages
+LIBS:Reset
+LIBS:sdmmc
+LIBS:sp481
+LIBS:srf2012
+LIBS:ssd1963_320x240
+LIBS:stm32f2_lqfp100
+LIBS:stm32f4_lqfp100
+LIBS:stm32f100vxx
+LIBS:switch-misc
+LIBS:tps2400
+LIBS:Transil_diode
+LIBS:transistor-npn
+LIBS:usb_a
+LIBS:usba-plug
+LIBS:usbconn
+LIBS:usb-mini
+LIBS:vasd1-s5-d5--sip
+LIBS:VREF
+LIBS:w_analog
+LIBS:xbeepro
+LIBS:Zilog-ZNEO-v1_0
+LIBS:zxct1009
+LIBS:zxmhc3f381n8
+LIBS:inand
+LIBS:drv8835
+LIBS:atsam3n2
+LIBS:6slx9tqg144
+LIBS:lan8720a
+LIBS:rj45_stamp
+LIBS:i.MX283_Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date "9 may 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2900 2250 4000 2250
+Wire Wire Line
+	2900 2050 4000 2050
+Wire Wire Line
+	2900 2150 4000 2150
+Wire Wire Line
+	2900 2350 4000 2350
+Wire Wire Line
+	2900 2450 4000 2450
+Wire Wire Line
+	2900 2700 4000 2700
+Wire Wire Line
+	2900 2800 4000 2800
+$Sheet
+S 4000 1750 1150 1250
+U 5439B76D
+F0 "serial_interface" 60
+F1 "serial_interface.sch" 60
+F2 "DM2" B R 5150 2300 60 
+F3 "DP2" B R 5150 2500 60 
+F4 "TXD" B L 4000 2800 60 
+F5 "RXD" B L 4000 2700 60 
+F6 "TCK" I L 4000 2350 60 
+F7 "TDI" I L 4000 2250 60 
+F8 "TDO" I L 4000 2150 60 
+F9 "TMS" I L 4000 2450 60 
+F10 "nTRST" I L 4000 2050 60 
+F11 "nSRST" I L 4000 2550 60 
+$EndSheet
+$Comp
+L USB-MINI JMS1
+U 1 1 543A131C
+P 6300 2350
+F 0 "JMS1" H 6050 2800 60  0000 C CNN
+F 1 "USB-MINI" H 6200 2150 60  0000 C CNN
+F 2 "Connect:USB_MINI_B" H 6300 2350 60  0001 C CNN
+F 3 "" H 6300 2350 60  0000 C CNN
+	1    6300 2350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5150 2300 5400 2300
+Wire Wire Line
+	5400 2300 5400 2350
+Wire Wire Line
+	5400 2350 5650 2350
+Wire Wire Line
+	5150 2500 5400 2500
+Wire Wire Line
+	5400 2500 5400 2450
+Wire Wire Line
+	5400 2450 5650 2450
+$Comp
+L VDD5V #PWR01
+U 1 1 543B1CD8
+P 6750 3100
+F 0 "#PWR01" H 6750 3200 30  0001 C CNN
+F 1 "VDD5V" H 6750 3200 30  0000 C CNN
+F 2 "" H 6750 3100 60  0001 C CNN
+F 3 "" H 6750 3100 60  0001 C CNN
+	1    6750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 543B1CDE
+P 6750 3450
+F 0 "#PWR02" H 6750 3450 30  0001 C CNN
+F 1 "GND" H 6750 3380 30  0001 C CNN
+F 2 "" H 6750 3450 60  0001 C CNN
+F 3 "" H 6750 3450 60  0001 C CNN
+	1    6750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3100 6750 3200
+Wire Wire Line
+	6750 3200 6550 3200
+Wire Wire Line
+	6550 3400 6750 3400
+Wire Wire Line
+	6750 3400 6750 3450
+$Comp
+L BARREL_JACK PWR1
+U 1 1 543B2832
+P 6250 3300
+F 0 "PWR1" H 6250 3550 60  0000 C CNN
+F 1 "BARREL_JACK" H 6250 3100 60  0000 C CNN
+F 2 "Connect:JACK_ALIM" H 6250 3300 60  0001 C CNN
+F 3 "" H 6250 3300 60  0000 C CNN
+	1    6250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 543B5D5B
+P 5450 2700
+F 0 "#PWR03" H 5450 2700 30  0001 C CNN
+F 1 "GND" H 5450 2630 30  0001 C CNN
+F 2 "" H 5450 2700 60  0001 C CNN
+F 3 "" H 5450 2700 60  0001 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2650 5450 2650
+Wire Wire Line
+	5450 2650 5450 2700
+$Comp
+L CONN_1 HS1
+U 1 1 543C7615
+P 7350 3150
+F 0 "HS1" H 7430 3150 40  0000 L CNN
+F 1 "CONN_1" H 7350 3205 30  0001 C CNN
+F 2 "opendous:1Pin_TH_40milVia" H 7350 3150 60  0001 C CNN
+F 3 "" H 7350 3150 60  0000 C CNN
+	1    7350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 HS2
+U 1 1 543C768A
+P 7350 3250
+F 0 "HS2" H 7430 3250 40  0000 L CNN
+F 1 "CONN_1" H 7350 3305 30  0001 C CNN
+F 2 "opendous:1Pin_TH_40milVia" H 7350 3250 60  0001 C CNN
+F 3 "" H 7350 3250 60  0000 C CNN
+	1    7350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 HS3
+U 1 1 543C76A6
+P 7350 3350
+F 0 "HS3" H 7430 3350 40  0000 L CNN
+F 1 "CONN_1" H 7350 3405 30  0001 C CNN
+F 2 "opendous:1Pin_TH_40milVia" H 7350 3350 60  0001 C CNN
+F 3 "" H 7350 3350 60  0000 C CNN
+	1    7350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 HS4
+U 1 1 543C76BF
+P 7350 3450
+F 0 "HS4" H 7430 3450 40  0000 L CNN
+F 1 "CONN_1" H 7350 3505 30  0001 C CNN
+F 2 "opendous:1Pin_TH_40milVia" H 7350 3450 60  0001 C CNN
+F 3 "" H 7350 3450 60  0000 C CNN
+	1    7350 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3150 7100 3150
+Wire Wire Line
+	7100 3150 7100 3500
+Wire Wire Line
+	7100 3250 7200 3250
+Wire Wire Line
+	7100 3350 7200 3350
+Connection ~ 7100 3250
+Wire Wire Line
+	7100 3450 7200 3450
+Connection ~ 7100 3350
+$Comp
+L GND #PWR04
+U 1 1 543C894D
+P 7100 3500
+F 0 "#PWR04" H 7100 3500 30  0001 C CNN
+F 1 "GND" H 7100 3430 30  0001 C CNN
+F 2 "" H 7100 3500 60  0001 C CNN
+F 3 "" H 7100 3500 60  0001 C CNN
+	1    7100 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 3450
+Wire Wire Line
+	6800 2300 6800 2700
+Connection ~ 6800 2500
+Connection ~ 6800 2400
+$Comp
+L DIODE DP1
+U 1 1 544A1B21
+P 5500 1950
+F 0 "DP1" H 5500 2050 40  0000 C CNN
+F 1 "DIODE" H 5500 1850 40  0000 C CNN
+F 2 "opendous:SM0603_Opendous_v2" H 5500 1950 60  0001 C CNN
+F 3 "" H 5500 1950 60  0000 C CNN
+	1    5500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VDD5V #PWR05
+U 1 1 544A201C
+P 5500 1650
+F 0 "#PWR05" H 5500 1750 30  0001 C CNN
+F 1 "VDD5V" H 5500 1750 30  0000 C CNN
+F 2 "" H 5500 1650 60  0001 C CNN
+F 3 "" H 5500 1650 60  0001 C CNN
+	1    5500 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1650 5500 1750
+Wire Wire Line
+	5650 2250 5500 2250
+Wire Wire Line
+	5500 2250 5500 2150
+$Comp
+L GND #PWR06
+U 1 1 544A30F9
+P 6800 2700
+F 0 "#PWR06" H 6800 2700 30  0001 C CNN
+F 1 "GND" H 6800 2630 30  0001 C CNN
+F 2 "" H 6800 2700 60  0001 C CNN
+F 3 "" H 6800 2700 60  0001 C CNN
+	1    6800 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 2600
+$Sheet
+S 1550 1750 1350 1250
+U 4E78AF25
+F0 "SAM3M" 60
+F1 "SAM3N.sch" 60
+F2 "JNRST" B R 2900 2050 60 
+F3 "JTMS" B R 2900 2450 60 
+F4 "JTCK" B R 2900 2350 60 
+F5 "JTDO" B R 2900 2150 60 
+F6 "JTDI" B R 2900 2250 60 
+F7 "STM_UART_TX" B R 2900 2700 60 
+F8 "STM_UART_RX" B R 2900 2800 60 
+F9 "RESET" B R 2900 2550 60 
+$EndSheet
+Wire Wire Line
+	2900 2550 4000 2550
+$EndSCHEMATC

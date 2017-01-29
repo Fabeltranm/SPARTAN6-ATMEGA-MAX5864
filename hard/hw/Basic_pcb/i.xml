@@ -1,0 +1,2843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/i.MX283_Board.sch</source>
+    <date>lun 20 jul 2015 00:50:30 COT</date>
+    <tool>Eeschema 0.201507042246+5884~23~ubuntu14.04.1-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2 may 2014</date>
+        <source>i.MX283_Board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SAM3M/" tstamps="/4E78AF25/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2 may 2014</date>
+        <source>SAM3N.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/spartan6/" tstamps="/54B6445D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>spartan6.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/serial_interface/" tstamps="/555AB8C7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>9 aug 2012</date>
+        <source>serial_interface.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="TH1">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555D5DB0</tstamp>
+    </comp>
+    <comp ref="TH2">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555D6679</tstamp>
+    </comp>
+    <comp ref="TH3">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555D732D</tstamp>
+    </comp>
+    <comp ref="TH4">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555D7333</tstamp>
+    </comp>
+    <comp ref="TH5">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555D7716</tstamp>
+    </comp>
+    <comp ref="TH6">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555D771C</tstamp>
+    </comp>
+    <comp ref="TH7">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555D7722</tstamp>
+    </comp>
+    <comp ref="TH8">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555D7728</tstamp>
+    </comp>
+    <comp ref="TH9">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555D798F</tstamp>
+    </comp>
+    <comp ref="TH10">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555D7995</tstamp>
+    </comp>
+    <comp ref="TH11">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DB544</tstamp>
+    </comp>
+    <comp ref="TH12">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DB54A</tstamp>
+    </comp>
+    <comp ref="TH13">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DB550</tstamp>
+    </comp>
+    <comp ref="TH14">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DB556</tstamp>
+    </comp>
+    <comp ref="TH15">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DB55C</tstamp>
+    </comp>
+    <comp ref="TH16">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DB562</tstamp>
+    </comp>
+    <comp ref="TH17">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DB568</tstamp>
+    </comp>
+    <comp ref="TH18">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DB56E</tstamp>
+    </comp>
+    <comp ref="TH19">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DB574</tstamp>
+    </comp>
+    <comp ref="TH20">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DB57A</tstamp>
+    </comp>
+    <comp ref="TH30">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE44A</tstamp>
+    </comp>
+    <comp ref="TH29">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE450</tstamp>
+    </comp>
+    <comp ref="TH28">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE456</tstamp>
+    </comp>
+    <comp ref="TH27">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE45C</tstamp>
+    </comp>
+    <comp ref="TH26">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE462</tstamp>
+    </comp>
+    <comp ref="TH25">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE468</tstamp>
+    </comp>
+    <comp ref="TH24">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE46E</tstamp>
+    </comp>
+    <comp ref="TH23">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE474</tstamp>
+    </comp>
+    <comp ref="TH22">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE47A</tstamp>
+    </comp>
+    <comp ref="TH21">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE480</tstamp>
+    </comp>
+    <comp ref="TH31">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE497</tstamp>
+    </comp>
+    <comp ref="TH32">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE49D</tstamp>
+    </comp>
+    <comp ref="TH33">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE4A3</tstamp>
+    </comp>
+    <comp ref="TH34">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE4A9</tstamp>
+    </comp>
+    <comp ref="TH35">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE4AF</tstamp>
+    </comp>
+    <comp ref="TH36">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE4B5</tstamp>
+    </comp>
+    <comp ref="TH37">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE4BB</tstamp>
+    </comp>
+    <comp ref="TH38">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE4C1</tstamp>
+    </comp>
+    <comp ref="TH39">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE4C7</tstamp>
+    </comp>
+    <comp ref="TH40">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555DE4CD</tstamp>
+    </comp>
+    <comp ref="TH41">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555E1761</tstamp>
+    </comp>
+    <comp ref="TH42">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555E1767</tstamp>
+    </comp>
+    <comp ref="TH43">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555E176D</tstamp>
+    </comp>
+    <comp ref="TH44">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555E1773</tstamp>
+    </comp>
+    <comp ref="TH45">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555E1779</tstamp>
+    </comp>
+    <comp ref="TH46">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555E177F</tstamp>
+    </comp>
+    <comp ref="TH47">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555E1785</tstamp>
+    </comp>
+    <comp ref="TH48">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555E178B</tstamp>
+    </comp>
+    <comp ref="TH49">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555E1791</tstamp>
+    </comp>
+    <comp ref="TH50">
+      <value>CONN_1</value>
+      <footprint>opendous:1Pin_12mil_VIA</footprint>
+      <libsource lib="Carlolib-dev" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555E1797</tstamp>
+    </comp>
+    <comp ref="C409">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D62FA</tstamp>
+    </comp>
+    <comp ref="C410">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D62F9</tstamp>
+    </comp>
+    <comp ref="C411">
+      <value>1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D62F8</tstamp>
+    </comp>
+    <comp ref="C412">
+      <value>4.7uF</value>
+      <footprint>opendous:SM1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D62F7</tstamp>
+    </comp>
+    <comp ref="C408">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D62F5</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D60B5</tstamp>
+    </comp>
+    <comp ref="C407">
+      <value>4.7uF</value>
+      <footprint>opendous:SM1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D6094</tstamp>
+    </comp>
+    <comp ref="C406">
+      <value>1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D6093</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D6092</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D6091</tstamp>
+    </comp>
+    <comp ref="X401">
+      <value>12MHz</value>
+      <footprint>resonator:ABM8G</footprint>
+      <libsource lib="ABM8G" part="ABM8G"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>516D5EBA</tstamp>
+    </comp>
+    <comp ref="C76">
+      <value>33uF</value>
+      <footprint>opendous:SM1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>4E7B4A85</tstamp>
+    </comp>
+    <comp ref="C74">
+      <value>33uF</value>
+      <footprint>opendous:SM1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>4E7B4A81</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>ZLDO1117G33TA</value>
+      <footprint>SMD_Packages:SOT-223</footprint>
+      <libsource lib="lt1117cst" part="LT1117CST"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>4E7B41E9</tstamp>
+    </comp>
+    <comp ref="C75">
+      <value>100n</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>4E7B41E8</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>4E188E50</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>4E188E4F</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>4DCDB178</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>4DCDB177</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>20pF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>54B5643A</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>20pF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>54B5666D</tstamp>
+    </comp>
+    <comp ref="US1">
+      <value>ATSAM3S2CA-AU</value>
+      <footprint>Housings_QFP:LQFP-100_14x14mm_Pitch0.5mm</footprint>
+      <libsource lib="atsam3n2" part="ATSAM3N2"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>54B55492</tstamp>
+    </comp>
+    <comp ref="C398">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>54C403EB</tstamp>
+    </comp>
+    <comp ref="C400">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>54C403F1</tstamp>
+    </comp>
+    <comp ref="C399">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>54C403F7</tstamp>
+    </comp>
+    <comp ref="C397">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>54C41B07</tstamp>
+    </comp>
+    <comp ref="C396">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>54C41B0D</tstamp>
+    </comp>
+    <comp ref="PSA1">
+      <value>CONN_02X14</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x14</footprint>
+      <libsource lib="conn" part="CONN_02X14"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>54C40123</tstamp>
+    </comp>
+    <comp ref="JMS2">
+      <value>USB-MINI</value>
+      <footprint>Connect:USB_Mini-B</footprint>
+      <libsource lib="usb-mini" part="USB-MINI"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>555B7046</tstamp>
+    </comp>
+    <comp ref="DP3">
+      <value>DIODE</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="i.MX283_Board-cache" part="DIODE"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>555B705C</tstamp>
+    </comp>
+    <comp ref="RUF1">
+      <value>27</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>555B9831</tstamp>
+    </comp>
+    <comp ref="RUF2">
+      <value>27</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>555B9AE4</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_02X02</value>
+      <footprint>hackrf:GSG-HEADER-2x2</footprint>
+      <libsource lib="conn" part="CONN_02X02"/>
+      <sheetpath names="/SAM3M/" tstamps="/4E78AF25/"/>
+      <tstamp>55AC851C</tstamp>
+    </comp>
+    <comp ref="UF1">
+      <value>XC6SLX9-2TQG144C</value>
+      <footprint>Housings_QFP:LQFP-144_20x20mm_Pitch0.5mm</footprint>
+      <libsource lib="6slx9tqg144" part="6SLX9TQG144"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54B659A0</tstamp>
+    </comp>
+    <comp ref="CF11">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4CC3C</tstamp>
+    </comp>
+    <comp ref="CF15">
+      <value>4.7uF</value>
+      <footprint>opendous:SM1206_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4CC49</tstamp>
+    </comp>
+    <comp ref="CF14">
+      <value>1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4CC50</tstamp>
+    </comp>
+    <comp ref="CF13">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4CC57</tstamp>
+    </comp>
+    <comp ref="CF12">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4CC5E</tstamp>
+    </comp>
+    <comp ref="CF8">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4CC71</tstamp>
+    </comp>
+    <comp ref="CF10">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4CC78</tstamp>
+    </comp>
+    <comp ref="CF9">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4CC7F</tstamp>
+    </comp>
+    <comp ref="RF1">
+      <value>47k</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4EF40</tstamp>
+    </comp>
+    <comp ref="RF2">
+      <value>4.7k</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4F134</tstamp>
+    </comp>
+    <comp ref="CF5">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C50FB6</tstamp>
+    </comp>
+    <comp ref="CF7">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C50FBC</tstamp>
+    </comp>
+    <comp ref="CF6">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C50FC2</tstamp>
+    </comp>
+    <comp ref="CF2">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C50FCE</tstamp>
+    </comp>
+    <comp ref="CF4">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C50FD4</tstamp>
+    </comp>
+    <comp ref="CF3">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C50FDA</tstamp>
+    </comp>
+    <comp ref="CF1">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C5129A</tstamp>
+    </comp>
+    <comp ref="CF18">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C540DA</tstamp>
+    </comp>
+    <comp ref="CF22">
+      <value>4.7uF</value>
+      <footprint>opendous:SM1206_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C540E6</tstamp>
+    </comp>
+    <comp ref="CF21">
+      <value>1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C540EC</tstamp>
+    </comp>
+    <comp ref="CF20">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C540F2</tstamp>
+    </comp>
+    <comp ref="CF19">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C540F8</tstamp>
+    </comp>
+    <comp ref="CF17">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C5410A</tstamp>
+    </comp>
+    <comp ref="CF16">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C543E4</tstamp>
+    </comp>
+    <comp ref="CF32">
+      <value>33uF</value>
+      <footprint>opendous:SM1206_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C569C3</tstamp>
+    </comp>
+    <comp ref="CF30">
+      <value>33uF</value>
+      <footprint>opendous:SM1206_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C569CA</tstamp>
+    </comp>
+    <comp ref="UF2">
+      <value>ZLDO1117G12TA</value>
+      <footprint>SMD_Packages:SOT-223</footprint>
+      <libsource lib="lt1117cst" part="LT1117CST"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C569DD</tstamp>
+    </comp>
+    <comp ref="CF31">
+      <value>100n</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C569E4</tstamp>
+    </comp>
+    <comp ref="CF34">
+      <value>33uF</value>
+      <footprint>opendous:SM1206_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C57188</tstamp>
+    </comp>
+    <comp ref="CF35">
+      <value>33uF</value>
+      <footprint>opendous:SM1206_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C5718F</tstamp>
+    </comp>
+    <comp ref="UF3">
+      <value>ZLDO1117G33TA</value>
+      <footprint>SMD_Packages:SOT-223</footprint>
+      <libsource lib="lt1117cst" part="LT1117CST"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C571A2</tstamp>
+    </comp>
+    <comp ref="CF33">
+      <value>100n</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C571A9</tstamp>
+    </comp>
+    <comp ref="CF25">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C5C845</tstamp>
+    </comp>
+    <comp ref="CF29">
+      <value>4.7uF</value>
+      <footprint>opendous:SM1206_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C5C851</tstamp>
+    </comp>
+    <comp ref="CF28">
+      <value>1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C5C857</tstamp>
+    </comp>
+    <comp ref="CF27">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C5C85D</tstamp>
+    </comp>
+    <comp ref="CF26">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C5C863</tstamp>
+    </comp>
+    <comp ref="CF24">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C5C873</tstamp>
+    </comp>
+    <comp ref="CF23">
+      <value>0.1uF</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C5C87D</tstamp>
+    </comp>
+    <comp ref="PFIO1">
+      <value>CONN_02X18</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x18</footprint>
+      <libsource lib="conn" part="CONN_02X18"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C44263</tstamp>
+    </comp>
+    <comp ref="PFIO2">
+      <value>CONN_02X13</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x13</footprint>
+      <libsource lib="conn" part="CONN_02X13"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54C4A09A</tstamp>
+    </comp>
+    <comp ref="DF1">
+      <value>LED</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54E73BDB</tstamp>
+    </comp>
+    <comp ref="RF5">
+      <value>1k</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54E73BE2</tstamp>
+    </comp>
+    <comp ref="RF6">
+      <value>68</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54E73D7C</tstamp>
+    </comp>
+    <comp ref="RF7">
+      <value>68</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54E741C6</tstamp>
+    </comp>
+    <comp ref="RF3">
+      <value>68</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54E7420C</tstamp>
+    </comp>
+    <comp ref="RF4">
+      <value>68</value>
+      <footprint>opendous:SM0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/spartan6/" tstamps="/54B6445D/"/>
+      <tstamp>54E7424F</tstamp>
+    </comp>
+    <comp ref="CF40">
+      <value>47pF</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6CF8D</tstamp>
+    </comp>
+    <comp ref="CF41">
+      <value>47pF</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6CF5C</tstamp>
+    </comp>
+    <comp ref="RF20">
+      <value>10k</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6C4A3</tstamp>
+    </comp>
+    <comp ref="RF19">
+      <value>10k</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6C443</tstamp>
+    </comp>
+    <comp ref="CF39">
+      <value>33nF</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6C3C0</tstamp>
+    </comp>
+    <comp ref="LF11">
+      <value>HZ0805D152R-10</value>
+      <footprint>opendous:SM0805</footprint>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6C26A</tstamp>
+    </comp>
+    <comp ref="CF37">
+      <value>10uF</value>
+      <footprint>opendous:SM1210_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6C1A7</tstamp>
+    </comp>
+    <comp ref="RF18">
+      <value>470R</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6BECA</tstamp>
+    </comp>
+    <comp ref="CF38">
+      <value>100nF</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6BE12</tstamp>
+    </comp>
+    <comp ref="RF16">
+      <value>10K</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6BD44</tstamp>
+    </comp>
+    <comp ref="CF36">
+      <value>10nF</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6BCE9</tstamp>
+    </comp>
+    <comp ref="RF17">
+      <value>1K5</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6BC62</tstamp>
+    </comp>
+    <comp ref="RF15">
+      <value>27R</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6BC59</tstamp>
+    </comp>
+    <comp ref="RF14">
+      <value>27R</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6BC34</tstamp>
+    </comp>
+    <comp ref="FT1">
+      <value>FT2232D</value>
+      <footprint>Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <libsource lib="ftdichip" part="FT2232L"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>4FC6BAB1</tstamp>
+    </comp>
+    <comp ref="RF21">
+      <value>15K</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>51CD787E</tstamp>
+    </comp>
+    <comp ref="XF2">
+      <value>6MHz</value>
+      <footprint>resonator:CSTCR6M00G53Z</footprint>
+      <libsource lib="ABM8G" part="ABM8G"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>543B3F67</tstamp>
+    </comp>
+    <comp ref="JMS1">
+      <value>USB-MINI</value>
+      <footprint>Connect:USB_Mini-B</footprint>
+      <libsource lib="usb-mini" part="USB-MINI"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>555AD249</tstamp>
+    </comp>
+    <comp ref="PS1">
+      <value>BARREL_JACK</value>
+      <footprint>Connect:JACK_ALIM</footprint>
+      <libsource lib="conn" part="BARREL_JACK"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>555AD266</tstamp>
+    </comp>
+    <comp ref="DP1">
+      <value>DIODE</value>
+      <footprint>opendous:SM0603_Opendous</footprint>
+      <libsource lib="i.MX283_Board-cache" part="DIODE"/>
+      <sheetpath names="/serial_interface/" tstamps="/555AB8C7/"/>
+      <tstamp>555AD286</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="BARREL_JACK">
+      <description>DC Barrel Jack</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X02">
+      <footprints>
+        <fp>Pin_Header_Straight_2X02</fp>
+        <fp>Pin_Header_Angled_2X02</fp>
+        <fp>Socket_Strip_Straight_2X02</fp>
+        <fp>Socket_Strip_Angled_2X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X13">
+      <footprints>
+        <fp>Pin_Header_Straight_2X13</fp>
+        <fp>Pin_Header_Angled_2X13</fp>
+        <fp>Socket_Strip_Straight_2X13</fp>
+        <fp>Socket_Strip_Angled_2X13</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X14">
+      <footprints>
+        <fp>Pin_Header_Straight_2X14</fp>
+        <fp>Pin_Header_Angled_2X14</fp>
+        <fp>Socket_Strip_Straight_2X14</fp>
+        <fp>Socket_Strip_Angled_2X14</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X18">
+      <footprints>
+        <fp>Pin_Header_Straight_2X18</fp>
+        <fp>Pin_Header_Angled_2X18</fp>
+        <fp>Socket_Strip_Straight_2X18</fp>
+        <fp>Socket_Strip_Angled_2X18</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X18</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+        <pin num="29" name="P29" type="passive"/>
+        <pin num="30" name="P30" type="passive"/>
+        <pin num="31" name="P31" type="passive"/>
+        <pin num="32" name="P32" type="passive"/>
+        <pin num="33" name="P33" type="passive"/>
+        <pin num="34" name="P34" type="passive"/>
+        <pin num="35" name="P35" type="passive"/>
+        <pin num="36" name="P36" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ABM8G" part="ABM8G">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ABM8G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carlolib-dev" part="CONN_1">
+      <footprints>
+        <fp>conn_1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+        <field name="Footprint">conn_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ftdichip" part="FT2232L">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">FT2232L</field>
+        <field name="Footprint">ftdichip-LQFP48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EESK" type="BiDi"/>
+        <pin num="2" name="EEDATA" type="BiDi"/>
+        <pin num="3" name="VCC0" type="BiDi"/>
+        <pin num="4" name="RESET#" type="BiDi"/>
+        <pin num="5" name="RSTOUT#" type="BiDi"/>
+        <pin num="6" name="3V3OUT" type="BiDi"/>
+        <pin num="7" name="USBDP" type="BiDi"/>
+        <pin num="8" name="USBDM" type="BiDi"/>
+        <pin num="9" name="GND0" type="BiDi"/>
+        <pin num="10" name="SI/WUA" type="BiDi"/>
+        <pin num="11" name="ACBUS3" type="BiDi"/>
+        <pin num="12" name="ACBUS2" type="BiDi"/>
+        <pin num="13" name="ACBUS1" type="BiDi"/>
+        <pin num="14" name="VCCIOA" type="BiDi"/>
+        <pin num="15" name="ACBUS0" type="BiDi"/>
+        <pin num="16" name="ADBUS7" type="BiDi"/>
+        <pin num="17" name="ADBUS6" type="BiDi"/>
+        <pin num="18" name="GND1" type="BiDi"/>
+        <pin num="19" name="ADBUS5" type="BiDi"/>
+        <pin num="20" name="ADBUS4" type="BiDi"/>
+        <pin num="21" name="ADBUS3" type="BiDi"/>
+        <pin num="22" name="ADBUS2" type="BiDi"/>
+        <pin num="23" name="ADBUS1" type="BiDi"/>
+        <pin num="24" name="ADBUS0" type="BiDi"/>
+        <pin num="25" name="GND2" type="BiDi"/>
+        <pin num="26" name="SI/WUB" type="BiDi"/>
+        <pin num="27" name="BCBUS3" type="BiDi"/>
+        <pin num="28" name="BCBUS2" type="BiDi"/>
+        <pin num="29" name="BCBUS1" type="BiDi"/>
+        <pin num="30" name="BCBUS0" type="BiDi"/>
+        <pin num="31" name="VCCIOB" type="BiDi"/>
+        <pin num="32" name="BDBUS7" type="BiDi"/>
+        <pin num="33" name="BDBUS6" type="BiDi"/>
+        <pin num="34" name="GND3" type="BiDi"/>
+        <pin num="35" name="BDBUS5" type="BiDi"/>
+        <pin num="36" name="BDBUS4" type="BiDi"/>
+        <pin num="37" name="BDBUS3" type="BiDi"/>
+        <pin num="38" name="BDBUS2" type="BiDi"/>
+        <pin num="39" name="BDBUS1" type="BiDi"/>
+        <pin num="40" name="BDBUS0" type="BiDi"/>
+        <pin num="41" name="PWREN#" type="BiDi"/>
+        <pin num="42" name="VCC1" type="BiDi"/>
+        <pin num="43" name="XTIN" type="BiDi"/>
+        <pin num="44" name="XTOUT" type="BiDi"/>
+        <pin num="45" name="AGND" type="BiDi"/>
+        <pin num="46" name="AVVC" type="BiDi"/>
+        <pin num="47" name="TEST" type="BiDi"/>
+        <pin num="48" name="EECS" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="lt1117cst" part="LT1117CST">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1117CST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="OUT" type="BiDi"/>
+        <pin num="3" name="IN" type="BiDi"/>
+        <pin num="4" name="OUTT" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="usb-mini" part="USB-MINI">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB-MINI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="input"/>
+        <pin num="2" name="D-" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="ID" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="SH" type="input"/>
+        <pin num="7" name="SH" type="input"/>
+        <pin num="8" name="SH" type="input"/>
+        <pin num="9" name="SH" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="atsam3n2" part="ATSAM3N2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSAM3N2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADVREF" type="input"/>
+        <pin num="2" name="GND1" type="input"/>
+        <pin num="3" name="PB0/PWM0/AD4" type="input"/>
+        <pin num="4" name="PC29/A11" type="input"/>
+        <pin num="5" name="PB1/PWM1/AD5" type="input"/>
+        <pin num="6" name="PC30/A12" type="input"/>
+        <pin num="7" name="PB2/URXD1/NPCS2/AD6" type="input"/>
+        <pin num="8" name="PC31/A13" type="input"/>
+        <pin num="9" name="PB3/UTXD1/NPCS2/AD7" type="input"/>
+        <pin num="10" name="VDDIN" type="input"/>
+        <pin num="11" name="VDDOUT" type="input"/>
+        <pin num="12" name="PA17/PCK1/PWMH3/AD0" type="input"/>
+        <pin num="13" name="PC26/A8" type="input"/>
+        <pin num="14" name="PA18/PCK2/AD1" type="input"/>
+        <pin num="15" name="PA21/RXD1/PCK1/AD8" type="input"/>
+        <pin num="16" name="VDDCORE" type="input"/>
+        <pin num="17" name="PC27/A9" type="input"/>
+        <pin num="18" name="PA19/PWML0/AD2" type="input"/>
+        <pin num="19" name="PC15/AD11" type="input"/>
+        <pin num="20" name="PA22/TXD1/NPCS3/AD9" type="input"/>
+        <pin num="21" name="PC13/NWAIT" type="input"/>
+        <pin num="22" name="PA23/SCK1/PWMH0" type="input"/>
+        <pin num="23" name="PC12/NCS3" type="input"/>
+        <pin num="24" name="PA20/PWML1/AD3" type="input"/>
+        <pin num="25" name="PC0/D0" type="input"/>
+        <pin num="26" name="GND" type="input"/>
+        <pin num="27" name="VDDIO" type="input"/>
+        <pin num="28" name="PA16/TIOB1/PWML2" type="input"/>
+        <pin num="29" name="PC7/D7" type="input"/>
+        <pin num="30" name="PA15/TIOA1/PWML3" type="input"/>
+        <pin num="31" name="PA14/SPCK/PWMH3" type="input"/>
+        <pin num="32" name="PC6/D6" type="input"/>
+        <pin num="33" name="PA13/MOSI/PWMH2" type="input"/>
+        <pin num="34" name="PA24/RTS1/PWMH1" type="input"/>
+        <pin num="35" name="PC5/D5" type="input"/>
+        <pin num="36" name="VDDCORE" type="input"/>
+        <pin num="37" name="PC4/D4" type="input"/>
+        <pin num="38" name="PA25/CTS1/PWMH2" type="input"/>
+        <pin num="39" name="PA26/TIOA2/MCDA2" type="input"/>
+        <pin num="40" name="PC3/D3" type="input"/>
+        <pin num="41" name="PA12/MISO/PWMH1" type="input"/>
+        <pin num="42" name="PA11/NPCS0/PWMH0" type="input"/>
+        <pin num="43" name="PC2/D2" type="input"/>
+        <pin num="44" name="PA10/UTXD0/NPCS2" type="input"/>
+        <pin num="45" name="GND2" type="input"/>
+        <pin num="46" name="PA9/URXD0/NPCS1" type="input"/>
+        <pin num="47" name="PC1/D1" type="input"/>
+        <pin num="48" name="PA8/XOUT32" type="input"/>
+        <pin num="49" name="PA7/XIN32" type="input"/>
+        <pin num="50" name="VDDIO" type="input"/>
+        <pin num="51" name="TDI/PB4" type="input"/>
+        <pin num="52" name="PA6/TXD0/PCK0" type="input"/>
+        <pin num="53" name="PA5/RXD0/NPCS3" type="input"/>
+        <pin num="54" name="PC28/A10" type="input"/>
+        <pin num="55" name="PA4/TWCK0/TCLK0" type="input"/>
+        <pin num="56" name="VDDCORE" type="input"/>
+        <pin num="57" name="PA27/DTR1/TIOB2/MCDA3" type="input"/>
+        <pin num="58" name="PC8/NWE" type="input"/>
+        <pin num="59" name="PA28/DSR1/TCLK1/MCCDA" type="input"/>
+        <pin num="60" name="NRST" type="input"/>
+        <pin num="61" name="TST" type="input"/>
+        <pin num="62" name="PC9" type="input"/>
+        <pin num="63" name="PA29/TCLK2/MCCK" type="input"/>
+        <pin num="64" name="PA30/PWML2/NPCS2/MCDA0" type="input"/>
+        <pin num="65" name="PC10" type="input"/>
+        <pin num="66" name="PA3/TWD0/NPCS3" type="input"/>
+        <pin num="67" name="PA2/PWMH2/SCK0" type="input"/>
+        <pin num="68" name="PC11/NRD" type="input"/>
+        <pin num="69" name="VDDIO" type="input"/>
+        <pin num="70" name="GND3" type="input"/>
+        <pin num="71" name="PC14" type="input"/>
+        <pin num="72" name="PA1/PWMH1/TIOB0" type="input"/>
+        <pin num="73" name="PC16" type="input"/>
+        <pin num="74" name="PA0/PWMH0/TIOA0" type="input"/>
+        <pin num="75" name="PC17" type="input"/>
+        <pin num="76" name="TDO/TRACESWO/PB5" type="input"/>
+        <pin num="77" name="JTAGSEL" type="input"/>
+        <pin num="78" name="PC18/A0" type="BiDi"/>
+        <pin num="79" name="TMS/SWDIO/PB6" type="input"/>
+        <pin num="80" name="PC19/A1" type="BiDi"/>
+        <pin num="81" name="PA31/NPCS1/PCK2/MCDA1" type="input"/>
+        <pin num="82" name="PC20/A2" type="BiDi"/>
+        <pin num="83" name="TCK/SWLC/PB7" type="input"/>
+        <pin num="84" name="PC21/A3" type="BiDi"/>
+        <pin num="85" name="VDDCORE" type="input"/>
+        <pin num="86" name="PC22/A4" type="input"/>
+        <pin num="87" name="ERASE/PB12" type="input"/>
+        <pin num="88" name="DDM/PB10" type="input"/>
+        <pin num="89" name="DDP/PB11" type="input"/>
+        <pin num="90" name="PC23/A5" type="input"/>
+        <pin num="91" name="VDDIO" type="input"/>
+        <pin num="92" name="PC24/A6" type="input"/>
+        <pin num="93" name="PB13/DAC0" type="input"/>
+        <pin num="94" name="PC25/A7" type="input"/>
+        <pin num="95" name="GND4" type="input"/>
+        <pin num="96" name="PB8/XOUT" type="input"/>
+        <pin num="97" name="PB9/XIN" type="input"/>
+        <pin num="98" name="VDDIO" type="input"/>
+        <pin num="99" name="PB14/DAC1" type="input"/>
+        <pin num="100" name="VDPLL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="6slx9tqg144" part="6SLX9TQG144">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">6SLX9TQG144</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO_L83N_VREF_3" type="BiDi"/>
+        <pin num="2" name="IO_L83P_3" type="BiDi"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="VCCO_3" type="input"/>
+        <pin num="5" name="IO_L52N_3" type="BiDi"/>
+        <pin num="6" name="IO_L52P_3" type="input"/>
+        <pin num="7" name="IO_L51N_3" type="input"/>
+        <pin num="8" name="IO_L51P_3" type="input"/>
+        <pin num="9" name="IO_L50N_3" type="input"/>
+        <pin num="10" name="IO_L50P_3" type="input"/>
+        <pin num="11" name="IO_L49N_3" type="input"/>
+        <pin num="12" name="IO_L49P_3" type="input"/>
+        <pin num="13" name="GND" type="input"/>
+        <pin num="14" name="IO_L44N_GCLK20_3" type="input"/>
+        <pin num="15" name="IO_L44P_GCLK21_3" type="input"/>
+        <pin num="16" name="IO_L43N_GCLK22_3" type="input"/>
+        <pin num="17" name="IO_L43P_GCLK23_3" type="BiDi"/>
+        <pin num="18" name="VCCO_3" type="input"/>
+        <pin num="19" name="VCCINT" type="input"/>
+        <pin num="20" name="VCCAUX" type="input"/>
+        <pin num="21" name="IO_L42N_GCLK24_3" type="input"/>
+        <pin num="22" name="IO_L42P_GCLK25_3" type="input"/>
+        <pin num="23" name="IO_L41N_GCLK26_3" type="input"/>
+        <pin num="24" name="IO_L37N_3" type="input"/>
+        <pin num="25" name="GND" type="input"/>
+        <pin num="26" name="IO_L41P_3" type="input"/>
+        <pin num="27" name="IO_L37P_3" type="input"/>
+        <pin num="28" name="VCCINT" type="input"/>
+        <pin num="29" name="IO_L36N_3" type="input"/>
+        <pin num="30" name="IO_L36P_3" type="input"/>
+        <pin num="31" name="VCCO_3" type="input"/>
+        <pin num="32" name="IO_L2N_3" type="input"/>
+        <pin num="33" name="IO_L2P_3" type="input"/>
+        <pin num="34" name="IO_L1N_VREF_3" type="input"/>
+        <pin num="35" name="IO_L1P" type="input"/>
+        <pin num="36" name="VCCAUX" type="input"/>
+        <pin num="37" name="PROGRAM_B_2" type="input"/>
+        <pin num="38" name="IO_L65N_CSO_B_2" type="input"/>
+        <pin num="39" name="IO_L65P_INIT_B_2" type="input"/>
+        <pin num="40" name="IO_L64N_D9_2" type="input"/>
+        <pin num="41" name="IO_L64P_D8_2" type="input"/>
+        <pin num="42" name="VCCO_2" type="input"/>
+        <pin num="43" name="IO_L62N_D6_2" type="input"/>
+        <pin num="44" name="IO_L62P_D5_2" type="input"/>
+        <pin num="45" name="IO_L49N_D4_2" type="input"/>
+        <pin num="46" name="IO_L49P_D3_2" type="input"/>
+        <pin num="47" name="IO_L48N_RDW_R_B_VREF_2" type="input"/>
+        <pin num="48" name="IO_L48P_D7_2" type="input"/>
+        <pin num="49" name="GND" type="input"/>
+        <pin num="50" name="IO_L31N_GCLK30_D15_2" type="input"/>
+        <pin num="51" name="IO_L31P_GCLK31_D14_2" type="input"/>
+        <pin num="52" name="VCCINT" type="input"/>
+        <pin num="53" name="VCCAUX" type="input"/>
+        <pin num="54" name="GND" type="input"/>
+        <pin num="55" name="IO_L30N_GCLK0_USERCCLK_2" type="input"/>
+        <pin num="56" name="IO_L30P_GCLK1_D13_2" type="input"/>
+        <pin num="57" name="IO_L14N_D12_2" type="input"/>
+        <pin num="58" name="IO_L14P_D11_2" type="input"/>
+        <pin num="59" name="IO_L13N_D10_2" type="input"/>
+        <pin num="60" name="IO_L13P_M1_2" type="input"/>
+        <pin num="61" name="IO_L12N_D2_MISO3_2" type="input"/>
+        <pin num="62" name="IO_L12P_D1_MISO2_2" type="input"/>
+        <pin num="63" name="VCCO_2" type="input"/>
+        <pin num="64" name="IO_L3N_MOSI_CSI_B_MISO0_2" type="input"/>
+        <pin num="65" name="IO_L3P_D0_DIN_MISO_MISO1_2" type="input"/>
+        <pin num="66" name="IO_L2N_CMPMOSI_2" type="input"/>
+        <pin num="67" name="IO_L2P_CMPCLK_2" type="input"/>
+        <pin num="68" name="GND" type="input"/>
+        <pin num="69" name="IO_L1N_M0_CMPMISO_2" type="input"/>
+        <pin num="70" name="IO_L1P_CCLK_2" type="input"/>
+        <pin num="71" name="DONE_2" type="input"/>
+        <pin num="72" name="CMPCS_B_2" type="input"/>
+        <pin num="73" name="SUSPEND" type="input"/>
+        <pin num="74" name="IO_L74N_1" type="input"/>
+        <pin num="75" name="IO_L74P_1" type="input"/>
+        <pin num="76" name="VCCO_1" type="input"/>
+        <pin num="77" name="GND" type="input"/>
+        <pin num="78" name="IO_L47N_1" type="input"/>
+        <pin num="79" name="IO_L47P_1" type="input"/>
+        <pin num="80" name="IO_L46N_1" type="input"/>
+        <pin num="81" name="IO_L46P_1" type="input"/>
+        <pin num="82" name="IO_L45N_1" type="input"/>
+        <pin num="83" name="IO_L45P_1" type="input"/>
+        <pin num="84" name="IO_L43N_GCLK4_1" type="input"/>
+        <pin num="85" name="IO_L43P_GCLK5_1" type="input"/>
+        <pin num="86" name="VCCO_1" type="input"/>
+        <pin num="87" name="IO_L42N_GCLK6_1" type="input"/>
+        <pin num="88" name="IO_L42P_GCLK7_1" type="input"/>
+        <pin num="89" name="VCCINT" type="input"/>
+        <pin num="90" name="VCCAUX" type="input"/>
+        <pin num="91" name="GND" type="input"/>
+        <pin num="92" name="IO_L41N_GCLK8_1" type="input"/>
+        <pin num="93" name="IO_L41P_GCLK9_1" type="input"/>
+        <pin num="94" name="IO_L40N_GCLK10_1" type="input"/>
+        <pin num="95" name="IO_L40P_GCLK11_1" type="input"/>
+        <pin num="96" name="GND" type="input"/>
+        <pin num="97" name="IO_L34N_1" type="input"/>
+        <pin num="98" name="IO_L34P_1" type="input"/>
+        <pin num="99" name="IO_L33N_1" type="input"/>
+        <pin num="100" name="IO_L33P_1" type="input"/>
+        <pin num="101" name="IO_L32N_1" type="input"/>
+        <pin num="102" name="IO_L32P_1" type="input"/>
+        <pin num="103" name="VCCO_1" type="input"/>
+        <pin num="104" name="IO_L1N_VREF_1" type="input"/>
+        <pin num="105" name="IO_L1P_1" type="input"/>
+        <pin num="106" name="TDO" type="input"/>
+        <pin num="107" name="TMS" type="input"/>
+        <pin num="108" name="GND" type="input"/>
+        <pin num="109" name="TCK" type="input"/>
+        <pin num="110" name="TDI" type="input"/>
+        <pin num="111" name="IO_L66N_0" type="input"/>
+        <pin num="112" name="IO_L66P_0" type="input"/>
+        <pin num="113" name="GND" type="input"/>
+        <pin num="114" name="IO_L65N_0" type="input"/>
+        <pin num="115" name="IO_L65P_0" type="input"/>
+        <pin num="116" name="IO_L64N_0" type="input"/>
+        <pin num="117" name="IO_L64P_0" type="input"/>
+        <pin num="118" name="IO_L63N_0" type="input"/>
+        <pin num="119" name="IO_L63P_0" type="input"/>
+        <pin num="120" name="IO_L62N_VREF_0" type="input"/>
+        <pin num="121" name="IO_L62P_0" type="input"/>
+        <pin num="122" name="VCCO_0" type="input"/>
+        <pin num="123" name="IO_L37N_GCLK12_0" type="input"/>
+        <pin num="124" name="IO_L37P_GCLK13_0" type="input"/>
+        <pin num="125" name="VCCO_0" type="input"/>
+        <pin num="126" name="IO_L36N_GCLK14_0" type="input"/>
+        <pin num="127" name="IO_L36P_GCLK15_0" type="input"/>
+        <pin num="128" name="VCCINT" type="input"/>
+        <pin num="129" name="VCCAUX" type="input"/>
+        <pin num="130" name="GND" type="input"/>
+        <pin num="131" name="IO_L35N_GCLK16_0" type="input"/>
+        <pin num="132" name="IO_L35P_GCLK17_0" type="input"/>
+        <pin num="133" name="IO_L34N_GCLK18_0" type="input"/>
+        <pin num="134" name="IO_L34P_GCLK19_0" type="input"/>
+        <pin num="135" name="VCCO_0" type="input"/>
+        <pin num="136" name="GND" type="input"/>
+        <pin num="137" name="IO_L4N_0" type="input"/>
+        <pin num="138" name="IO_LP_0" type="input"/>
+        <pin num="139" name="IO_L3N_0" type="input"/>
+        <pin num="140" name="IO_L3P_0" type="input"/>
+        <pin num="141" name="IO_L2N_0" type="input"/>
+        <pin num="142" name="IO_L2P_0" type="input"/>
+        <pin num="143" name="IO_L1N_VREF_0" type="input"/>
+        <pin num="144" name="IO_L1P_0_HSWAPEN_0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="i.MX283_Board-cache" part="DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="ABM8G">
+      <uri>/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/LIBRERIAS/ABM8G.lib</uri>
+    </library>
+    <library logical="Carlolib-dev">
+      <uri>/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/LIBRERIAS/Carlolib-dev.lib</uri>
+    </library>
+    <library logical="ftdichip">
+      <uri>/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/LIBRERIAS/ftdichip.lib</uri>
+    </library>
+    <library logical="lt1117cst">
+      <uri>/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/LIBRERIAS/lt1117cst.lib</uri>
+    </library>
+    <library logical="usb-mini">
+      <uri>/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/LIBRERIAS/usb-mini.lib</uri>
+    </library>
+    <library logical="atsam3n2">
+      <uri>/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/atsam3n2.lib</uri>
+    </library>
+    <library logical="6slx9tqg144">
+      <uri>/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/LIBRERIAS/6slx9tqg144.lib</uri>
+    </library>
+    <library logical="i.MX283_Board-cache">
+      <uri>/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/i.MX283_Board-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C396" pin="2"/>
+      <node ref="C76" pin="2"/>
+      <node ref="C74" pin="2"/>
+      <node ref="PSA1" pin="24"/>
+      <node ref="PSA1" pin="23"/>
+      <node ref="US1" pin="45"/>
+      <node ref="US1" pin="95"/>
+      <node ref="US1" pin="26"/>
+      <node ref="C398" pin="2"/>
+      <node ref="C400" pin="2"/>
+      <node ref="C399" pin="2"/>
+      <node ref="C397" pin="2"/>
+      <node ref="RF5" pin="1"/>
+      <node ref="TH30" pin="1"/>
+      <node ref="C408" pin="2"/>
+      <node ref="U11" pin="1"/>
+      <node ref="C75" pin="2"/>
+      <node ref="R33" pin="1"/>
+      <node ref="C412" pin="2"/>
+      <node ref="X401" pin="2"/>
+      <node ref="X401" pin="4"/>
+      <node ref="R5" pin="1"/>
+      <node ref="US1" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="C403" pin="2"/>
+      <node ref="US1" pin="70"/>
+      <node ref="C406" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C407" pin="2"/>
+      <node ref="C405" pin="2"/>
+      <node ref="C404" pin="2"/>
+      <node ref="C409" pin="2"/>
+      <node ref="C410" pin="2"/>
+      <node ref="C411" pin="2"/>
+      <node ref="JMS1" pin="8"/>
+      <node ref="JMS1" pin="6"/>
+      <node ref="JMS1" pin="9"/>
+      <node ref="JMS1" pin="7"/>
+      <node ref="JMS1" pin="5"/>
+      <node ref="PS1" pin="2"/>
+      <node ref="XF2" pin="4"/>
+      <node ref="PFIO1" pin="35"/>
+      <node ref="CF25" pin="2"/>
+      <node ref="CF29" pin="2"/>
+      <node ref="CF28" pin="2"/>
+      <node ref="CF27" pin="2"/>
+      <node ref="CF26" pin="2"/>
+      <node ref="CF24" pin="2"/>
+      <node ref="CF23" pin="2"/>
+      <node ref="XF2" pin="2"/>
+      <node ref="FT1" pin="25"/>
+      <node ref="FT1" pin="34"/>
+      <node ref="FT1" pin="45"/>
+      <node ref="FT1" pin="47"/>
+      <node ref="FT1" pin="18"/>
+      <node ref="CF39" pin="2"/>
+      <node ref="CF36" pin="2"/>
+      <node ref="CF38" pin="2"/>
+      <node ref="FT1" pin="9"/>
+      <node ref="CF41" pin="1"/>
+      <node ref="CF40" pin="1"/>
+      <node ref="CF37" pin="2"/>
+      <node ref="UF1" pin="68"/>
+      <node ref="CF13" pin="2"/>
+      <node ref="CF12" pin="2"/>
+      <node ref="CF8" pin="2"/>
+      <node ref="CF10" pin="2"/>
+      <node ref="CF9" pin="2"/>
+      <node ref="CF5" pin="2"/>
+      <node ref="CF7" pin="2"/>
+      <node ref="CF6" pin="2"/>
+      <node ref="CF2" pin="2"/>
+      <node ref="CF4" pin="2"/>
+      <node ref="CF3" pin="2"/>
+      <node ref="CF1" pin="2"/>
+      <node ref="UF1" pin="136"/>
+      <node ref="UF1" pin="108"/>
+      <node ref="CF11" pin="2"/>
+      <node ref="UF2" pin="1"/>
+      <node ref="CF17" pin="2"/>
+      <node ref="CF16" pin="2"/>
+      <node ref="CF32" pin="2"/>
+      <node ref="CF30" pin="2"/>
+      <node ref="CF19" pin="2"/>
+      <node ref="UF1" pin="13"/>
+      <node ref="UF1" pin="54"/>
+      <node ref="UF1" pin="25"/>
+      <node ref="UF1" pin="3"/>
+      <node ref="UF1" pin="60"/>
+      <node ref="UF1" pin="91"/>
+      <node ref="UF1" pin="130"/>
+      <node ref="UF1" pin="49"/>
+      <node ref="UF1" pin="113"/>
+      <node ref="UF1" pin="77"/>
+      <node ref="UF1" pin="96"/>
+      <node ref="CF15" pin="2"/>
+      <node ref="CF14" pin="2"/>
+      <node ref="UF3" pin="1"/>
+      <node ref="CF31" pin="2"/>
+      <node ref="CF34" pin="2"/>
+      <node ref="CF35" pin="2"/>
+      <node ref="CF33" pin="2"/>
+      <node ref="CF18" pin="2"/>
+      <node ref="CF22" pin="2"/>
+      <node ref="CF21" pin="2"/>
+      <node ref="CF20" pin="2"/>
+      <node ref="TH39" pin="1"/>
+      <node ref="TH31" pin="1"/>
+      <node ref="TH32" pin="1"/>
+      <node ref="TH33" pin="1"/>
+      <node ref="TH34" pin="1"/>
+      <node ref="TH35" pin="1"/>
+      <node ref="TH37" pin="1"/>
+      <node ref="TH38" pin="1"/>
+      <node ref="TH40" pin="1"/>
+      <node ref="TH36" pin="1"/>
+      <node ref="JMS2" pin="8"/>
+      <node ref="JMS2" pin="9"/>
+      <node ref="JMS2" pin="7"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="4"/>
+      <node ref="TH5" pin="1"/>
+      <node ref="TH4" pin="1"/>
+      <node ref="TH1" pin="1"/>
+      <node ref="TH2" pin="1"/>
+      <node ref="TH3" pin="1"/>
+      <node ref="TH25" pin="1"/>
+      <node ref="TH24" pin="1"/>
+      <node ref="TH23" pin="1"/>
+      <node ref="TH22" pin="1"/>
+      <node ref="TH21" pin="1"/>
+      <node ref="TH26" pin="1"/>
+      <node ref="TH6" pin="1"/>
+      <node ref="TH7" pin="1"/>
+      <node ref="TH8" pin="1"/>
+      <node ref="TH9" pin="1"/>
+      <node ref="TH10" pin="1"/>
+      <node ref="TH20" pin="1"/>
+      <node ref="TH29" pin="1"/>
+      <node ref="TH28" pin="1"/>
+      <node ref="TH27" pin="1"/>
+      <node ref="TH44" pin="1"/>
+      <node ref="TH19" pin="1"/>
+      <node ref="TH41" pin="1"/>
+      <node ref="TH42" pin="1"/>
+      <node ref="TH43" pin="1"/>
+      <node ref="TH18" pin="1"/>
+      <node ref="TH45" pin="1"/>
+      <node ref="TH46" pin="1"/>
+      <node ref="TH47" pin="1"/>
+      <node ref="TH48" pin="1"/>
+      <node ref="TH49" pin="1"/>
+      <node ref="TH50" pin="1"/>
+      <node ref="TH11" pin="1"/>
+      <node ref="TH12" pin="1"/>
+      <node ref="TH13" pin="1"/>
+      <node ref="TH14" pin="1"/>
+      <node ref="TH15" pin="1"/>
+      <node ref="TH16" pin="1"/>
+      <node ref="TH17" pin="1"/>
+      <node ref="JMS2" pin="6"/>
+      <node ref="JMS2" pin="5"/>
+    </net>
+    <net code="2" name="/SAM3M/JNRST">
+      <node ref="US1" pin="60"/>
+      <node ref="FT1" pin="20"/>
+    </net>
+    <net code="3" name="/SAM3M/CLK_F">
+      <node ref="UF1" pin="17"/>
+      <node ref="US1" pin="81"/>
+    </net>
+    <net code="4" name="/spartan6/F_TDI">
+      <node ref="US1" pin="76"/>
+      <node ref="RF3" pin="1"/>
+    </net>
+    <net code="5" name="/SAM3M/JTDI">
+      <node ref="US1" pin="51"/>
+      <node ref="FT1" pin="23"/>
+    </net>
+    <net code="6" name="/serial_interface/RXD">
+      <node ref="FT1" pin="39"/>
+      <node ref="RF21" pin="2"/>
+      <node ref="US1" pin="9"/>
+    </net>
+    <net code="9" name="/SAM3M/SNWE">
+      <node ref="UF1" pin="15"/>
+      <node ref="US1" pin="58"/>
+    </net>
+    <net code="10" name="/SAM3M/SNRD">
+      <node ref="UF1" pin="23"/>
+      <node ref="US1" pin="68"/>
+    </net>
+    <net code="11" name="/SAM3M/SNCS">
+      <node ref="UF1" pin="9"/>
+      <node ref="US1" pin="23"/>
+    </net>
+    <net code="12" name="/SAM3M/SNWAIT">
+      <node ref="UF1" pin="11"/>
+      <node ref="US1" pin="21"/>
+    </net>
+    <net code="13" name="/spartan6/F_TCK">
+      <node ref="RF4" pin="1"/>
+      <node ref="FT1" pin="24"/>
+      <node ref="US1" pin="83"/>
+    </net>
+    <net code="14" name="/spartan6/F_TMS">
+      <node ref="US1" pin="79"/>
+      <node ref="FT1" pin="21"/>
+      <node ref="RF6" pin="1"/>
+    </net>
+    <net code="15" name="/spartan6/F_TDO">
+      <node ref="RF7" pin="1"/>
+      <node ref="FT1" pin="22"/>
+    </net>
+    <net code="16" name="/SAM3M/SAM_RX">
+      <node ref="FT1" pin="40"/>
+      <node ref="US1" pin="7"/>
+    </net>
+    <net code="17" name="/serial_interface/nSRST">
+      <node ref="FT1" pin="17"/>
+    </net>
+    <net code="18" name="/SAM3M/Erase">
+      <node ref="US1" pin="87"/>
+    </net>
+    <net code="19" name="Net-(D9-Pad2)">
+      <node ref="R33" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D8-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="21" name="VDD5V">
+      <node ref="C74" pin="1"/>
+      <node ref="CF36" pin="1"/>
+      <node ref="PS1" pin="1"/>
+      <node ref="LF11" pin="1"/>
+      <node ref="DP3" pin="2"/>
+      <node ref="U11" pin="3"/>
+      <node ref="UF3" pin="3"/>
+      <node ref="CF35" pin="1"/>
+      <node ref="DP1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(RUF1-Pad2)">
+      <node ref="RUF1" pin="2"/>
+      <node ref="US1" pin="88"/>
+    </net>
+    <net code="23" name="Net-(JMS2-Pad3)">
+      <node ref="RUF2" pin="1"/>
+      <node ref="JMS2" pin="3"/>
+    </net>
+    <net code="24" name="Net-(RUF2-Pad2)">
+      <node ref="US1" pin="89"/>
+      <node ref="RUF2" pin="2"/>
+    </net>
+    <net code="25" name="/SAM3M/PA29">
+      <node ref="PSA1" pin="18"/>
+      <node ref="US1" pin="63"/>
+    </net>
+    <net code="26" name="/SAM3M/PA30">
+      <node ref="US1" pin="64"/>
+      <node ref="PSA1" pin="17"/>
+    </net>
+    <net code="27" name="/SAM3M/PC10">
+      <node ref="US1" pin="65"/>
+      <node ref="PSA1" pin="20"/>
+    </net>
+    <net code="28" name="/SAM3M/PA3">
+      <node ref="US1" pin="66"/>
+      <node ref="PSA1" pin="19"/>
+    </net>
+    <net code="29" name="/SAM3M/PA2">
+      <node ref="US1" pin="67"/>
+      <node ref="PSA1" pin="22"/>
+    </net>
+    <net code="30" name="/SAM3M/PC14">
+      <node ref="US1" pin="71"/>
+      <node ref="PSA1" pin="21"/>
+    </net>
+    <net code="31" name="/SAM3M/LED">
+      <node ref="US1" pin="75"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="32" name="+3.3VP">
+      <node ref="US1" pin="91"/>
+      <node ref="C404" pin="1"/>
+      <node ref="C401" pin="1"/>
+      <node ref="C407" pin="1"/>
+      <node ref="C406" pin="1"/>
+      <node ref="C405" pin="1"/>
+      <node ref="US1" pin="50"/>
+      <node ref="D8" pin="1"/>
+      <node ref="PSA1" pin="27"/>
+      <node ref="C76" pin="1"/>
+      <node ref="C75" pin="1"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U11" pin="2"/>
+      <node ref="US1" pin="69"/>
+      <node ref="C400" pin="1"/>
+      <node ref="US1" pin="27"/>
+      <node ref="C398" pin="1"/>
+      <node ref="US1" pin="1"/>
+      <node ref="US1" pin="98"/>
+      <node ref="US1" pin="10"/>
+      <node ref="C399" pin="1"/>
+    </net>
+    <net code="33" name="Net-(DP3-Pad1)">
+      <node ref="DP3" pin="1"/>
+      <node ref="JMS2" pin="1"/>
+    </net>
+    <net code="34" name="Net-(JMS2-Pad2)">
+      <node ref="RUF1" pin="1"/>
+      <node ref="JMS2" pin="2"/>
+    </net>
+    <net code="35" name="Net-(JMS2-Pad4)">
+      <node ref="JMS2" pin="4"/>
+    </net>
+    <net code="36" name="Net-(C403-Pad1)">
+      <node ref="C403" pin="1"/>
+      <node ref="X401" pin="3"/>
+      <node ref="US1" pin="96"/>
+    </net>
+    <net code="38" name="+1.8V">
+      <node ref="C412" pin="1"/>
+      <node ref="C409" pin="1"/>
+      <node ref="C410" pin="1"/>
+      <node ref="US1" pin="16"/>
+      <node ref="C411" pin="1"/>
+      <node ref="US1" pin="36"/>
+      <node ref="US1" pin="56"/>
+      <node ref="C408" pin="1"/>
+      <node ref="C397" pin="1"/>
+      <node ref="C396" pin="1"/>
+      <node ref="US1" pin="85"/>
+      <node ref="US1" pin="100"/>
+      <node ref="US1" pin="11"/>
+    </net>
+    <net code="39" name="Net-(US1-Pad74)">
+      <node ref="US1" pin="74"/>
+    </net>
+    <net code="40" name="Net-(US1-Pad93)">
+      <node ref="US1" pin="93"/>
+    </net>
+    <net code="41" name="Net-(US1-Pad34)">
+      <node ref="US1" pin="34"/>
+    </net>
+    <net code="42" name="Net-(US1-Pad61)">
+      <node ref="US1" pin="61"/>
+    </net>
+    <net code="43" name="Net-(US1-Pad22)">
+      <node ref="US1" pin="22"/>
+    </net>
+    <net code="44" name="Net-(US1-Pad77)">
+      <node ref="US1" pin="77"/>
+    </net>
+    <net code="45" name="Net-(C402-Pad1)">
+      <node ref="US1" pin="97"/>
+      <node ref="X401" pin="1"/>
+      <node ref="C402" pin="1"/>
+    </net>
+    <net code="46" name="/SAM3M/PA28">
+      <node ref="PSA1" pin="16"/>
+      <node ref="US1" pin="59"/>
+    </net>
+    <net code="47" name="/SAM3M/AD5">
+      <node ref="US1" pin="5"/>
+      <node ref="PSA1" pin="28"/>
+    </net>
+    <net code="48" name="/SAM3M/AD4">
+      <node ref="US1" pin="3"/>
+    </net>
+    <net code="49" name="/SAM3M/AD0">
+      <node ref="PSA1" pin="25"/>
+      <node ref="US1" pin="12"/>
+    </net>
+    <net code="50" name="/SAM3M/AD1">
+      <node ref="US1" pin="14"/>
+      <node ref="PSA1" pin="26"/>
+    </net>
+    <net code="51" name="/SAM3M/AD8">
+      <node ref="US1" pin="15"/>
+      <node ref="PSA1" pin="1"/>
+    </net>
+    <net code="52" name="/SAM3M/AD2">
+      <node ref="PSA1" pin="2"/>
+      <node ref="US1" pin="18"/>
+    </net>
+    <net code="53" name="/SAM3M/AD11">
+      <node ref="PSA1" pin="3"/>
+      <node ref="US1" pin="19"/>
+    </net>
+    <net code="54" name="/SAM3M/AD9">
+      <node ref="US1" pin="20"/>
+      <node ref="PSA1" pin="4"/>
+    </net>
+    <net code="55" name="/SAM3M/AD3">
+      <node ref="US1" pin="24"/>
+    </net>
+    <net code="56" name="/SAM3M/TXD0">
+      <node ref="US1" pin="52"/>
+      <node ref="PSA1" pin="11"/>
+    </net>
+    <net code="57" name="/SAM3M/URXD0">
+      <node ref="US1" pin="46"/>
+      <node ref="PSA1" pin="9"/>
+    </net>
+    <net code="58" name="/SAM3M/UTXD0">
+      <node ref="US1" pin="44"/>
+      <node ref="PSA1" pin="10"/>
+    </net>
+    <net code="59" name="/SAM3M/RXD0">
+      <node ref="PSA1" pin="12"/>
+      <node ref="US1" pin="53"/>
+    </net>
+    <net code="60" name="/SAM3M/PA4">
+      <node ref="PSA1" pin="14"/>
+      <node ref="US1" pin="55"/>
+    </net>
+    <net code="61" name="/SAM3M/PA27">
+      <node ref="US1" pin="57"/>
+      <node ref="PSA1" pin="13"/>
+    </net>
+    <net code="62" name="/SAM3M/PC9">
+      <node ref="US1" pin="62"/>
+      <node ref="PSA1" pin="15"/>
+    </net>
+    <net code="63" name="/SAM3M/PA1">
+      <node ref="US1" pin="72"/>
+    </net>
+    <net code="64" name="/SAM3M/PC16">
+      <node ref="US1" pin="73"/>
+    </net>
+    <net code="65" name="/SAM3M/PWMH2">
+      <node ref="PSA1" pin="7"/>
+      <node ref="US1" pin="33"/>
+    </net>
+    <net code="66" name="/SAM3M/PWML2">
+      <node ref="US1" pin="28"/>
+      <node ref="PSA1" pin="6"/>
+    </net>
+    <net code="67" name="/SAM3M/PWML3">
+      <node ref="PSA1" pin="5"/>
+      <node ref="US1" pin="30"/>
+    </net>
+    <net code="68" name="/SAM3M/PWMH3">
+      <node ref="US1" pin="31"/>
+      <node ref="PSA1" pin="8"/>
+    </net>
+    <net code="69" name="/SAM3M/PWMH1">
+      <node ref="US1" pin="41"/>
+    </net>
+    <net code="71" name="/SAM3M/PWMH0">
+      <node ref="US1" pin="42"/>
+    </net>
+    <net code="72" name="Net-(US1-Pad38)">
+      <node ref="US1" pin="38"/>
+    </net>
+    <net code="73" name="Net-(US1-Pad48)">
+      <node ref="US1" pin="48"/>
+    </net>
+    <net code="74" name="Net-(US1-Pad39)">
+      <node ref="US1" pin="39"/>
+    </net>
+    <net code="75" name="Net-(US1-Pad49)">
+      <node ref="US1" pin="49"/>
+    </net>
+    <net code="76" name="Net-(US1-Pad99)">
+      <node ref="US1" pin="99"/>
+    </net>
+    <net code="77" name="+1V2">
+      <node ref="CF27" pin="1"/>
+      <node ref="CF23" pin="1"/>
+      <node ref="CF24" pin="1"/>
+      <node ref="CF26" pin="1"/>
+      <node ref="UF1" pin="128"/>
+      <node ref="CF28" pin="1"/>
+      <node ref="CF25" pin="1"/>
+      <node ref="UF1" pin="19"/>
+      <node ref="UF1" pin="52"/>
+      <node ref="UF2" pin="4"/>
+      <node ref="UF2" pin="2"/>
+      <node ref="CF29" pin="1"/>
+      <node ref="UF1" pin="28"/>
+      <node ref="CF32" pin="1"/>
+      <node ref="CF31" pin="1"/>
+      <node ref="UF1" pin="89"/>
+    </net>
+    <net code="78" name="Net-(RF1-Pad2)">
+      <node ref="UF1" pin="37"/>
+      <node ref="RF1" pin="2"/>
+    </net>
+    <net code="79" name="Net-(RF2-Pad2)">
+      <node ref="UF1" pin="38"/>
+      <node ref="RF2" pin="2"/>
+    </net>
+    <net code="80" name="+3.3VDAC">
+      <node ref="UF1" pin="53"/>
+      <node ref="UF1" pin="20"/>
+      <node ref="UF1" pin="144"/>
+      <node ref="UF1" pin="36"/>
+      <node ref="UF1" pin="4"/>
+      <node ref="CF34" pin="1"/>
+      <node ref="RF1" pin="1"/>
+      <node ref="UF1" pin="129"/>
+      <node ref="CF18" pin="1"/>
+      <node ref="RF2" pin="1"/>
+      <node ref="CF12" pin="1"/>
+      <node ref="CF8" pin="1"/>
+      <node ref="CF10" pin="1"/>
+      <node ref="CF9" pin="1"/>
+      <node ref="UF1" pin="18"/>
+      <node ref="CF11" pin="1"/>
+      <node ref="CF13" pin="1"/>
+      <node ref="CF5" pin="1"/>
+      <node ref="CF7" pin="1"/>
+      <node ref="CF6" pin="1"/>
+      <node ref="PFIO1" pin="36"/>
+      <node ref="CF2" pin="1"/>
+      <node ref="CF4" pin="1"/>
+      <node ref="UF1" pin="135"/>
+      <node ref="CF3" pin="1"/>
+      <node ref="CF1" pin="1"/>
+      <node ref="UF1" pin="76"/>
+      <node ref="UF1" pin="125"/>
+      <node ref="UF1" pin="86"/>
+      <node ref="UF1" pin="63"/>
+      <node ref="CF14" pin="1"/>
+      <node ref="CF15" pin="1"/>
+      <node ref="UF1" pin="42"/>
+      <node ref="CF19" pin="1"/>
+      <node ref="UF1" pin="69"/>
+      <node ref="CF22" pin="1"/>
+      <node ref="CF21" pin="1"/>
+      <node ref="CF20" pin="1"/>
+      <node ref="CF17" pin="1"/>
+      <node ref="UF2" pin="3"/>
+      <node ref="UF3" pin="4"/>
+      <node ref="UF3" pin="2"/>
+      <node ref="UF1" pin="90"/>
+      <node ref="CF30" pin="1"/>
+      <node ref="CF16" pin="1"/>
+      <node ref="CF33" pin="1"/>
+      <node ref="UF1" pin="122"/>
+      <node ref="UF1" pin="31"/>
+      <node ref="UF1" pin="103"/>
+    </net>
+    <net code="81" name="/spartan6/IO22">
+      <node ref="PFIO1" pin="29"/>
+      <node ref="UF1" pin="57"/>
+    </net>
+    <net code="82" name="/spartan6/IO23">
+      <node ref="PFIO1" pin="28"/>
+      <node ref="UF1" pin="58"/>
+    </net>
+    <net code="83" name="/spartan6/IO24">
+      <node ref="UF1" pin="59"/>
+      <node ref="PFIO1" pin="27"/>
+    </net>
+    <net code="84" name="/spartan6/IO25">
+      <node ref="PFIO1" pin="26"/>
+      <node ref="UF1" pin="61"/>
+    </net>
+    <net code="85" name="/spartan6/IO26">
+      <node ref="PFIO1" pin="25"/>
+      <node ref="UF1" pin="62"/>
+    </net>
+    <net code="86" name="/spartan6/IO27">
+      <node ref="PFIO1" pin="24"/>
+      <node ref="UF1" pin="64"/>
+    </net>
+    <net code="87" name="/spartan6/IO28">
+      <node ref="UF1" pin="65"/>
+      <node ref="PFIO1" pin="23"/>
+    </net>
+    <net code="88" name="/spartan6/IO29">
+      <node ref="UF1" pin="66"/>
+      <node ref="PFIO1" pin="22"/>
+    </net>
+    <net code="89" name="/spartan6/IO30">
+      <node ref="PFIO1" pin="21"/>
+      <node ref="UF1" pin="67"/>
+    </net>
+    <net code="90" name="/spartan6/IO31">
+      <node ref="PFIO1" pin="20"/>
+      <node ref="UF1" pin="70"/>
+    </net>
+    <net code="91" name="/spartan6/IO21">
+      <node ref="UF1" pin="56"/>
+      <node ref="PFIO1" pin="30"/>
+    </net>
+    <net code="92" name="Net-(DF1-Pad2)">
+      <node ref="DF1" pin="2"/>
+      <node ref="RF5" pin="2"/>
+    </net>
+    <net code="93" name="Net-(RF3-Pad2)">
+      <node ref="UF1" pin="110"/>
+      <node ref="RF3" pin="2"/>
+    </net>
+    <net code="94" name="/spartan6/IO63">
+      <node ref="UF1" pin="119"/>
+      <node ref="PFIO1" pin="12"/>
+    </net>
+    <net code="95" name="Net-(PFIO2-Pad25)">
+      <node ref="PFIO2" pin="25"/>
+    </net>
+    <net code="96" name="Net-(PFIO2-Pad26)">
+      <node ref="PFIO2" pin="26"/>
+    </net>
+    <net code="97" name="/spartan6/IO56">
+      <node ref="PFIO1" pin="17"/>
+      <node ref="UF1" pin="111"/>
+    </net>
+    <net code="98" name="/spartan6/IO57">
+      <node ref="UF1" pin="112"/>
+      <node ref="PFIO1" pin="18"/>
+    </net>
+    <net code="99" name="/spartan6/IO58">
+      <node ref="UF1" pin="114"/>
+      <node ref="PFIO1" pin="15"/>
+    </net>
+    <net code="100" name="/spartan6/IO59">
+      <node ref="PFIO1" pin="16"/>
+      <node ref="UF1" pin="115"/>
+    </net>
+    <net code="101" name="/spartan6/IO60">
+      <node ref="UF1" pin="116"/>
+      <node ref="PFIO1" pin="13"/>
+    </net>
+    <net code="102" name="/spartan6/IO61">
+      <node ref="UF1" pin="117"/>
+      <node ref="PFIO1" pin="14"/>
+    </net>
+    <net code="103" name="/spartan6/IO62">
+      <node ref="UF1" pin="118"/>
+      <node ref="PFIO1" pin="11"/>
+    </net>
+    <net code="104" name="/spartan6/IO64">
+      <node ref="UF1" pin="120"/>
+      <node ref="PFIO1" pin="9"/>
+    </net>
+    <net code="105" name="/spartan6/IO65">
+      <node ref="PFIO1" pin="10"/>
+      <node ref="UF1" pin="121"/>
+    </net>
+    <net code="106" name="/spartan6/IO66">
+      <node ref="UF1" pin="123"/>
+      <node ref="PFIO1" pin="7"/>
+    </net>
+    <net code="107" name="/spartan6/IO67">
+      <node ref="PFIO1" pin="8"/>
+      <node ref="UF1" pin="124"/>
+    </net>
+    <net code="108" name="/spartan6/IO68">
+      <node ref="PFIO1" pin="5"/>
+      <node ref="UF1" pin="126"/>
+    </net>
+    <net code="109" name="/spartan6/IO69">
+      <node ref="UF1" pin="127"/>
+      <node ref="PFIO1" pin="6"/>
+    </net>
+    <net code="110" name="/spartan6/IO70">
+      <node ref="UF1" pin="131"/>
+      <node ref="PFIO1" pin="3"/>
+    </net>
+    <net code="111" name="/spartan6/IO71">
+      <node ref="UF1" pin="132"/>
+      <node ref="PFIO1" pin="4"/>
+    </net>
+    <net code="112" name="/spartan6/IO72">
+      <node ref="UF1" pin="133"/>
+      <node ref="PFIO1" pin="1"/>
+    </net>
+    <net code="113" name="/spartan6/IO73">
+      <node ref="UF1" pin="134"/>
+      <node ref="PFIO1" pin="2"/>
+    </net>
+    <net code="114" name="/spartan6/IO17">
+      <node ref="UF1" pin="48"/>
+      <node ref="PFIO1" pin="34"/>
+    </net>
+    <net code="115" name="/spartan6/IO18">
+      <node ref="UF1" pin="50"/>
+      <node ref="PFIO1" pin="33"/>
+    </net>
+    <net code="116" name="/spartan6/IO19">
+      <node ref="PFIO1" pin="32"/>
+      <node ref="UF1" pin="51"/>
+    </net>
+    <net code="117" name="/spartan6/IO20">
+      <node ref="UF1" pin="55"/>
+      <node ref="PFIO1" pin="31"/>
+    </net>
+    <net code="118" name="Net-(RF6-Pad2)">
+      <node ref="RF6" pin="2"/>
+      <node ref="UF1" pin="107"/>
+    </net>
+    <net code="119" name="Net-(RF7-Pad2)">
+      <node ref="RF7" pin="2"/>
+      <node ref="UF1" pin="106"/>
+    </net>
+    <net code="120" name="Net-(RF4-Pad2)">
+      <node ref="RF4" pin="2"/>
+      <node ref="UF1" pin="109"/>
+    </net>
+    <net code="121" name="/spartan6/IO7">
+      <node ref="DF1" pin="1"/>
+      <node ref="UF1" pin="12"/>
+    </net>
+    <net code="122" name="Net-(UF1-Pad72)">
+      <node ref="UF1" pin="72"/>
+    </net>
+    <net code="123" name="Net-(UF1-Pad73)">
+      <node ref="UF1" pin="73"/>
+    </net>
+    <net code="124" name="Net-(UF1-Pad71)">
+      <node ref="UF1" pin="71"/>
+    </net>
+    <net code="125" name="/spartan6/IO41">
+      <node ref="PFIO2" pin="15"/>
+      <node ref="UF1" pin="85"/>
+    </net>
+    <net code="126" name="/spartan6/IO32">
+      <node ref="UF1" pin="74"/>
+      <node ref="PFIO2" pin="24"/>
+    </net>
+    <net code="127" name="/spartan6/IO33">
+      <node ref="UF1" pin="75"/>
+      <node ref="PFIO2" pin="23"/>
+    </net>
+    <net code="128" name="/spartan6/IO34">
+      <node ref="PFIO2" pin="22"/>
+      <node ref="UF1" pin="78"/>
+    </net>
+    <net code="129" name="/spartan6/IO35">
+      <node ref="UF1" pin="79"/>
+      <node ref="PFIO2" pin="21"/>
+    </net>
+    <net code="130" name="/spartan6/IO36">
+      <node ref="UF1" pin="80"/>
+      <node ref="PFIO2" pin="20"/>
+    </net>
+    <net code="131" name="/spartan6/IO37">
+      <node ref="UF1" pin="81"/>
+      <node ref="PFIO2" pin="19"/>
+    </net>
+    <net code="132" name="/spartan6/IO38">
+      <node ref="UF1" pin="82"/>
+      <node ref="PFIO2" pin="18"/>
+    </net>
+    <net code="133" name="/spartan6/IO39">
+      <node ref="PFIO2" pin="17"/>
+      <node ref="UF1" pin="83"/>
+    </net>
+    <net code="134" name="/spartan6/IO40">
+      <node ref="PFIO2" pin="16"/>
+      <node ref="UF1" pin="84"/>
+    </net>
+    <net code="135" name="/spartan6/IO42">
+      <node ref="PFIO2" pin="13"/>
+      <node ref="UF1" pin="87"/>
+    </net>
+    <net code="136" name="/spartan6/IO43">
+      <node ref="PFIO2" pin="14"/>
+      <node ref="UF1" pin="88"/>
+    </net>
+    <net code="137" name="/spartan6/IO44">
+      <node ref="UF1" pin="92"/>
+      <node ref="PFIO2" pin="11"/>
+    </net>
+    <net code="138" name="/spartan6/IO45">
+      <node ref="UF1" pin="93"/>
+      <node ref="PFIO2" pin="12"/>
+    </net>
+    <net code="139" name="/spartan6/IO46">
+      <node ref="PFIO2" pin="9"/>
+      <node ref="UF1" pin="94"/>
+    </net>
+    <net code="140" name="/spartan6/IO47">
+      <node ref="UF1" pin="95"/>
+      <node ref="PFIO2" pin="10"/>
+    </net>
+    <net code="141" name="/spartan6/IO48">
+      <node ref="UF1" pin="97"/>
+      <node ref="PFIO2" pin="7"/>
+    </net>
+    <net code="142" name="/spartan6/IO49">
+      <node ref="PFIO2" pin="8"/>
+      <node ref="UF1" pin="98"/>
+    </net>
+    <net code="143" name="/spartan6/IO50">
+      <node ref="UF1" pin="99"/>
+      <node ref="PFIO2" pin="5"/>
+    </net>
+    <net code="144" name="/spartan6/IO51">
+      <node ref="UF1" pin="100"/>
+      <node ref="PFIO2" pin="6"/>
+    </net>
+    <net code="145" name="/spartan6/IO52">
+      <node ref="PFIO2" pin="3"/>
+      <node ref="UF1" pin="101"/>
+    </net>
+    <net code="146" name="/spartan6/IO53">
+      <node ref="PFIO2" pin="4"/>
+      <node ref="UF1" pin="102"/>
+    </net>
+    <net code="147" name="/spartan6/IO54">
+      <node ref="PFIO2" pin="1"/>
+      <node ref="UF1" pin="104"/>
+    </net>
+    <net code="148" name="/spartan6/IO55">
+      <node ref="UF1" pin="105"/>
+      <node ref="PFIO2" pin="2"/>
+    </net>
+    <net code="149" name="Net-(PFIO1-Pad19)">
+      <node ref="PFIO1" pin="19"/>
+    </net>
+    <net code="150" name="/spartan6/IO8">
+      <node ref="UF1" pin="14"/>
+    </net>
+    <net code="151" name="/spartan6/IO2">
+      <node ref="UF1" pin="2"/>
+    </net>
+    <net code="152" name="/spartan6/IO3">
+      <node ref="UF1" pin="5"/>
+    </net>
+    <net code="153" name="/spartan6/IO4">
+      <node ref="UF1" pin="6"/>
+    </net>
+    <net code="154" name="/spartan6/IO5">
+      <node ref="UF1" pin="8"/>
+    </net>
+    <net code="155" name="/spartan6/IO6">
+      <node ref="UF1" pin="10"/>
+    </net>
+    <net code="156" name="/spartan6/IO10">
+      <node ref="UF1" pin="22"/>
+    </net>
+    <net code="157" name="/spartan6/IO11">
+      <node ref="UF1" pin="26"/>
+    </net>
+    <net code="158" name="/spartan6/IO12">
+      <node ref="UF1" pin="30"/>
+    </net>
+    <net code="159" name="/spartan6/IO13">
+      <node ref="UF1" pin="32"/>
+    </net>
+    <net code="160" name="/spartan6/IO14">
+      <node ref="UF1" pin="33"/>
+    </net>
+    <net code="161" name="/spartan6/IO15">
+      <node ref="UF1" pin="34"/>
+    </net>
+    <net code="162" name="/spartan6/IO16">
+      <node ref="UF1" pin="35"/>
+    </net>
+    <net code="163" name="+3V3">
+      <node ref="FT1" pin="31"/>
+      <node ref="FT1" pin="14"/>
+      <node ref="CF39" pin="1"/>
+      <node ref="RF19" pin="2"/>
+      <node ref="FT1" pin="6"/>
+      <node ref="RF21" pin="1"/>
+      <node ref="RF20" pin="2"/>
+    </net>
+    <net code="164" name="Net-(CF41-Pad2)">
+      <node ref="XF2" pin="3"/>
+      <node ref="FT1" pin="44"/>
+      <node ref="CF41" pin="2"/>
+    </net>
+    <net code="165" name="Net-(CF40-Pad2)">
+      <node ref="FT1" pin="43"/>
+      <node ref="XF2" pin="1"/>
+      <node ref="CF40" pin="2"/>
+    </net>
+    <net code="166" name="Net-(FT1-Pad33)">
+      <node ref="FT1" pin="33"/>
+    </net>
+    <net code="167" name="Net-(FT1-Pad35)">
+      <node ref="FT1" pin="35"/>
+    </net>
+    <net code="168" name="Net-(FT1-Pad15)">
+      <node ref="FT1" pin="15"/>
+    </net>
+    <net code="169" name="Net-(FT1-Pad13)">
+      <node ref="FT1" pin="13"/>
+    </net>
+    <net code="170" name="Net-(FT1-Pad32)">
+      <node ref="FT1" pin="32"/>
+    </net>
+    <net code="171" name="Net-(FT1-Pad12)">
+      <node ref="FT1" pin="12"/>
+    </net>
+    <net code="172" name="Net-(FT1-Pad41)">
+      <node ref="FT1" pin="41"/>
+    </net>
+    <net code="173" name="Net-(FT1-Pad29)">
+      <node ref="FT1" pin="29"/>
+    </net>
+    <net code="174" name="Net-(FT1-Pad19)">
+      <node ref="FT1" pin="19"/>
+    </net>
+    <net code="175" name="Net-(FT1-Pad48)">
+      <node ref="FT1" pin="48"/>
+    </net>
+    <net code="176" name="Net-(FT1-Pad38)">
+      <node ref="FT1" pin="38"/>
+    </net>
+    <net code="177" name="Net-(FT1-Pad28)">
+      <node ref="FT1" pin="28"/>
+    </net>
+    <net code="178" name="Net-(FT1-Pad37)">
+      <node ref="FT1" pin="37"/>
+    </net>
+    <net code="179" name="Net-(FT1-Pad27)">
+      <node ref="FT1" pin="27"/>
+    </net>
+    <net code="180" name="Net-(FT1-Pad36)">
+      <node ref="FT1" pin="36"/>
+    </net>
+    <net code="181" name="Net-(FT1-Pad26)">
+      <node ref="FT1" pin="26"/>
+      <node ref="RF20" pin="1"/>
+    </net>
+    <net code="182" name="Net-(FT1-Pad16)">
+      <node ref="FT1" pin="16"/>
+    </net>
+    <net code="183" name="Net-(DP1-Pad1)">
+      <node ref="DP1" pin="1"/>
+      <node ref="JMS1" pin="1"/>
+    </net>
+    <net code="184" name="Net-(CF38-Pad1)">
+      <node ref="FT1" pin="46"/>
+      <node ref="CF38" pin="1"/>
+      <node ref="RF18" pin="1"/>
+    </net>
+    <net code="185" name="Net-(FT1-Pad7)">
+      <node ref="FT1" pin="7"/>
+      <node ref="RF15" pin="2"/>
+      <node ref="RF17" pin="1"/>
+    </net>
+    <net code="186" name="+5VA">
+      <node ref="RF16" pin="1"/>
+      <node ref="RF18" pin="2"/>
+      <node ref="FT1" pin="4"/>
+      <node ref="LF11" pin="2"/>
+      <node ref="CF37" pin="1"/>
+      <node ref="FT1" pin="42"/>
+      <node ref="FT1" pin="3"/>
+    </net>
+    <net code="187" name="Net-(JMS1-Pad3)">
+      <node ref="JMS1" pin="3"/>
+      <node ref="RF15" pin="1"/>
+    </net>
+    <net code="188" name="Net-(JMS1-Pad2)">
+      <node ref="RF14" pin="1"/>
+      <node ref="JMS1" pin="2"/>
+    </net>
+    <net code="189" name="Net-(JMS1-Pad4)">
+      <node ref="JMS1" pin="4"/>
+    </net>
+    <net code="190" name="Net-(PS1-Pad3)">
+      <node ref="PS1" pin="3"/>
+    </net>
+    <net code="191" name="Net-(FT1-Pad5)">
+      <node ref="FT1" pin="5"/>
+      <node ref="RF17" pin="2"/>
+    </net>
+    <net code="192" name="Net-(FT1-Pad10)">
+      <node ref="FT1" pin="10"/>
+      <node ref="RF19" pin="1"/>
+    </net>
+    <net code="193" name="Net-(FT1-Pad8)">
+      <node ref="FT1" pin="8"/>
+      <node ref="RF14" pin="2"/>
+    </net>
+    <net code="194" name="Net-(FT1-Pad2)">
+      <node ref="FT1" pin="2"/>
+      <node ref="RF16" pin="2"/>
+    </net>
+    <net code="195" name="Net-(FT1-Pad11)">
+      <node ref="FT1" pin="11"/>
+    </net>
+    <net code="196" name="Net-(FT1-Pad30)">
+      <node ref="FT1" pin="30"/>
+    </net>
+    <net code="197" name="Net-(FT1-Pad1)">
+      <node ref="FT1" pin="1"/>
+    </net>
+    <net code="198" name="/SAM3M/DS6">
+      <node ref="UF1" pin="142"/>
+      <node ref="US1" pin="32"/>
+    </net>
+    <net code="199" name="/SAM3M/AS8">
+      <node ref="US1" pin="13"/>
+      <node ref="UF1" pin="21"/>
+    </net>
+    <net code="200" name="/SAM3M/AS9">
+      <node ref="UF1" pin="16"/>
+      <node ref="US1" pin="17"/>
+    </net>
+    <net code="201" name="/SAM3M/AS10">
+      <node ref="UF1" pin="1"/>
+      <node ref="US1" pin="54"/>
+    </net>
+    <net code="202" name="/SAM3M/AS11">
+      <node ref="US1" pin="4"/>
+      <node ref="UF1" pin="29"/>
+    </net>
+    <net code="203" name="/SAM3M/AS12">
+      <node ref="UF1" pin="27"/>
+      <node ref="US1" pin="6"/>
+    </net>
+    <net code="204" name="/SAM3M/AS13">
+      <node ref="UF1" pin="24"/>
+      <node ref="US1" pin="8"/>
+    </net>
+    <net code="205" name="/SAM3M/DS0">
+      <node ref="UF1" pin="7"/>
+      <node ref="US1" pin="25"/>
+    </net>
+    <net code="206" name="/SAM3M/DS1">
+      <node ref="UF1" pin="137"/>
+      <node ref="US1" pin="47"/>
+    </net>
+    <net code="207" name="/SAM3M/DS2">
+      <node ref="UF1" pin="138"/>
+      <node ref="US1" pin="43"/>
+    </net>
+    <net code="208" name="/SAM3M/DS3">
+      <node ref="UF1" pin="139"/>
+      <node ref="US1" pin="40"/>
+    </net>
+    <net code="209" name="/SAM3M/DS4">
+      <node ref="US1" pin="37"/>
+      <node ref="UF1" pin="140"/>
+    </net>
+    <net code="210" name="/SAM3M/DS5">
+      <node ref="US1" pin="35"/>
+      <node ref="UF1" pin="141"/>
+    </net>
+    <net code="211" name="/SAM3M/AS7">
+      <node ref="UF1" pin="39"/>
+      <node ref="US1" pin="94"/>
+    </net>
+    <net code="212" name="/SAM3M/DS7">
+      <node ref="UF1" pin="143"/>
+      <node ref="US1" pin="29"/>
+    </net>
+    <net code="213" name="/SAM3M/AS0">
+      <node ref="UF1" pin="47"/>
+      <node ref="US1" pin="78"/>
+    </net>
+    <net code="214" name="/SAM3M/AS1">
+      <node ref="UF1" pin="46"/>
+      <node ref="US1" pin="80"/>
+    </net>
+    <net code="215" name="/SAM3M/AS2">
+      <node ref="US1" pin="82"/>
+      <node ref="UF1" pin="45"/>
+    </net>
+    <net code="216" name="/SAM3M/AS3">
+      <node ref="US1" pin="84"/>
+      <node ref="UF1" pin="44"/>
+    </net>
+    <net code="217" name="/SAM3M/AS4">
+      <node ref="UF1" pin="43"/>
+      <node ref="US1" pin="86"/>
+    </net>
+    <net code="218" name="/SAM3M/AS5">
+      <node ref="UF1" pin="41"/>
+      <node ref="US1" pin="90"/>
+    </net>
+    <net code="219" name="/SAM3M/AS6">
+      <node ref="UF1" pin="40"/>
+      <node ref="US1" pin="92"/>
+    </net>
+  </nets>
+</export>
