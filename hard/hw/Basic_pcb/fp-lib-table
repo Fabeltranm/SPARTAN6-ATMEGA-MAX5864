@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name resonator)(type KiCad)(uri /home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/modules.pretty)(options "")(descr ""))
-  (lib (name opendous)(type Legacy)(uri /home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/modules.pretty/opendous.mod)(options "")(descr ""))
+  (lib (name resonator)(type KiCad)(uri C:\Users\Ryu\Desktop\hdmi-fpga-master\hard\hw\Basic_pcb\modules.pretty)(options "")(descr ""))
+  (lib (name opendous)(type Legacy)(uri C:\Users\Ryu\Desktop\hdmi-fpga-master\hard\hw\Basic_pcb\modules.pretty\opendous.mod)(options "")(descr ""))
+  (lib (name HDMI)(type KiCad)(uri C:\Users\Ryu\Desktop\hdmi-fpga-master\hard\hw\Basic_pcb\hdmi.pretty)(options "")(descr ""))
 )

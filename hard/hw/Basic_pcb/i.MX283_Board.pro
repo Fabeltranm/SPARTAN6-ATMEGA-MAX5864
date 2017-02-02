@@ -1,4 +1,4 @@
-update=24/02/2016 11:33:09
+update=30/01/2017 03:54:08 p.m.
 version=1
 last_client=kicad
 [cvpcb]
@@ -79,6 +79,16 @@ LibName49=st3008
 LibName50=pin_array_8x2
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=LIBRERIAS;/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/LIBRERIAS.pretty;/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/modules.pretty;/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/LIBRERIAS
@@ -186,13 +196,3 @@ LibName100=atsam3n2
 LibName101=6slx9tqg144
 LibName102=lan8720a
 LibName103=rj45_stamp
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
