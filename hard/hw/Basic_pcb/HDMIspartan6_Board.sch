@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:i.MX283_Board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -100,7 +99,7 @@ LIBS:atsam3n2
 LIBS:6slx9tqg144
 LIBS:lan8720a
 LIBS:rj45_stamp
-LIBS:i.MX283_Board-cache
+LIBS:HDMIspartan6_Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -115,28 +114,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 4750 3200 1350 1250
-U 4E78AF25
-F0 "SAM3M" 60
-F1 "SAM3N.sch" 60
-F2 "JNRST" B R 6100 3500 60 
-F3 "JTMS" B R 6100 3900 60 
-F4 "JTCK" B R 6100 3800 60 
-F5 "JTDO" B R 6100 3600 60 
-F6 "JTDI" B R 6100 3700 60 
-F7 "SAM_RX" O R 6100 3400 60 
-F8 "SAM_TX" O R 6100 3300 60 
-F9 "TWD" I R 6100 4250 60 
-F10 "TWCK" I R 6100 4150 60 
-F11 "DS[0..7]" I L 4750 3550 60 
-F12 "SNWE" I L 4750 3650 60 
-F13 "SNRD" I L 4750 3750 60 
-F14 "SNCS" I L 4750 3850 60 
-F15 "SNWAIT" I L 4750 3950 60 
-F16 "AS[0..13]" B L 4750 3450 60 
-F17 "CLK_F" I L 4750 4050 60 
-$EndSheet
 $Sheet
 S 3200 3300 850  1350
 U 54B6445D
@@ -154,7 +131,7 @@ F10 "F_TDO" I R 4050 4400 60
 F11 "F_TMS" I R 4050 4300 60 
 F12 "CLK_FPGA" I R 4050 4050 60 
 $EndSheet
-Text Label 6100 3600 0    60   ~ 0
+Text Label 7000 3700 0    60   ~ 0
 P_TDO
 Text Label 4100 4500 0    60   ~ 0
 P_TDO
@@ -177,29 +154,13 @@ $EndSheet
 Wire Wire Line
 	6100 3400 7300 3400
 Wire Wire Line
-	6800 4250 6100 4250
-Wire Wire Line
 	6100 3500 7300 3500
 Wire Wire Line
 	6100 3800 7300 3800
 Wire Wire Line
 	6100 3900 7300 3900
 Wire Wire Line
-	6100 4150 6800 4150
-Wire Wire Line
 	6100 3300 7300 3300
-Wire Wire Line
-	4050 3650 4750 3650
-Wire Wire Line
-	4050 3750 4750 3750
-Wire Wire Line
-	4050 3850 4750 3850
-Wire Wire Line
-	4050 3950 4750 3950
-Wire Bus Line
-	4050 3450 4750 3450
-Wire Bus Line
-	4050 3550 4750 3550
 Wire Wire Line
 	6500 3800 6500 2950
 Wire Wire Line
@@ -223,11 +184,9 @@ Wire Wire Line
 Wire Wire Line
 	4300 4500 4050 4500
 Wire Wire Line
-	6300 3600 6100 3600
+	7200 3700 7000 3700
 Wire Wire Line
 	6100 3700 7300 3700
-Wire Wire Line
-	4750 4050 4050 4050
 Text Label 7000 3600 0    60   ~ 0
 F_TDO
 Wire Wire Line

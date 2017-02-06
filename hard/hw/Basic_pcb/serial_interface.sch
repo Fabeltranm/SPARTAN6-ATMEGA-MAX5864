@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:i.MX283_Board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -100,7 +99,7 @@ LIBS:atsam3n2
 LIBS:6slx9tqg144
 LIBS:lan8720a
 LIBS:rj45_stamp
-LIBS:i.MX283_Board-cache
+LIBS:HDMIspartan6_Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
