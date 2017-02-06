@@ -100,11 +100,12 @@ LIBS:6slx9tqg144
 LIBS:lan8720a
 LIBS:rj45_stamp
 LIBS:HDMIspartan6_Board-cache
+LIBS:pam8302-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date "9 aug 2012"
 Rev ""
