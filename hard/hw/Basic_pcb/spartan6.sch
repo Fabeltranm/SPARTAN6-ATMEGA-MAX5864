@@ -100,6 +100,7 @@ LIBS:6slx9tqg144
 LIBS:lan8720a
 LIBS:rj45_stamp
 LIBS:HDMIspartan6_Board-cache
+LIBS:fuente-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
