@@ -1,5 +1,8 @@
 EESchema Schematic File Version 2
+<<<<<<< HEAD
 LIBS:i.MX283_Board-rescue
+=======
+>>>>>>> c8fc2d8c291440dcd7a12456f33046b8a9c41b15
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -100,12 +103,20 @@ LIBS:atsam3n2
 LIBS:6slx9tqg144
 LIBS:lan8720a
 LIBS:rj45_stamp
+<<<<<<< HEAD
 LIBS:i.MX283_Board-cache
+=======
+LIBS:HDMIspartan6_Board-cache
+>>>>>>> c8fc2d8c291440dcd7a12456f33046b8a9c41b15
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
+<<<<<<< HEAD
 Sheet 1 4
+=======
+Sheet 1 5
+>>>>>>> c8fc2d8c291440dcd7a12456f33046b8a9c41b15
 Title ""
 Date "2 may 2014"
 Rev ""
@@ -115,6 +126,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+<<<<<<< HEAD
 $Sheet
 S 4750 3200 1350 1250
 U 4E78AF25
@@ -232,6 +244,68 @@ Text Label 7000 3600 0    60   ~ 0
 F_TDO
 Wire Wire Line
 	7300 3600 7000 3600
+=======
+Text Label 7000 1950 0    60   ~ 0
+P_TDO
+Text Label 4100 2750 0    60   ~ 0
+P_TDO
+Text Label 4100 2650 0    60   ~ 0
+F_TDO
+$Sheet
+S 7300 1400 1700 1250
+U 555AB8C7
+F0 "serial_interface" 60
+F1 "serial_interface.sch" 60
+F2 "TXD" B L 7300 1650 60 
+F3 "RXD" B L 7300 1550 60 
+F4 "TCK" I L 7300 2050 60 
+F5 "TDI" I L 7300 1950 60 
+F6 "TDO" I L 7300 1850 60 
+F7 "TMS" I L 7300 2150 60 
+F8 "nTRST" I L 7300 1750 60 
+F9 "nSRST" I L 7300 2250 60 
+$EndSheet
+Wire Wire Line
+	6100 1650 7300 1650
+Wire Wire Line
+	6100 1750 7300 1750
+Wire Wire Line
+	6100 2050 7300 2050
+Wire Wire Line
+	6100 2150 7300 2150
+Wire Wire Line
+	6100 1550 7300 1550
+Wire Wire Line
+	6500 2050 6500 1200
+Wire Wire Line
+	6500 1200 4400 1200
+Wire Wire Line
+	4400 1200 4400 2450
+Wire Wire Line
+	4400 2450 4050 2450
+Connection ~ 6500 2050
+Wire Wire Line
+	6400 2150 6400 1300
+Wire Wire Line
+	6400 1300 4500 1300
+Wire Wire Line
+	4500 1300 4500 2550
+Wire Wire Line
+	4500 2550 4050 2550
+Connection ~ 6400 2150
+Wire Wire Line
+	4300 2650 4050 2650
+Wire Wire Line
+	4300 2750 4050 2750
+Wire Wire Line
+	7200 1950 7000 1950
+Wire Wire Line
+	6100 1950 7300 1950
+Text Label 7000 1850 0    60   ~ 0
+F_TDO
+Wire Wire Line
+	7300 1850 7000 1850
+>>>>>>> c8fc2d8c291440dcd7a12456f33046b8a9c41b15
 $Comp
 L CONN_1 TH1
 U 1 1 555D5DB0
@@ -897,4 +971,32 @@ F 3 "" H 3350 6950 60  0001 C CNN
 	1    3350 6950
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
+=======
+$Sheet
+S 7300 3200 950  900 
+U 5898EE54
+F0 "Audio" 60
+F1 "Audio.sch" 60
+F2 "VCC" I L 7300 3400 60 
+F3 "GND" I L 7300 3900 60 
+F4 "~SD" I L 7300 3650 60 
+$EndSheet
+$Sheet
+S 3200 1550 850  1350
+U 54B6445D
+F0 "spartan6" 60
+F1 "spartan6.sch" 60
+F2 "F_TCK" I R 4050 2450 60 
+F3 "F_TDI" I R 4050 2750 60 
+F4 "F_TDO" I R 4050 2650 60 
+F5 "F_TMS" I R 4050 2550 60 
+$EndSheet
+$Sheet
+S 3100 3300 1000 950 
+U 58991CBD
+F0 "Power" 60
+F1 "Power.sch" 60
+$EndSheet
+>>>>>>> c8fc2d8c291440dcd7a12456f33046b8a9c41b15
 $EndSCHEMATC
