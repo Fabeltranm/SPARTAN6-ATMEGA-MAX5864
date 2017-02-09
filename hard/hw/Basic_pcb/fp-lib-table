@@ -1,6 +1,6 @@
 (fp_lib_table
-  (lib (name resonator)(type KiCad)(uri C:\Users\Ryu\Desktop\hdmi-fpga-master\hard\hw\Basic_pcb\modules.pretty)(options "")(descr ""))
-  (lib (name opendous)(type Legacy)(uri C:\Users\Ryu\Desktop\hdmi-fpga-master\hard\hw\Basic_pcb\modules.pretty\opendous.mod)(options "")(descr ""))
-  (lib (name HDMI)(type KiCad)(uri C:\Users\Ryu\Desktop\hdmi-fpga-master\hard\hw\Basic_pcb\hdmi.pretty)(options "")(descr ""))
-  (lib (name TPS63070)(type KiCad)(uri C:\Users\Ryu\Desktop\hdmi-fpga-master\hard\hw\Basic_pcb\modules.pretty\TPS63070.mod)(options "")(descr ""))
+  (lib (name resonator)(type KiCad)(uri C:\Users\Ryu\Documents\GitHub\hdmi-fpga\hard\hw\Basic_pcb\modules.pretty)(options "")(descr ""))
+  (lib (name opendous)(type Legacy)(uri C:\Users\Ryu\Documents\GitHub\hdmi-fpga\hard\hw\Basic_pcb\modules.pretty\opendous.mod)(options "")(descr ""))
+  (lib (name HDMI)(type KiCad)(uri C:\Users\Ryu\Documents\GitHub\hdmi-fpga\hard\hw\Basic_pcb\hdmi.pretty)(options "")(descr ""))
+  (lib (name TPS63070)(type KiCad)(uri C:\Users\Ryu\Documents\GitHub\hdmi-fpga\hard\hw\Basic_pcb\modules.pretty\TPS63070.mod)(options "")(descr ""))
 )

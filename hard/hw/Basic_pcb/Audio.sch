@@ -324,7 +324,7 @@ F 3 "" H 8200 4500 50  0000 C CNN
 $EndComp
 Text Label 5950 3500 0    60   ~ 0
 ~SD
-Text Label 3750 4500 2    60   ~ 0
+Text Label 3800 4950 2    60   ~ 0
 ~SD
 $Comp
 L +5V #PWR032
@@ -428,4 +428,24 @@ Wire Wire Line
 	8600 4000 8600 3700
 Wire Wire Line
 	6100 3500 5850 3500
+Wire Wire Line
+	3050 4850 3050 5050
+$Comp
+L R R1
+U 1 1 589D33B2
+P 3450 4950
+F 0 "R1" V 3530 4950 50  0000 C CNN
+F 1 "10k" V 3450 4950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3380 4950 50  0001 C CNN
+F 3 "" H 3450 4950 50  0000 C CNN
+	1    3450 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 4950 3300 4950
+Connection ~ 3050 4950
+Wire Wire Line
+	3850 4950 3600 4950
+Text HLabel 2750 4950 0    60   Input ~ 0
+~SD
 $EndSCHEMATC
