@@ -135,15 +135,9 @@ F8 "nTRST" I L 7300 1750 60
 F9 "nSRST" I L 7300 2250 60 
 $EndSheet
 Wire Wire Line
-	6100 1650 7300 1650
-Wire Wire Line
-	6100 1750 7300 1750
-Wire Wire Line
 	6100 2050 7300 2050
 Wire Wire Line
 	6100 2150 7300 2150
-Wire Wire Line
-	6100 1550 7300 1550
 Wire Wire Line
 	6500 2050 6500 1200
 Wire Wire Line

@@ -604,27 +604,27 @@ A11
 Text Label 8650 3850 0    60   ~ 0
 IO17
 Text Label 8650 3750 0    60   ~ 0
-IO18
+CH1N
 Text Label 8650 3650 0    60   ~ 0
-IO19
+CH1P
 Text Label 8650 3550 0    60   ~ 0
-IO20
+CH2N
 Text Label 8650 3450 0    60   ~ 0
-IO21
+CH2P
 Text Label 8650 3350 0    60   ~ 0
-IO22
+CH3N
 Text Label 8650 3250 0    60   ~ 0
-IO23
+CH3P
 Text Label 8650 3150 0    60   ~ 0
 IO24
 Text Label 8650 2950 0    60   ~ 0
-IO25
+CLKN
 Text Label 8650 2850 0    60   ~ 0
-IO26
+CLKP
 Text Label 8650 2750 0    60   ~ 0
-IO27
+CH4N
 Text Label 8650 2650 0    60   ~ 0
-IO28
+CH4P
 Text Label 8650 2550 0    60   ~ 0
 IO29
 Text Label 8650 2450 0    60   ~ 0
@@ -1492,15 +1492,10 @@ Wire Wire Line
 	15250 2550 15350 2550
 Connection ~ 15350 2750
 Wire Wire Line
-	15300 2750 15350 2750
+	15250 2750 15350 2750
 Connection ~ 15350 2950
 Wire Wire Line
 	15250 2950 15350 2950
-Connection ~ 15350 3100
-Wire Wire Line
-	15350 2400 15350 3150
-Wire Wire Line
-	15350 3150 15250 3150
 Connection ~ 15350 3350
 Wire Wire Line
 	15250 3350 15350 3350
@@ -1512,8 +1507,6 @@ Wire Wire Line
 	15350 3750 15250 3750
 Wire Wire Line
 	15350 3950 15250 3950
-Wire Wire Line
-	15350 3100 15350 3950
 Wire Wire Line
 	14950 3950 14150 3950
 Wire Wire Line
@@ -2385,4 +2378,9 @@ Wire Wire Line
 	11200 7300 11550 7300
 Wire Wire Line
 	11550 7300 11550 7200
+Wire Wire Line
+	15350 3150 15250 3150
+Connection ~ 15350 3150
+Wire Wire Line
+	15350 2400 15350 3950
 $EndSCHEMATC

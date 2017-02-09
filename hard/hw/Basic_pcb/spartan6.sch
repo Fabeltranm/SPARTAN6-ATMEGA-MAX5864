@@ -618,13 +618,13 @@ CH3P
 Text Label 8650 3150 0    60   ~ 0
 IO24
 Text Label 8650 2950 0    60   ~ 0
-IO25
+CLKN
 Text Label 8650 2850 0    60   ~ 0
-IO26
+CLKP
 Text Label 8650 2750 0    60   ~ 0
-IO27
+CH4N
 Text Label 8650 2650 0    60   ~ 0
-IO28
+CH4P
 Text Label 8650 2550 0    60   ~ 0
 IO29
 Text Label 8650 2450 0    60   ~ 0
