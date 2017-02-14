@@ -383,9 +383,10 @@ L FT2232L FT1
 U 1 1 4FC6BAB1
 P 8600 5400
 F 0 "FT1" H 8600 5500 50  0000 C CNN
-F 1 "FT2232D" H 8600 5400 50  0000 C CNN
+F 1 "FT2232D-REEL" H 8600 5400 50  0000 C CNN
 F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 8600 5550 50  0001 C CNN
-F 3 "" H 8600 5400 60  0001 C CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232D.pdf" H 8600 5400 60  0001 C CNN
+F 4 "768-1010-1-ND" H 8600 5400 60  0001 C CNN "DIGIKEY REF"
 	1    8600 5400
 	1    0    0    -1  
 $EndComp
@@ -427,7 +428,8 @@ P 6300 5800
 F 0 "XF2" H 6300 5950 60  0000 C CNN
 F 1 "6MHz" H 6300 5650 60  0000 C CNN
 F 2 "resonator:CSTCR6M00G53Z" H 6300 5800 60  0001 C CNN
-F 3 "" H 6300 5800 60  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p16e.ashx" H 6300 5800 60  0001 C CNN
+F 4 "490-1218-2-ND" H 6300 5800 60  0001 C CNN "DIGIKEY REF"
 	1    6300 5800
 	0    1    1    0   
 $EndComp

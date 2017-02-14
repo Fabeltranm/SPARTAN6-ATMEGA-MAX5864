@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 25/06/2010 21:19:20
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 1117
 K LDO Regulator 1117 NCP1117 TLV1117 1.5V 1.8V 2V 2.5V 2.85V 3.3V 5V 12V
@@ -27,16 +27,14 @@ $CMP AND_GATE
 K NC7SZ08 Single AND Gate SOT23-5 1.65V-5.5V 24mA
 $ENDCMP
 #
-$CMP attiny44
-K ATtiny24 ATtiny44 ATtiny84
+$CMP AS4C16M16SA
+D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
+F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
 $ENDCMP
 #
 $CMP BUFFER_GATE
 K NC7SZ125 Single Buffer Gate SOT23-5 1.65V-5.5V 24mA
-$ENDCMP
-#
-$CMP C_MINI
-K Unpolarized Capacitor
 $ENDCMP
 #
 $CMP CONN_MMC_MMCplus_GMC06003XSEU
@@ -47,14 +45,18 @@ $CMP CP_MINI
 K Polarized Capacitor
 $ENDCMP
 #
-$CMP D_zener
-D Zener Diode
-K DEV DIODE Zener
+$CMP C_MINI
+K Unpolarized Capacitor
 $ENDCMP
 #
 $CMP DDR_SDRAM_MT46_x16
 D JEDEC DDR SDRAM TSSOP66
 K JEDEC DDR SDRAM TSSOP66 Opendous
+$ENDCMP
+#
+$CMP D_zener
+D Zener Diode
+K DEV DIODE Zener
 $ENDCMP
 #
 $CMP ESD
@@ -69,11 +71,6 @@ $ENDCMP
 #
 $CMP GNDS
 K GNDS GND_Shield Earth Shield
-$ENDCMP
-#
-$CMP iMX233
-D Freescale i.MX233 ARM9 Portable Multimedia Processor
-K Freescale i.MX233 i.MX23 i.MX ARM9 MCIMX233_AG4B 128LQFP Opendous
 $ENDCMP
 #
 $CMP Inverter
@@ -103,6 +100,12 @@ $ENDCMP
 $CMP LPC313x
 D NXP LPC313x ARM9 with LCD and High Speed USB
 K LPC3130 LPC3131 NXP ARM ARM9 Opendous
+$ENDCMP
+#
+$CMP MT48LC4M16A2P
+D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
+F http://www.alliancememory.com/pdf/dram/256M-AS4C16M16SA.pdf
 $ENDCMP
 #
 $CMP Micropendous1
@@ -153,6 +156,15 @@ $ENDCMP
 $CMP XC3S50AN-TQ144
 D Xilinx Spartan-3AN FPGA TQFP-144
 K Xilinx Spartan XC3S50AN XC3S50A TQ144 TQG144
+$ENDCMP
+#
+$CMP attiny44
+K ATtiny24 ATtiny44 ATtiny84
+$ENDCMP
+#
+$CMP iMX233
+D Freescale i.MX233 ARM9 Portable Multimedia Processor
+K Freescale i.MX233 i.MX23 i.MX ARM9 MCIMX233_AG4B 128LQFP Opendous
 $ENDCMP
 #
 #End Doc Library
