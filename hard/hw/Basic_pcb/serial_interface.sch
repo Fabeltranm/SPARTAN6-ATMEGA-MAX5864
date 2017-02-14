@@ -512,19 +512,8 @@ F 3 "" H 8800 3450 50  0000 C CNN
 	1    8800 3450
 	1    0    0    -1  
 $EndComp
-Text HLabel 4750 4050 0    60   Input ~ 0
+Text HLabel 4750 3850 0    60   Input ~ 0
 USB_5V
-$Comp
-L R R16
-U 1 1 589E93C4
-P 4950 4350
-F 0 "R16" V 5030 4350 50  0000 C CNN
-F 1 "0" V 4950 4350 50  0000 C CNN
-F 2 "" V 4880 4350 50  0001 C CNN
-F 3 "" H 4950 4350 50  0000 C CNN
-	1    4950 4350
-	1    0    0    -1  
-$EndComp
 Connection ~ 8300 7350
 Wire Wire Line
 	5050 4900 6500 4900
@@ -658,8 +647,6 @@ Connection ~ 3650 4850
 Connection ~ 3650 4750
 Wire Wire Line
 	4800 4600 4950 4600
-Wire Wire Line
-	4950 4600 4950 4500
 Connection ~ 3650 4950
 Wire Wire Line
 	6800 4900 7600 4900
@@ -685,8 +672,6 @@ Wire Wire Line
 	6500 4600 5050 4600
 Connection ~ 6950 4900
 Wire Wire Line
-	4950 4200 4950 4050
-Wire Wire Line
 	7600 4300 7450 4300
 Wire Wire Line
 	7150 4300 7000 4300
@@ -696,10 +681,10 @@ Wire Wire Line
 	6700 6300 6950 6300
 Wire Wire Line
 	7650 2350 7650 2400
-Connection ~ 4950 4050
+Connection ~ 4950 3850
 Wire Wire Line
-	5150 4050 4750 4050
-Text Label 5000 4050 0    60   ~ 0
+	5150 3850 4750 3850
+Text Label 5000 3850 0    60   ~ 0
 +5V_USB
 Text Label 5900 2400 0    60   ~ 0
 +5V_USB
@@ -707,4 +692,20 @@ Wire Wire Line
 	5850 2400 6550 2400
 Wire Wire Line
 	6450 2450 6450 2400
+$Comp
+L Fuse F1
+U 1 1 58A342AC
+P 4950 4250
+F 0 "F1" V 5030 4250 50  0000 C CNN
+F 1 "MF-MSMF050-2" V 4850 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_1812" V 4880 4250 50  0001 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf" H 4950 4250 50  0001 C CNN
+F 4 "MF-MSMF050-2TR-ND" V 4950 4250 60  0001 C CNN "REF DIGIKEY"
+	1    4950 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3850 4950 4100
+Wire Wire Line
+	4950 4600 4950 4400
 $EndSCHEMATC
