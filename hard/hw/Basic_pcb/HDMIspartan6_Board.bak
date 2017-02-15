@@ -115,17 +115,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6650 1250 1500 1450
+S 8150 1950 1100 1400
 U 555AB8C7
 F0 "serial_interface" 60
 F1 "serial_interface.sch" 60
-F2 "TXD" B L 6650 1600 60 
-F3 "RXD" B L 6650 1500 60 
-F4 "TCK" I L 6650 2050 60 
-F5 "TDI" I L 6650 1950 60 
-F6 "TDO" I L 6650 1850 60 
-F7 "TMS" I L 6650 2150 60 
-F8 "USB_5V" I L 6650 2550 60 
+F2 "TXD" B L 8150 2300 60 
+F3 "RXD" B L 8150 2200 60 
+F4 "TCK" I L 8150 2750 60 
+F5 "TDI" I L 8150 2650 60 
+F6 "TDO" I L 8150 2550 60 
+F7 "TMS" I L 8150 2850 60 
+F8 "USB_5V" I L 8150 3100 60 
 $EndSheet
 $Comp
 L CONN_1 TH1
@@ -793,51 +793,46 @@ F 3 "" H 4950 7000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 4250 3150 950  900 
+S 5800 3800 900  600 
 U 5898EE54
 F0 "Audio" 60
 F1 "Audio.sch" 60
-F2 "~SD" I L 4250 3400 60 
+F2 "~SD" I R 6700 4100 60 
 $EndSheet
 $Sheet
-S 4300 1250 900  1450
+S 5750 1950 950  1400
 U 54B6445D
 F0 "spartan6" 60
 F1 "spartan6.sch" 60
-F2 "F_TCK" I R 5200 2050 60 
-F3 "F_TDI" I R 5200 1950 60 
-F4 "F_TDO" I R 5200 1850 60 
-F5 "F_TMS" I R 5200 2150 60 
-F6 "F_RXD" I R 5200 1500 60 
-F7 "F_TXD" I R 5200 1600 60 
+F2 "F_TCK" I R 6700 2750 60 
+F3 "F_TDI" I R 6700 2650 60 
+F4 "F_TDO" I R 6700 2550 60 
+F5 "F_TMS" I R 6700 2850 60 
+F6 "F_RXD" I R 6700 2200 60 
+F7 "F_TXD" I R 6700 2300 60 
+F8 "F_~SD" I R 6700 3100 60 
 $EndSheet
 $Sheet
-S 6650 3150 1000 950 
+S 8150 3800 1100 600 
 U 58991CBD
 F0 "Power" 60
 F1 "Power.sch" 60
-F2 "USBVCC" I L 6650 3350 60 
+F2 "USBVCC" I L 8150 4100 60 
 $EndSheet
 Wire Wire Line
-	6650 1850 5200 1850
+	8150 2550 6700 2550
 Wire Wire Line
-	6650 1950 5200 1950
+	8150 2650 6700 2650
 Wire Wire Line
-	6650 2050 5200 2050
+	8150 2750 6700 2750
 Wire Wire Line
-	6650 2150 5200 2150
+	8150 2850 6700 2850
 Wire Wire Line
-	5200 1500 6650 1500
+	6700 2200 8150 2200
 Wire Wire Line
-	6650 1600 5200 1600
-Wire Wire Line
-	6650 3350 6450 3350
-Wire Wire Line
-	6450 3350 6450 2550
-Wire Wire Line
-	6450 2550 6650 2550
+	8150 2300 6700 2300
 Text Notes 950  3450 0    60   ~ 0
-PENDIENTES:\n\n>>> IMPLEMENTAR REGLAS DEL FABRICANTE <<<\n\n- Boton RST\n- Huella L3\n- Todos los conectores de 2.54mm (?), menos LVDS.\n- Referenciar elementos importantes segun fabricante y DigiKey\n- Conectar SD a FPGA, preguntar diodo de proteccion\n- Huella TPS63070\n- Reorganizar PinOut
+PENDIENTES:\n\n>>> IMPLEMENTAR REGLAS DEL FABRICANTE <<<\n\n- Boton RST\n- Todos los conectores de 2.54mm (?), menos LVDS.\n- Referenciar elementos importantes segun fabricante y DigiKey\n- Conectar SD a FPGA, preguntar diodo de proteccion\n- Reorganizar PinOut
 Wire Notes Line
 	750  2200 750  3700
 Wire Notes Line
@@ -846,4 +841,16 @@ Wire Notes Line
 	4000 3700 4000 2200
 Wire Notes Line
 	4000 2200 750  2200
+Wire Wire Line
+	7950 4100 8150 4100
+Wire Wire Line
+	6700 3100 6900 3100
+Wire Wire Line
+	6900 3100 6900 4100
+Wire Wire Line
+	6900 4100 6700 4100
+Wire Wire Line
+	7950 4100 7950 3100
+Wire Wire Line
+	7950 3100 8150 3100
 $EndSCHEMATC
