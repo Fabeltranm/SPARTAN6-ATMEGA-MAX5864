@@ -832,7 +832,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2300 6700 2300
 Text Notes 950  3450 0    60   ~ 0
-PENDIENTES:\n\n>>> IMPLEMENTAR REGLAS DEL FABRICANTE <<<\n\n- Boton RST\n- Todos los conectores de 2.54mm (?), menos LVDS.\n- Referenciar elementos importantes segun fabricante y DigiKey\n- Conectar SD a FPGA, preguntar diodo de proteccion\n- Reorganizar PinOut
+PENDIENTES:\n\n>>> IMPLEMENTAR REGLAS DEL FABRICANTE <<<\n\n- Reorganizar PinOut
 Wire Notes Line
 	750  2200 750  3700
 Wire Notes Line
