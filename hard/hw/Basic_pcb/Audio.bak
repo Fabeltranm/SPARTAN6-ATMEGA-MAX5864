@@ -171,7 +171,7 @@ F 4 "PAM8302AASCRDI-ND" H 6600 3650 60  0001 C CNN "DIGIKEY REF"
 	1    6600 3650
 	1    0    0    -1  
 $EndComp
-Text Label 2600 4350 0    60   ~ 0
+Text Label 2700 4350 0    60   ~ 0
 ~SD
 $Comp
 L GND #PWR019
@@ -346,7 +346,7 @@ F 3 "" H 5100 5000 50  0000 C CNN
 	1    5100 5000
 	0    1    1    0   
 $EndComp
-Text HLabel 4400 5000 0    60   Input ~ 0
+Text HLabel 2900 4350 2    60   Input ~ 0
 ~SD
 $Comp
 L GND #PWR027
@@ -400,8 +400,6 @@ Wire Wire Line
 	2750 3300 2550 3300
 Wire Wire Line
 	2750 3400 2550 3400
-Wire Wire Line
-	2750 4350 2550 4350
 Wire Wire Line
 	7300 3600 7100 3600
 Wire Wire Line
@@ -459,8 +457,6 @@ Wire Wire Line
 	2750 4450 2550 4450
 Wire Wire Line
 	2550 3500 2750 3500
-Wire Wire Line
-	4400 5000 4950 5000
 $Comp
 L CONN_01X02 P2
 U 1 1 5898CF86
@@ -472,4 +468,8 @@ F 3 "" H 8800 3650 50  0000 C CNN
 	1    8800 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2900 4350 2550 4350
+Wire Wire Line
+	4950 5000 4700 5000
 $EndSCHEMATC
