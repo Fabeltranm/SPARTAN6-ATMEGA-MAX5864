@@ -832,7 +832,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2300 6700 2300
 Text Notes 950  3450 0    60   ~ 0
-PENDIENTES:\n\n>>> IMPLEMENTAR REGLAS DEL FABRICANTE <<<\n\n- Reorganizar PinOut
+PENDIENTES:\n\n>>> IMPLEMENTAR REGLAS DEL FABRICANTE <<<\n\n- Reorganizar PinOut\n- Asignar LEDs indicadores a FPGA
 Wire Notes Line
 	750  2200 750  3700
 Wire Notes Line
