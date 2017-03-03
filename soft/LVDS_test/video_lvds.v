@@ -8,6 +8,7 @@ module video_lvds(
 		input [7:0] Red,
 		input [7:0] Green,
 		input [7:0] Blue,
+		output prueba,
 		output channel1_p,
 		output channel1_n,
 		output channel2_p,
@@ -71,14 +72,15 @@ serializer channel4_ser (
     .clk35(clk35), 
     .notclk35(notclk35), 
     .data(VideoData[27:21]), 
-	 .rst(rst_clk),
+	.rst(rst_clk),
     .out(c4)
     );
 
+// Vector de salida para el LVDS, organizado segun la trama necesaria
 assign VideoData[27:21]	= {Red[6],   Red[7],  Green[6], Green[7],  Blue[6],  Blue[7],   DataEnable};
 assign VideoData[20:14]	= {Blue[2],  Blue[3],  Blue[4],  Blue[5],  HSync,    VSync,   DataEnable};
 assign VideoData[13:7]  = {Green[1], Green[2], Green[3], Green[4], Green[5], Blue[0], Blue[1]};
 assign VideoData[6:0]	= {Red[0],   Red[1],   Red[2],   Red[3],   Red[4],   Red[5],  Green[0]};
 
-
+assign prueba = DataEnable;
 endmodule

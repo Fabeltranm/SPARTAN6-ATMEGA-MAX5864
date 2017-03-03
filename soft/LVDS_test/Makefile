@@ -14,11 +14,16 @@ IVERILOG        = iverilog
 
 #SRC             = $(DESIGN).v
 
-SRC 		=	$(DESIGN).v serializer.v\
+SRC 		=	$(DESIGN).v \
+			serializer.v \
 			lvds_clockgen.v \
 			video_lvds.v  \
-			ram.v \
-			dvi_decoder.v 		
+			dvi_decoder.v \
+			serdes_1_to_5_diff_data.v \
+			phsaligner.v \
+			DRAM16XN.v \
+			decode.v \
+			chnlbond.v		
 
 SIM_SRC = $(DESIGN)_TB.v          \
 

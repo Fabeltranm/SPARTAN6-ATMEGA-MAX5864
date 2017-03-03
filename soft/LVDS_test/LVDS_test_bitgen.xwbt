@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/raparram/Documentos/LVDS_test/LVDS_test.ncd
+OUTFILE=/home/raparram/Documentos/LVDS_test/LVDS_test.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=/home/raparram/Documentos/LVDS_test
+LICENSE=WebPack
+USER_INFO=211095409_0_0_571

@@ -1,8 +1,8 @@
 `timescale 1ns / 1ps
 
 module LVDS_test(
-    input clk,
-
+    input CLK50,
+	 // salidas de LVDS
 	 output channel1_p,
 	 output channel1_n,
 	 output channel2_p,
@@ -13,54 +13,69 @@ module LVDS_test(
 	 output channel4_n,
 	 output clock_p,
 	 output clock_n,
-	 output reg led
-    );
+	 input data_e,
+	 output reg led,
+	 // entradas de HDMI TMDS
+	 input wire [3:0]  RX_TMDS,
+	 input wire [3:0]  RX_TMDSB
+  );
 
+  //******************************************************************//
+  // Create global clock and synchronous system reset.                //
+  //******************************************************************//
+  wire          clkin;
+  wire          clk;
+  wire rx_hsync;          // hsync data
+  wire rx_vsync;          // vsync data
+  wire rx_de;             // data enable
+  wire rx_psalgnerr;      // channel phase alignment error
+  wire [7:0] rx_red;      // pixel data out
+  wire [7:0] rx_green;    // pixel data out
+  wire [7:0] rx_blue;     // pixel data out
+  wire [29:0] rx_sdata;
+  
+  dvi_decoder dvi_rx0 (
 
-reg [7:0] RGBimg;
+    .tmdsclk_p   (RX_TMDS[3]),  // reloj
+    .tmdsclk_n   (RX_TMDSB[3]),
+    .blue_p      (RX_TMDS[0]),  // azul
+	 .blue_n      (RX_TMDSB[0]),
+    .green_p     (RX_TMDS[1]),  // verde
+	 .green_n     (RX_TMDSB[1]),
+    .red_p       (RX_TMDS[2]),  // rojo
+    .red_n       (RX_TMDSB[2]),
+    .exrst       (0),
+    //These are output ports
+    .pclk        (clk),
+	 .prueba		  (),
+    .reset       (reset),
+	 .sdout		  (rx_sdata),
+    .hsync       (rx_hsync),
+    .vsync       (rx_vsync),
+    .de          (rx_de),
+    .red         (rx_red),
+    .green       (rx_green),
+    .blue        (rx_blue)
+	);
+	
 reg [30:0]  Contador=0;
-
-parameter ScreenX = 1280;
-parameter ScreenY = 800;
-
-parameter BlankingVertical = 12;
-parameter BlankingHorizontal = 50;
 
 wire clo,clk6x,clk_lckd, clkdcm;
 
-reg [7:0] Red   = 8'h0;
-reg [7:0] Blue  = 8'h0;
-reg [7:0] Green = 8'hFF;
-
-
-
-reg [10:0] ContadorX = ScreenX+BlankingHorizontal-3; // Contador de colunas
-reg [10:0] ContadorY = ScreenY+BlankingVertical; // Contador de lineas
-
-
-
+// LVDS output
+wire [7:0] Red   = 8'h0;
+wire [7:0] Blue  = 8'h0;
+wire [7:0] Green = 8'h0;
 
 assign clkprueba =clk6x;
 
-wire HSync =((ContadorX>ScreenX) & (ContadorX<(ScreenX+(BlankingHorizontal/2))))?0:1;
-wire VSync =((ContadorY>ScreenY) & (ContadorY<(ScreenY+(BlankingVertical/2))))?0:1;
-wire DataEnable = ((ContadorX<ScreenX) & (ContadorY<ScreenY));
-
-always @(posedge clk6x) begin
-
-	ContadorX <= (ContadorX==(ScreenX+BlankingHorizontal)) ? 0 : ContadorX+1;
-	if(ContadorX==(ScreenX+BlankingHorizontal)) ContadorY <= (ContadorY==(ScreenY+BlankingVertical)) ? 0 : ContadorY+1;
-
-end
-
 DCM_SP #(
-//	.CLKIN_PERIOD	(63), // 64MHz Clock from 16MHz Input
 	.CLKIN_PERIOD	(83),  // from 12MHz Input
 	.CLKFX_MULTIPLY	(6),   // 72 MHz Clock
 	.CLKFX_DIVIDE 	(1)
 	)
 dcm_main (
-	.CLKIN   	(clk),
+	.CLKIN   	(CLK50),
 	.CLKFB   	(clo),
 	.RST     	(1'b0),
 	.CLK0    	(clkdcm),
@@ -68,19 +83,18 @@ dcm_main (
 	.LOCKED  	(clk_lckd)
 );
 
-
 BUFG 	clk_bufg	(.I(clkdcm), 	.O(clo) ) ;
 
-
 video_lvds videoencoder (
-    .DotClock(clk6x), 
-    .HSync(HSync), 
-    .VSync(VSync), 
-    .DataEnable(DataEnable), 
-    .Red(Red), 
-    .Green(Green), 
-    .Blue(Blue), 
-    .channel1_p(channel1_p), 
+    .DotClock(clk6x), // se trabaja con el reloj de 12 MHz de la Quacho
+    .HSync(rx_hsync), // sincronismo horizontal
+    .VSync(rx_vsync),  // sincronismo vertical 
+    .DataEnable(rx_de),  // bit que habilita escritura de datos en la pantalla
+    .Red(rx_red), 			// 8 bits rojo [msb,lsb]
+    .Green(rx_green), 		// 8 bits verde [msb,lsb]
+    .Blue(rx_blue), 		// 8 bits azul [msb,lsb]
+	 // salidas LVDS de 8 bits
+    .channel1_p(channel1_p),  
     .channel1_n(channel1_n), 
     .channel2_p(channel2_p), 
     .channel2_n(channel2_n), 
@@ -88,70 +102,19 @@ video_lvds videoencoder (
     .channel3_n(channel3_n), 
     .channel4_p(channel4_p), 
     .channel4_n(channel4_n), 
+	 // señal de reloj LVDS
     .clock_p(clock_p), 
     .clock_n(clock_n)
     );
 
-
-
-
-//Video Generator
-
-
-always @(posedge clk6x)
-
-begin
-	if (led) begin
-		if(ContadorX < ScreenX/8) begin            Blue <= 8'b00; Red 	<= 8'b0;  Green	<= 8'b0;
-		end else if(ContadorX < ScreenX/4)   begin Blue <= 8'hFF; Red 	<= 8'b0;  Green	<= 8'b0;
-		end else if(ContadorX < 3*ScreenX/8) begin Blue <= 8'b00; Red 	<= 8'HFF; Green	<= 8'b0;
-		end else if(ContadorX < ScreenX/2)   begin Blue	<= 8'hff; Red 	<= 8'hff; Green <= 8'b0;
-		end else if(ContadorX < 5*ScreenX/8) begin Blue <= 8'b0;  Red 	<= 8'b0;  Green <= 8'hff;
-		end else if(ContadorX < 3*ScreenX/4) begin Blue <= 8'hff; Red 	<= 8'b0;  Green <= 8'hff;
-		end else if(ContadorX < 7*ScreenX/8) begin Blue <= 8'b0;  Red 	<= 8'hff; Green <= 8'hff;
-		end else begin Blue <= 8'b11111111; Red <= 8'hff; Green <= 8'b11111111;
-		end 
-	end else begin
-		Red   <= 00;  
-		Green <= 0;
-		Blue  <= RGBimg; 
-	end
-end
-
-
-
 // test led
-
-always @(posedge clk6x)
+always @(posedge clk)
 begin
 	Contador <= Contador + 1;
-        if (Contador==36000000*2)
+        if (Contador==18000000)
 	begin
 		led <= ~led;
 		Contador <= 0;
-	
-        end
+      end
 end
-//RAM image
- 
-parameter tm = (1<<12) -1;
-reg    [7:0] ram [0:tm];
-always @(clk6x) begin
-  
-if ((ContadorX+ (ScreenX*ContadorY))<tm )
-	RGBimg = ram[ContadorX+ (ScreenX*ContadorY)] ;
-else
-	RGBimg = 8'h00;
-
-end
-initial 
-begin
-	$readmemh("/scriptimg2ram/image.mem", ram);
-end
-
 endmodule
-
-
-//////////////////////////////////////////////////////////////////
-
-

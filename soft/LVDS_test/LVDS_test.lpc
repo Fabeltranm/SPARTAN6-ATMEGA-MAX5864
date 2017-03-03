@@ -1,0 +1,30 @@
+# LVDS_test.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Fri Feb 24 13:27:31 2017
+#The following constraints were newly added
+NET "clock_n" LOC = P61;
+NET "clock_p" LOC = P62;
+NET "channel1_n" LOC = P50;
+NET "channel1_p" LOC = P51;
+NET "led" LOC = P12;
+NET "channel2_n" LOC = P55;
+NET "channel2_p" LOC = P56;
+NET "channel3_n" LOC = P57;
+NET "channel3_p" LOC = P58;
+NET "channel4_n" LOC = P64;
+NET "channel4_p" LOC = P65;
+NET "CLK50" LOC = P17;
+NET "RX_TMDSB<0>" LOC = P114;
+NET "RX_TMDSB<1>" LOC = P116;
+NET "RX_TMDSB<2>" LOC = P118;
+NET "RX_TMDSB<3>" LOC = P23;
+NET "RX_TMDS<0>" LOC = P115;
+NET "RX_TMDS<1>" LOC = P117;
+NET "RX_TMDS<2>" LOC = P119;
+NET "RX_TMDS<3>" LOC = P24;

@@ -832,7 +832,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2300 6700 2300
 Text Notes 950  3450 0    60   ~ 0
-PENDIENTES:\n\n>>> IMPLEMENTAR REGLAS DEL FABRICANTE <<<\n\n- Reorganizar PinOut\n- Asignar LEDs indicadores a FPGA
+PENDIENTES:\n\n>>> IMPLEMENTAR REGLAS DEL FABRICANTE <<<\n\n- Reorganizar PinOut\n- Asignar LEDs indicadores a FPGA\n\n\nDUDAS:\n\n- El pin ~SD~ del amplificador de sonido PAM8302 esta conectado\n desde la FPGA para habilitar el sonido, pero tambien a una \nregleta para poder activilarlo con un jumper ¿se requiere alguna\ncomponente adicional para porteger el amplificar y la FPGA?\nCaso hipotetico: desde la FPGA se asigno a la señal ~SD~ \nun nivel logico alto, y desde el jumper se pone en tierra, \nesto seria un corto.
 Wire Notes Line
 	750  2200 750  3700
 Wire Notes Line

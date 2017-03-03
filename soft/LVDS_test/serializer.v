@@ -87,7 +87,7 @@ begin
 					
 			if(SendOK)
 			begin
-				case (outcount)
+				case (outcount) 
 					0:	shiftdata <= { buffer[0][0], buffer[0][1] };
 					1:	shiftdata <= { buffer[0][2], buffer[0][3] };
 					2:	shiftdata <= { buffer[0][4], buffer[0][5] };

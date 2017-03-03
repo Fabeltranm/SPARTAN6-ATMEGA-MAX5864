@@ -1,0 +1,1008 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Reading design: LVDS_test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LVDS_test.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LVDS_test"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : LVDS_test
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/raparram/Documentos/LVDS_test/DRAM16XN.v" into library work
+Parsing module <DRAM16XN>.
+Analyzing Verilog file "/home/raparram/Documentos/LVDS_test/serializer.v" into library work
+Parsing module <serializer>.
+Analyzing Verilog file "/home/raparram/Documentos/LVDS_test/serdes_1_to_5_diff_data.v" into library work
+Parsing module <serdes_1_to_5_diff_data>.
+Analyzing Verilog file "/home/raparram/Documentos/LVDS_test/phsaligner.v" into library work
+Parsing module <phsaligner>.
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 65. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 66. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 67. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 68. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 133. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 134. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 135. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 136. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 137. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 138. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 139. parameter declaration becomes local in phsaligner with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 169. parameter declaration becomes local in phsaligner with formal parameter declaration list
+Analyzing Verilog file "/home/raparram/Documentos/LVDS_test/chnlbond.v" into library work
+Parsing module <chnlbond>.
+Analyzing Verilog file "/home/raparram/Documentos/LVDS_test/lvds_clockgen.v" into library work
+Parsing module <lvds_clockgen>.
+Analyzing Verilog file "/home/raparram/Documentos/LVDS_test/decode.v" into library work
+Parsing module <decode>.
+Analyzing Verilog file "/home/raparram/Documentos/LVDS_test/video_lvds.v" into library work
+Parsing module <video_lvds>.
+Analyzing Verilog file "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" into library work
+Parsing module <dvi_decoder>.
+Analyzing Verilog file "/home/raparram/Documentos/LVDS_test/LVDS_test.v" into library work
+Parsing module <LVDS_test>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" Line 72: Port CLK180 is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" Line 88: Port prueba is not connected to this instance
+
+Elaborating module <LVDS_test>.
+WARNING:HDLCompiler:1016 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" Line 196: Port prueba is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" Line 242: Port prueba is not connected to this instance
+
+Elaborating module <dvi_decoder>.
+
+Elaborating module <IBUFDS(IOSTANDARD="TMDS_33",DIFF_TERM="FALSE")>.
+
+Elaborating module <BUFIO2(DIVIDE_BYPASS="TRUE",DIVIDE=1)>.
+
+Elaborating module <BUFG>.
+WARNING:HDLCompiler:1127 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" Line 146: Assignment to tmdsclk ignored, since the identifier is never used
+
+Elaborating module <PLL_BASE(CLKIN_PERIOD=10,CLKFBOUT_MULT=10,CLKOUT0_DIVIDE=1,CLKOUT1_DIVIDE=10,CLKOUT2_DIVIDE=5,COMPENSATION="INTERNAL")>.
+
+Elaborating module <BUFPLL(DIVIDE=5)>.
+
+Elaborating module <decode>.
+
+Elaborating module <serdes_1_to_5_diff_data(DIFF_TERM="FALSE",BITSLIP_ENABLE="TRUE")>.
+WARNING:HDLCompiler:413 - "/home/raparram/Documentos/LVDS_test/serdes_1_to_5_diff_data.v" Line 251: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Documentos/LVDS_test/serdes_1_to_5_diff_data.v" Line 253: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Documentos/LVDS_test/serdes_1_to_5_diff_data.v" Line 254: Result of 2-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <IBUFDS(DIFF_TERM="FALSE")>.
+
+Elaborating module <IODELAY2(DATA_RATE="SDR",IDELAY_VALUE=0,IDELAY2_VALUE=0,IDELAY_MODE="NORMAL",ODELAY_VALUE=0,IDELAY_TYPE="DIFF_PHASE_DETECTOR",COUNTER_WRAPAROUND="STAY_AT_LIMIT",DELAY_SRC="IDATAIN",SERDES_MODE="MASTER",SIM_TAPDELAY_VALUE=49)>.
+
+Elaborating module <IODELAY2(DATA_RATE="SDR",IDELAY_VALUE=0,IDELAY2_VALUE=0,IDELAY_MODE="NORMAL",ODELAY_VALUE=0,IDELAY_TYPE="DIFF_PHASE_DETECTOR",COUNTER_WRAPAROUND="WRAPAROUND",DELAY_SRC="IDATAIN",SERDES_MODE="SLAVE",SIM_TAPDELAY_VALUE=49)>.
+
+Elaborating module <ISERDES2(DATA_WIDTH=5,DATA_RATE="SDR",BITSLIP_ENABLE="TRUE",SERDES_MODE="MASTER",INTERFACE_TYPE="RETIMED")>.
+
+Elaborating module <ISERDES2(DATA_WIDTH=5,DATA_RATE="SDR",BITSLIP_ENABLE="TRUE",SERDES_MODE="SLAVE",INTERFACE_TYPE="RETIMED")>.
+
+Elaborating module <phsaligner>.
+WARNING:HDLCompiler:1308 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 174: Found full_case directive in module phsaligner. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "/home/raparram/Documentos/LVDS_test/phsaligner.v" Line 221: Found full_case directive in module phsaligner. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+
+Elaborating module <chnlbond>.
+
+Elaborating module <DRAM16XN(data_width=10)>.
+
+Elaborating module <RAM16X1D>.
+WARNING:HDLCompiler:1127 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" Line 238: Assignment to de_g ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" Line 260: Assignment to de_r ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" Line 266: Assignment to psalgnerr ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" Line 47: Size mismatch in connection of port <exrst>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:1127 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" Line 51: Assignment to reset ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" Line 52: Assignment to rx_sdata ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" Line 70: Assignment to clkprueba ignored, since the identifier is never used
+
+Elaborating module <DCM_SP(CLKIN_PERIOD=83,CLKFX_MULTIPLY=6,CLKFX_DIVIDE=1)>.
+WARNING:HDLCompiler:1127 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" Line 83: Assignment to clk_lckd ignored, since the identifier is never used
+
+Elaborating module <video_lvds>.
+
+Elaborating module <OBUFDS(IOSTANDARD="LVDS_33")>.
+WARNING:HDLCompiler:1016 - "/home/raparram/Documentos/LVDS_test/lvds_clockgen.v" Line 57: Port PRE is not connected to this instance
+
+Elaborating module <lvds_clockgen>.
+
+Elaborating module <DCM_SP(CLKIN_PERIOD="15.625",DESKEW_ADJUST="0",CLKFX_MULTIPLY=7,CLKFX_DIVIDE=2)>.
+
+Elaborating module <FDP>.
+
+Elaborating module <serializer>.
+
+Elaborating module <ODDR2(DDR_ALIGNMENT="NONE")>.
+WARNING:HDLCompiler:413 - "/home/raparram/Documentos/LVDS_test/serializer.v" Line 64: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Documentos/LVDS_test/serializer.v" Line 83: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" Line 113: Result of 32-bit expression is truncated to fit in 31-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <LVDS_test>.
+    Related source file is "/home/raparram/Documentos/LVDS_test/LVDS_test.v".
+WARNING:Xst:647 - Input <data_e> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" line 37: Output port <sdout> of the instance <dvi_rx0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" line 37: Output port <reset> of the instance <dvi_rx0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" line 37: Output port <prueba> of the instance <dvi_rx0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/LVDS_test.v" line 88: Output port <prueba> of the instance <videoencoder> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <led>.
+    Found 31-bit register for signal <Contador>.
+    Found 31-bit adder for signal <Contador[30]_GND_1_o_add_4_OUT> created at line 113.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+Unit <LVDS_test> synthesized.
+
+Synthesizing Unit <dvi_decoder>.
+    Related source file is "/home/raparram/Documentos/LVDS_test/dvi_decoder.v".
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 196: Output port <psalgnerr> of the instance <dec_b> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 196: Output port <prueba> of the instance <dec_b> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 219: Output port <psalgnerr> of the instance <dec_g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 219: Output port <c0> of the instance <dec_g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 219: Output port <c1> of the instance <dec_g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 219: Output port <de> of the instance <dec_g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 242: Output port <psalgnerr> of the instance <dec_r> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 242: Output port <c0> of the instance <dec_r> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 242: Output port <c1> of the instance <dec_r> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 242: Output port <de> of the instance <dec_r> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/dvi_decoder.v" line 242: Output port <prueba> of the instance <dec_r> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <dvi_decoder> synthesized.
+
+Synthesizing Unit <decode>.
+    Related source file is "/home/raparram/Documentos/LVDS_test/decode.v".
+        CTRLTOKEN0 = 10'b1101010100
+        CTRLTOKEN1 = 10'b0010101011
+        CTRLTOKEN2 = 10'b0101010100
+        CTRLTOKEN3 = 10'b1010101011
+    Found 1-bit register for signal <toggle>.
+    Found 5-bit register for signal <raw5bit_q>.
+    Found 10-bit register for signal <rawword>.
+    Found 1-bit register for signal <bitslip_q>.
+    Found 1-bit register for signal <bitslipx2>.
+    Found 1-bit register for signal <c0>.
+    Found 1-bit register for signal <c1>.
+    Found 1-bit register for signal <de>.
+    Found 8-bit register for signal <dout>.
+    Found 10-bit register for signal <sdout>.
+    Found 1-bit register for signal <flipgearx2>.
+    Summary:
+	inferred  40 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <decode> synthesized.
+
+Synthesizing Unit <serdes_1_to_5_diff_data>.
+    Related source file is "/home/raparram/Documentos/LVDS_test/serdes_1_to_5_diff_data.v".
+        DIFF_TERM = "FALSE"
+        SIM_TAP_DELAY = 49
+        BITSLIP_ENABLE = "TRUE"
+    Found 9-bit register for signal <counter>.
+    Found 5-bit register for signal <pdcounter>.
+    Found 4-bit register for signal <state>.
+    Found 1-bit register for signal <cal_data_master>.
+    Found 1-bit register for signal <cal_data_sint>.
+    Found 1-bit register for signal <enable>.
+    Found 1-bit register for signal <ce_data_inta>.
+    Found 1-bit register for signal <flag>.
+    Found 1-bit register for signal <rst_data>.
+    Found 1-bit register for signal <busy_data_d>.
+    Found 1-bit register for signal <incdec_data_d>.
+    Found 1-bit register for signal <valid_data_d>.
+    Found 1-bit register for signal <ce_data>.
+    Found 1-bit register for signal <inc_data_int>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 29                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 9                                              |
+    | Clock              | gclk (rising_edge)                             |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 9-bit adder for signal <counter[8]_GND_9_o_add_2_OUT> created at line 125.
+    Found 5-bit adder for signal <pdcounter[4]_GND_9_o_add_54_OUT> created at line 227.
+    Found 5-bit adder for signal <pdcounter[4]_PWR_9_o_add_57_OUT> created at line 230.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  25 D-type flip-flop(s).
+	inferred  11 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <serdes_1_to_5_diff_data> synthesized.
+
+Synthesizing Unit <phsaligner>.
+    Related source file is "/home/raparram/Documentos/LVDS_test/phsaligner.v".
+        OPENEYE_CNT_WD = 3
+        CTKNCNTWD = 7
+        SRCHTIMERWD = 12
+    Found 1-bit register for signal <ctkn_srh_rst>.
+    Found 1-bit register for signal <ctkn_cnt_rst>.
+    Found 3-bit register for signal <bitslip_cnt>.
+    Found 6-bit register for signal <cstate>.
+    Found 1-bit register for signal <psaligned>.
+    Found 1-bit register for signal <bitslip>.
+    Found 1-bit register for signal <flipgear>.
+    Found 1-bit register for signal <blnkprd_cnt>.
+    Found 1-bit register for signal <rcvd_ctkn_q>.
+    Found 1-bit register for signal <blnkbgn>.
+    Found 12-bit register for signal <ctkn_srh_timer>.
+    Found 1-bit register for signal <ctkn_srh_tout>.
+    Found 7-bit register for signal <ctkn_counter>.
+    Found 1-bit register for signal <ctkn_cnt_tout>.
+    Found 1-bit register for signal <rcvd_ctkn>.
+    Found finite state machine <FSM_1> for signal <cstate>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000001                                         |
+    | Power Up State     | 000001                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 12-bit adder for signal <ctkn_srh_timer[11]_GND_17_o_add_6_OUT> created at line 98.
+    Found 7-bit adder for signal <ctkn_counter[6]_GND_17_o_add_12_OUT> created at line 122.
+    Found 3-bit adder for signal <bitslip_cnt[2]_GND_17_o_add_32_OUT> created at line 245.
+    Found 1-bit adder for signal <blnkprd_cnt[0]_PWR_16_o_add_33_OUT<0>> created at line 255.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <phsaligner> synthesized.
+
+Synthesizing Unit <chnlbond>.
+    Related source file is "/home/raparram/Documentos/LVDS_test/chnlbond.v".
+        CTRLTOKEN0 = 10'b1101010100
+        CTRLTOKEN1 = 10'b0010101011
+        CTRLTOKEN2 = 10'b0101010100
+        CTRLTOKEN3 = 10'b1010101011
+INFO:Xst:3210 - "/home/raparram/Documentos/LVDS_test/chnlbond.v" line 86: Output port <O_DATA_OUT> of the instance <cbfifo_i> is unconnected or connected to loadless signal.
+    Register <we> equivalent to <rawdata_vld_q> has been removed
+    Found 4-bit register for signal <wa>.
+    Found 10-bit register for signal <sdata>.
+    Found 1-bit register for signal <rcvd_ctkn>.
+    Found 1-bit register for signal <rcvd_ctkn_q>.
+    Found 1-bit register for signal <blnkbgn>.
+    Found 1-bit register for signal <skip_line>.
+    Found 1-bit register for signal <iamrdy>.
+    Found 1-bit register for signal <rawdata_vld_q>.
+    Found 1-bit register for signal <rawdata_vld_rising>.
+    Found 1-bit register for signal <ra_en>.
+    Found 4-bit register for signal <ra>.
+    Found 4-bit adder for signal <wa[3]_GND_19_o_add_2_OUT> created at line 79.
+    Found 4-bit adder for signal <ra[3]_GND_19_o_add_17_OUT> created at line 167.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+Unit <chnlbond> synthesized.
+
+Synthesizing Unit <DRAM16XN>.
+    Related source file is "/home/raparram/Documentos/LVDS_test/DRAM16XN.v".
+        data_width = 10
+    Summary:
+	no macro.
+Unit <DRAM16XN> synthesized.
+
+Synthesizing Unit <video_lvds>.
+    Related source file is "/home/raparram/Documentos/LVDS_test/video_lvds.v".
+    Summary:
+	no macro.
+Unit <video_lvds> synthesized.
+
+Synthesizing Unit <lvds_clockgen>.
+    Related source file is "/home/raparram/Documentos/LVDS_test/lvds_clockgen.v".
+    Summary:
+	no macro.
+Unit <lvds_clockgen> synthesized.
+
+Synthesizing Unit <serializer>.
+    Related source file is "/home/raparram/Documentos/LVDS_test/serializer.v".
+    Found 3-bit register for signal <outcount>.
+    Found 2-bit register for signal <shiftdata>.
+    Found 14-bit register for signal <n0019>.
+    Found 1-bit register for signal <datacount>.
+    Found 1-bit register for signal <DataInBuffer>.
+    Found 1-bit register for signal <SendOK>.
+    Found 1-bit adder for signal <datacount_PWR_26_o_add_1_OUT<0>> created at line 64.
+    Found 3-bit adder for signal <outcount[2]_GND_28_o_add_8_OUT> created at line 83.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   9 Multiplexer(s).
+Unit <serializer> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 35
+ 1-bit adder                                           : 8
+ 12-bit adder                                          : 3
+ 3-bit adder                                           : 8
+ 31-bit adder                                          : 1
+ 4-bit adder                                           : 6
+ 5-bit adder                                           : 3
+ 7-bit adder                                           : 3
+ 9-bit adder                                           : 3
+# Registers                                            : 179
+ 1-bit register                                        : 127
+ 10-bit register                                       : 9
+ 12-bit register                                       : 3
+ 14-bit register                                       : 5
+ 2-bit register                                        : 5
+ 3-bit register                                        : 8
+ 31-bit register                                       : 1
+ 4-bit register                                        : 6
+ 5-bit register                                        : 6
+ 7-bit register                                        : 3
+ 8-bit register                                        : 3
+ 9-bit register                                        : 3
+# Multiplexers                                         : 102
+ 1-bit 2-to-1 multiplexer                              : 39
+ 2-bit 2-to-1 multiplexer                              : 30
+ 3-bit 2-to-1 multiplexer                              : 5
+ 5-bit 2-to-1 multiplexer                              : 12
+ 7-bit 2-to-1 multiplexer                              : 10
+ 8-bit 2-to-1 multiplexer                              : 3
+ 9-bit 2-to-1 multiplexer                              : 3
+# FSMs                                                 : 6
+# Xors                                                 : 45
+ 1-bit xor2                                            : 45
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <LVDS_test>.
+The following registers are absorbed into counter <Contador>: 1 register on signal <Contador>.
+Unit <LVDS_test> synthesized (advanced).
+
+Synthesizing (advanced) Unit <chnlbond>.
+The following registers are absorbed into counter <wa>: 1 register on signal <wa>.
+The following registers are absorbed into counter <ra>: 1 register on signal <ra>.
+Unit <chnlbond> synthesized (advanced).
+
+Synthesizing (advanced) Unit <phsaligner>.
+The following registers are absorbed into counter <ctkn_srh_timer>: 1 register on signal <ctkn_srh_timer>.
+The following registers are absorbed into counter <ctkn_counter>: 1 register on signal <ctkn_counter>.
+Unit <phsaligner> synthesized (advanced).
+
+Synthesizing (advanced) Unit <serdes_1_to_5_diff_data>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <serdes_1_to_5_diff_data> synthesized (advanced).
+
+Synthesizing (advanced) Unit <serializer>.
+The following registers are absorbed into counter <outcount>: 1 register on signal <outcount>.
+The following registers are absorbed into counter <datacount>: 1 register on signal <datacount>.
+Unit <serializer> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 9
+ 1-bit adder                                           : 3
+ 3-bit adder                                           : 3
+ 5-bit adder                                           : 3
+# Counters                                             : 26
+ 1-bit up counter                                      : 5
+ 12-bit up counter                                     : 3
+ 3-bit up counter                                      : 5
+ 31-bit up counter                                     : 1
+ 4-bit up counter                                      : 6
+ 7-bit up counter                                      : 3
+ 9-bit up counter                                      : 3
+# Registers                                            : 356
+ Flip-Flops                                            : 356
+# Multiplexers                                         : 174
+ 1-bit 2-to-1 multiplexer                              : 149
+ 2-bit 2-to-1 multiplexer                              : 10
+ 5-bit 2-to-1 multiplexer                              : 12
+ 8-bit 2-to-1 multiplexer                              : 3
+# FSMs                                                 : 6
+# Xors                                                 : 45
+ 1-bit xor2                                            : 45
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <dvi_rx0/dec_b/des_0/FSM_0> on signal <state[1:3]> with gray encoding.
+Optimizing FSM <dvi_rx0/dec_g/des_0/FSM_0> on signal <state[1:3]> with gray encoding.
+Optimizing FSM <dvi_rx0/dec_r/des_0/FSM_0> on signal <state[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 000
+ 0001  | 001
+ 0100  | 011
+ 0101  | 010
+ 0110  | 110
+ 0111  | 111
+ 0011  | 101
+ 0010  | 100
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <dvi_rx0/dec_b/phsalgn_0/FSM_1> on signal <cstate[1:6]> with user encoding.
+Optimizing FSM <dvi_rx0/dec_g/phsalgn_0/FSM_1> on signal <cstate[1:6]> with user encoding.
+Optimizing FSM <dvi_rx0/dec_r/phsalgn_0/FSM_1> on signal <cstate[1:6]> with user encoding.
+--------------------
+ State  | Encoding
+--------------------
+ 000001 | 000001
+ 000010 | 000010
+ 000100 | 000100
+ 001000 | 001000
+ 010000 | 010000
+ 100000 | 100000
+--------------------
+INFO:Xst:1901 - Instance PLL_ISERDES in unit PLL_ISERDES of type PLL_BASE has been replaced by PLL_ADV
+
+Optimizing unit <DRAM16XN> ...
+
+Optimizing unit <LVDS_test> ...
+
+Optimizing unit <dvi_decoder> ...
+
+Optimizing unit <decode> ...
+
+Optimizing unit <serdes_1_to_5_diff_data> ...
+
+Optimizing unit <phsaligner> ...
+
+Optimizing unit <chnlbond> ...
+
+Optimizing unit <video_lvds> ...
+
+Optimizing unit <serializer> ...
+WARNING:Xst:1710 - FF/Latch <videoencoder/clockgenerator/lvdsclkman/buffer_0_11> (without init value) has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <videoencoder/clockgenerator/lvdsclkman/buffer_0_10> (without init value) has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <videoencoder/clockgenerator/lvdsclkman/buffer_0_9> (without init value) has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <videoencoder/clockgenerator/lvdsclkman/buffer_0_4> (without init value) has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <videoencoder/clockgenerator/lvdsclkman/buffer_0_3> (without init value) has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <videoencoder/clockgenerator/lvdsclkman/buffer_0_2> (without init value) has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/sdout_9> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/sdout_8> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/sdout_7> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/sdout_6> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/sdout_5> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/sdout_4> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/sdout_3> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/sdout_2> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/sdout_1> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/sdout_0> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/de> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/c1> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_r/c0> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/sdout_9> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/sdout_8> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/sdout_7> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/sdout_6> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/sdout_5> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/sdout_4> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/sdout_3> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/sdout_2> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/sdout_1> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/sdout_0> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/de> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/c1> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_g/c0> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_b/sdout_9> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_b/sdout_8> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_b/sdout_7> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_b/sdout_6> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_b/sdout_5> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_b/sdout_4> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_b/sdout_3> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_b/sdout_2> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_b/sdout_1> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:2677 - Node <dvi_rx0/dec_b/sdout_0> of sequential type is unconnected in block <LVDS_test>.
+WARNING:Xst:1293 - FF/Latch <Contador_25> has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Contador_26> has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Contador_27> has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Contador_28> has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Contador_29> has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Contador_30> has a constant value of 0 in block <LVDS_test>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <videoencoder/clockgenerator/lvdsclkman/datacount> in Unit <LVDS_test> is equivalent to the following 4 FFs/Latches, which will be removed : <videoencoder/channel4_ser/datacount> <videoencoder/channel3_ser/datacount> <videoencoder/channel2_ser/datacount> <videoencoder/channel1_ser/datacount> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/cbnd/wa_0> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/cbnd/wa_0> <dvi_rx0/dec_r/cbnd/wa_0> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/cbnd/wa_1> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/cbnd/wa_1> <dvi_rx0/dec_r/cbnd/wa_1> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/cbnd/wa_2> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/cbnd/wa_2> <dvi_rx0/dec_r/cbnd/wa_2> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/cbnd/wa_3> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/cbnd/wa_3> <dvi_rx0/dec_r/cbnd/wa_3> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/des_0/counter_0> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/des_0/counter_0> <dvi_rx0/dec_r/des_0/counter_0> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/des_0/counter_1> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/des_0/counter_1> <dvi_rx0/dec_r/des_0/counter_1> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/des_0/counter_2> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/des_0/counter_2> <dvi_rx0/dec_r/des_0/counter_2> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/des_0/counter_3> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/des_0/counter_3> <dvi_rx0/dec_r/des_0/counter_3> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/des_0/counter_4> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/des_0/counter_4> <dvi_rx0/dec_r/des_0/counter_4> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/des_0/counter_5> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/des_0/counter_5> <dvi_rx0/dec_r/des_0/counter_5> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/des_0/counter_6> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/des_0/counter_6> <dvi_rx0/dec_r/des_0/counter_6> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/des_0/counter_7> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/des_0/counter_7> <dvi_rx0/dec_r/des_0/counter_7> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/des_0/counter_8> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/des_0/counter_8> <dvi_rx0/dec_r/des_0/counter_8> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/cbnd/rawdata_vld_q> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/cbnd/rawdata_vld_q> <dvi_rx0/dec_r/cbnd/rawdata_vld_q> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/des_0/enable> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/des_0/enable> <dvi_rx0/dec_r/des_0/enable> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_b/cbnd/rawdata_vld_rising> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/cbnd/rawdata_vld_rising> <dvi_rx0/dec_r/cbnd/rawdata_vld_rising> 
+INFO:Xst:2261 - The FF/Latch <videoencoder/clockgenerator/lvdsclkman/buffer_0_8> in Unit <LVDS_test> is equivalent to the following FF/Latch, which will be removed : <videoencoder/clockgenerator/lvdsclkman/buffer_0_13> 
+INFO:Xst:2261 - The FF/Latch <videoencoder/channel4_ser/buffer_0_0> in Unit <LVDS_test> is equivalent to the following FF/Latch, which will be removed : <videoencoder/channel3_ser/buffer_0_0> 
+INFO:Xst:2261 - The FF/Latch <videoencoder/channel4_ser/buffer_0_7> in Unit <LVDS_test> is equivalent to the following FF/Latch, which will be removed : <videoencoder/channel3_ser/buffer_0_7> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx0/dec_r/toggle> in Unit <LVDS_test> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx0/dec_g/toggle> <dvi_rx0/dec_b/toggle> 
+INFO:Xst:2261 - The FF/Latch <videoencoder/clockgenerator/lvdsclkman/DataInBuffer> in Unit <LVDS_test> is equivalent to the following 4 FFs/Latches, which will be removed : <videoencoder/channel4_ser/DataInBuffer> <videoencoder/channel3_ser/DataInBuffer> <videoencoder/channel2_ser/DataInBuffer> <videoencoder/channel1_ser/DataInBuffer> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LVDS_test, actual ratio is 12.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 449
+ Flip-Flops                                            : 449
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : LVDS_test.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 611
+#      GND                         : 1
+#      INV                         : 17
+#      LUT1                        : 57
+#      LUT2                        : 40
+#      LUT3                        : 134
+#      LUT4                        : 63
+#      LUT5                        : 48
+#      LUT6                        : 106
+#      MUXCY                       : 65
+#      MUXF7                       : 9
+#      VCC                         : 1
+#      XORCY                       : 70
+# FlipFlops/Latches                : 454
+#      FD                          : 96
+#      FDC                         : 151
+#      FDCE                        : 22
+#      FDE                         : 63
+#      FDP                         : 9
+#      FDPE                        : 3
+#      FDR                         : 93
+#      FDRE                        : 12
+#      ODDR2                       : 5
+# RAMS                             : 30
+#      RAM16X1D                    : 30
+# Clock Buffers                    : 8
+#      BUFG                        : 8
+# IO Buffers                       : 12
+#      BUFIO2                      : 1
+#      IBUFDS                      : 4
+#      IBUFG                       : 1
+#      OBUF                        : 1
+#      OBUFDS                      : 5
+# DCMs                             : 2
+#      DCM_SP                      : 2
+# Others                           : 14
+#      BUFPLL                      : 1
+#      IODELAY2                    : 6
+#      ISERDES2                    : 6
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             454  out of  11440     3%  
+ Number of Slice LUTs:                  525  out of   5720     9%  
+    Number used as Logic:               465  out of   5720     8%  
+    Number used as Memory:               60  out of   1440     4%  
+       Number used as RAM:               60
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    584
+   Number with an unused Flip Flop:     130  out of    584    22%  
+   Number with an unused LUT:            59  out of    584    10%  
+   Number of fully used LUT-FF pairs:   395  out of    584    67%  
+   Number of unique control sets:        33
+
+IO Utilization: 
+ Number of IOs:                          21
+ Number of bonded IOBs:                  20  out of    102    19%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                8  out of     16    50%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)       | Load  |
+-----------------------------------+-----------------------------+-------+
+dvi_rx0/PLL_ISERDES/CLKOUT1        | BUFG                        | 266   |
+dvi_rx0/PLL_ISERDES/CLKOUT2        | BUFG                        | 119   |
+CLK50                              | DCM_SP:CLKFX+DCM_SP:CLKFX   | 35    |
+CLK50                              | DCM_SP:CLKFX+DCM_SP:CLKFX180| 5     |
+CLK50                              | DCM_SP:CLKFX+DCM_SP:CLK0    | 64    |
+-----------------------------------+-----------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 56.860ns (Maximum Frequency: 17.587MHz)
+   Minimum input arrival time before clock: 3.593ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: 3.163ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'dvi_rx0/PLL_ISERDES/CLKOUT1'
+  Clock period: 4.489ns (frequency: 222.774MHz)
+  Total number of paths / destination ports: 2805 / 644
+-------------------------------------------------------------------------
+Delay:               4.489ns (Levels of Logic = 3)
+  Source:            dvi_rx0/dec_b/cbnd/sdata_5 (FF)
+  Destination:       dvi_rx0/dec_b/dout_7 (FF)
+  Source Clock:      dvi_rx0/PLL_ISERDES/CLKOUT1 rising
+  Destination Clock: dvi_rx0/PLL_ISERDES/CLKOUT1 rising
+
+  Data Path: dvi_rx0/dec_b/cbnd/sdata_5 to dvi_rx0/dec_b/dout_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.447   0.943  dvi_rx0/dec_b/cbnd/sdata_5 (dvi_rx0/dec_b/cbnd/sdata_5)
+     LUT4:I1->O            1   0.205   0.580  dvi_rx0/dec_b/sdata[9]_GND_8_o_Select_17_o1_SW0 (N5)
+     LUT6:I5->O            3   0.205   0.755  dvi_rx0/dec_b/sdata[9]_GND_8_o_Select_17_o1 (dvi_rx0/dec_b/sdata[9]_GND_8_o_Select_17_o1)
+     LUT2:I0->O            9   0.203   0.829  dvi_rx0/dec_b/n0048_inv1 (dvi_rx0/dec_b/de_rstpot)
+     FDE:CE                    0.322          dvi_rx0/dec_b/dout_0
+    ----------------------------------------
+    Total                      4.489ns (1.382ns logic, 3.107ns route)
+                                       (30.8% logic, 69.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'dvi_rx0/PLL_ISERDES/CLKOUT2'
+  Clock period: 5.028ns (frequency: 198.876MHz)
+  Total number of paths / destination ports: 1151 / 119
+-------------------------------------------------------------------------
+Delay:               5.028ns (Levels of Logic = 3)
+  Source:            dvi_rx0/dec_g/des_0/pdcounter_4 (FF)
+  Destination:       dvi_rx0/dec_g/des_0/pdcounter_4 (FF)
+  Source Clock:      dvi_rx0/PLL_ISERDES/CLKOUT2 rising
+  Destination Clock: dvi_rx0/PLL_ISERDES/CLKOUT2 rising
+
+  Data Path: dvi_rx0/dec_g/des_0/pdcounter_4 to dvi_rx0/dec_g/des_0/pdcounter_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.447   1.118  dvi_rx0/dec_g/des_0/pdcounter_4 (dvi_rx0/dec_g/des_0/pdcounter_4)
+     LUT5:I0->O            6   0.203   0.992  dvi_rx0/dec_g/des_0/pdcounter[4]_GND_9_o_equal_50_o<4>1 (dvi_rx0/dec_g/des_0/pdcounter[4]_GND_9_o_equal_50_o)
+     LUT6:I2->O            1   0.203   0.827  dvi_rx0/dec_g/des_0/_n0279_inv1 (dvi_rx0/dec_g/des_0/_n0279_inv1)
+     LUT4:I0->O            5   0.203   0.714  dvi_rx0/dec_g/des_0/_n0279_inv2 (dvi_rx0/dec_g/des_0/_n0279_inv)
+     FDCE:CE                   0.322          dvi_rx0/dec_g/des_0/pdcounter_0
+    ----------------------------------------
+    Total                      5.028ns (1.378ns logic, 3.650ns route)
+                                       (27.4% logic, 72.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK50'
+  Clock period: 56.860ns (frequency: 17.587MHz)
+  Total number of paths / destination ports: 432 / 205
+-------------------------------------------------------------------------
+Delay:               2.708ns (Levels of Logic = 0)
+  Source:            videoencoder/clockgenerator/fd_rst_clk (FF)
+  Destination:       videoencoder/clockgenerator/lvdsclkman/outcount_2 (FF)
+  Source Clock:      CLK50 rising 6.0X
+  Destination Clock: CLK50 rising 21.0X
+
+  Data Path: videoencoder/clockgenerator/fd_rst_clk to videoencoder/clockgenerator/lvdsclkman/outcount_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              93   0.447   1.831  videoencoder/clockgenerator/fd_rst_clk (videoencoder/rst_clk)
+     FDCE:CLR                  0.430          videoencoder/clockgenerator/lvdsclkman/shiftdata_0
+    ----------------------------------------
+    Total                      2.708ns (0.877ns logic, 1.831ns route)
+                                       (32.4% logic, 67.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'dvi_rx0/PLL_ISERDES/CLKOUT2'
+  Total number of paths / destination ports: 107 / 104
+-------------------------------------------------------------------------
+Offset:              3.593ns (Levels of Logic = 1)
+  Source:            dvi_rx0/ioclk_buf:LOCK (PAD)
+  Destination:       dvi_rx0/dec_r/toggle (FF)
+  Destination Clock: dvi_rx0/PLL_ISERDES/CLKOUT2 rising
+
+  Data Path: dvi_rx0/ioclk_buf:LOCK to dvi_rx0/dec_r/toggle
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BUFPLL:LOCK           22   0.000   1.133  dvi_rx0/ioclk_buf (dvi_rx0/bufpll_lock)
+     INV:I->O             92   0.206   1.824  dvi_rx0/reset1_INV_0 (dvi_rx0/reset)
+     FDC:CLR                   0.430          dvi_rx0/dec_r/toggle
+    ----------------------------------------
+    Total                      3.593ns (0.636ns logic, 2.957ns route)
+                                       (17.7% logic, 82.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'dvi_rx0/PLL_ISERDES/CLKOUT1'
+  Total number of paths / destination ports: 45 / 45
+-------------------------------------------------------------------------
+Offset:              3.593ns (Levels of Logic = 1)
+  Source:            dvi_rx0/ioclk_buf:LOCK (PAD)
+  Destination:       dvi_rx0/dec_b/phsalgn_0/cstate_FSM_FFd1 (FF)
+  Destination Clock: dvi_rx0/PLL_ISERDES/CLKOUT1 rising
+
+  Data Path: dvi_rx0/ioclk_buf:LOCK to dvi_rx0/dec_b/phsalgn_0/cstate_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BUFPLL:LOCK           22   0.000   1.133  dvi_rx0/ioclk_buf (dvi_rx0/bufpll_lock)
+     INV:I->O             92   0.206   1.824  dvi_rx0/reset1_INV_0 (dvi_rx0/reset)
+     FDC:CLR                   0.430          dvi_rx0/dec_b/phsalgn_0/bitslip_cnt_0
+    ----------------------------------------
+    Total                      3.593ns (0.636ns logic, 2.957ns route)
+                                       (17.7% logic, 82.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'dvi_rx0/PLL_ISERDES/CLKOUT1'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            led (FF)
+  Destination:       led (PAD)
+  Source Clock:      dvi_rx0/PLL_ISERDES/CLKOUT1 rising
+
+  Data Path: led to led
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  led (led_OBUF)
+     OBUF:I->O                 2.571          led_OBUF (led)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'dvi_rx0/PLL_ISERDES/CLKOUT2'
+  Total number of paths / destination ports: 30 / 30
+-------------------------------------------------------------------------
+Offset:              1.130ns (Levels of Logic = 0)
+  Source:            dvi_rx0/dec_b/des_0/rst_data (FF)
+  Destination:       dvi_rx0/dec_b/des_0/iodelay_s:RST (PAD)
+  Source Clock:      dvi_rx0/PLL_ISERDES/CLKOUT2 rising
+
+  Data Path: dvi_rx0/dec_b/des_0/rst_data to dvi_rx0/dec_b/des_0/iodelay_s:RST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.447   0.683  dvi_rx0/dec_b/des_0/rst_data (dvi_rx0/dec_b/des_0/rst_data)
+    IODELAY2:RST               0.000          dvi_rx0/dec_b/des_0/iodelay_m
+    ----------------------------------------
+    Total                      1.130ns (0.447ns logic, 0.683ns route)
+                                       (39.6% logic, 60.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 50 / 43
+-------------------------------------------------------------------------
+Delay:               3.163ns (Levels of Logic = 1)
+  Source:            dvi_rx0/ioclk_buf:LOCK (PAD)
+  Destination:       dvi_rx0/dec_b/des_0/iserdes_s:RST (PAD)
+
+  Data Path: dvi_rx0/ioclk_buf:LOCK to dvi_rx0/dec_b/des_0/iserdes_s:RST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BUFPLL:LOCK           22   0.000   1.133  dvi_rx0/ioclk_buf (dvi_rx0/bufpll_lock)
+     INV:I->O             92   0.206   1.824  dvi_rx0/reset1_INV_0 (dvi_rx0/reset)
+    ISERDES2:RST               0.000          dvi_rx0/dec_b/des_0/iserdes_m
+    ----------------------------------------
+    Total                      3.163ns (0.206ns logic, 2.957ns route)
+                                       (6.5% logic, 93.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK50
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+CLK50                      |    2.960|         |         |         |
+dvi_rx0/PLL_ISERDES/CLKOUT1|    1.507|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock dvi_rx0/PLL_ISERDES/CLKOUT1
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+dvi_rx0/PLL_ISERDES/CLKOUT1|    4.489|         |         |         |
+dvi_rx0/PLL_ISERDES/CLKOUT2|    2.634|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock dvi_rx0/PLL_ISERDES/CLKOUT2
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+dvi_rx0/PLL_ISERDES/CLKOUT1|    1.507|         |         |         |
+dvi_rx0/PLL_ISERDES/CLKOUT2|    5.028|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.43 secs
+ 
+--> 
+
+
+Total memory usage is 391848 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   71 (   0 filtered)
+Number of infos    :   40 (   0 filtered)
+
