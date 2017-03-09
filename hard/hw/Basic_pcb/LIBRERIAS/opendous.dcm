@@ -131,6 +131,11 @@ D Stereo Audio Jack 4Pin
 K Stereo Audio Jack 4Pin CUI SJ1-3524-SMT
 $ENDCMP
 #
+$CMP TPS563208
+D Synchronous Step-Down Voltage Regulator in SOT-23, 4.5-V to 17-V Input, 3-A 
+K Step-Down
+$ENDCMP
+#
 $CMP TPS719XX
 D Dual, 200mA Output, Low Noise, High PSRR LDOs
 K LDO 200mA

@@ -105,7 +105,7 @@ $ENDCMP
 $CMP MT48LC4M16A2P
 D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
 K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
-F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
+F http://www.alliancememory.com/pdf/dram/256M-AS4C16M16SA.pdf
 $ENDCMP
 #
 $CMP Micropendous1
