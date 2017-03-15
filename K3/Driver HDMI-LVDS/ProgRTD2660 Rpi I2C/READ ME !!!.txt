@@ -51,5 +51,5 @@
      
      > Forzar el codigo, se puede hacer, se ha hecho, pero es preferible realizar una buena programacion del firmware.
 
-   > 
+   > Referencia para mejorar codigo: https://github.com/TinyCircuits/TinyShield_FlashMem_Example/blob/master/TinyShield_FlashMem_Example.ino
 
