@@ -1,4 +1,4 @@
-update=30/01/2017 03:54:08 p.m.
+update=jue 18 may 2017 07:39:34 COT
 version=1
 last_client=kicad
 [cvpcb]
@@ -91,7 +91,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=LIBRERIAS;/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/LIBRERIAS.pretty;/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/modules.pretty;/home/ferney/FERNEY/Proyectos/QUACHO/HW/Qbasic/SAM3S_SPARTAN6/LIBRERIAS
+LibDir=LIBRERIAS;modules.pretty
 [eeschema/libraries]
 LibName1=i.MX283_Board-rescue
 LibName2=power

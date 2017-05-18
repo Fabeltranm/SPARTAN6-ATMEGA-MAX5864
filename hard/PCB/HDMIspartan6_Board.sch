@@ -104,7 +104,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date "2 may 2014"
 Rev ""
@@ -853,4 +853,10 @@ Wire Wire Line
 	7950 4100 7950 3100
 Wire Wire Line
 	7950 3100 8150 3100
+$Sheet
+S 9800 1900 900  750 
+U 591DCFCC
+F0 "Anlg_Front_End" 60
+F1 "Anlg_Front_End.sch" 60
+$EndSheet
 $EndSCHEMATC

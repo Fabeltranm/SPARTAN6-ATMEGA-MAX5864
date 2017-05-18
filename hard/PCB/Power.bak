@@ -1278,7 +1278,7 @@ F 3 "" H 4100 4450 60  0000 C CNN
 	1    4100 4450
 	0    1    1    0   
 $EndComp
-Text Label 3650 4650 0    60   ~ 0
+Text Label 3600 4650 0    60   ~ 0
 +9V0
 $Comp
 L R R?
