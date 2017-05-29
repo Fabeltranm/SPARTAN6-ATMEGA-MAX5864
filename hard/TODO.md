@@ -16,7 +16,7 @@
     * Precio: https://goo.gl/s96Nt1
     * Simulacion termica del fabricante: 
     ![Simulacion termica TPS563208](http://fotos.subefotos.com/fd05ac863a2705d800aaa84393f9331ao.png)
-  * TPS563208: 
+  * TPS62133: 
     * Datasheet: http://www.ti.com/lit/ds/symlink/tps62133.pdf
     * Precio: https://goo.gl/Pr3sys
     * Simulacion termica del fabricante: 
