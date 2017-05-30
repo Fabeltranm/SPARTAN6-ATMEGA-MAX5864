@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /media/raparram/E4AA707DAA704DD4/Users/Ryu/Documents/GitHub/hdmi-fpga/hard/PCB/HDMIspartan6_Board.sch)
-    (date "mar 30 may 2017 06:38:48 COT")
-    (tool "Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1")
+    (source C:/Users/Ryu/Documents/GitHub/hdmi-fpga/hard/PCB/HDMIspartan6_Board.sch)
+    (date "30/05/2017 11:57:39 a.m.")
+    (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -471,7 +471,7 @@
       (tstamp 555AD249))
     (comp (ref F1)
       (value PTS08056V050)
-      (footprint Resistors_SMD:R_1812)
+      (footprint Project:R_1812)
       (datasheet http://www.belfuse.com/pdfs/0ZCK.pdf)
       (fields
         (field (name "REF DIGIKEY") PTS08056V050-ND))
@@ -1182,7 +1182,7 @@
     (libpart (lib conn) (part BARREL_JACK)
       (description "DC Barrel Jack")
       (fields
-        (field (name Reference) J)
+        (field (name Reference) CON)
         (field (name Value) BARREL_JACK))
       (pins
         (pin (num 1) (name ~) (type passive))
@@ -1191,7 +1191,11 @@
     (libpart (lib device) (part C)
       (description "Unpolarized capacitor")
       (footprints
-        (fp C_*))
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
       (fields
         (field (name Reference) C)
         (field (name Value) C))
@@ -1199,28 +1203,28 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part CONN_01X03)
-      (description "Connector, single row, 01x03, pin header")
+      (description "Connector, single row, 01x03")
       (footprints
-        (fp Pin_Header_Straight_1X*)
-        (fp Pin_Header_Angled_1X*)
-        (fp Socket_Strip_Straight_1X*)
-        (fp Socket_Strip_Angled_1X*))
+        (fp Pin_Header_Straight_1X03)
+        (fp Pin_Header_Angled_1X03)
+        (fp Socket_Strip_Straight_1X03)
+        (fp Socket_Strip_Angled_1X03))
       (fields
-        (field (name Reference) J)
+        (field (name Reference) P)
         (field (name Value) CONN_01X03))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
         (pin (num 3) (name P3) (type passive))))
     (libpart (lib conn) (part CONN_01X06)
-      (description "Connector, single row, 01x06, pin header")
+      (description "Connector, single row, 01x06")
       (footprints
-        (fp Pin_Header_Straight_1X*)
-        (fp Pin_Header_Angled_1X*)
-        (fp Socket_Strip_Straight_1X*)
-        (fp Socket_Strip_Angled_1X*))
+        (fp Pin_Header_Straight_1X06)
+        (fp Pin_Header_Angled_1X06)
+        (fp Socket_Strip_Straight_1X06)
+        (fp Socket_Strip_Angled_1X06))
       (fields
-        (field (name Reference) J)
+        (field (name Reference) P)
         (field (name Value) CONN_01X06))
       (pins
         (pin (num 1) (name P1) (type passive))
@@ -1230,14 +1234,14 @@
         (pin (num 5) (name P5) (type passive))
         (pin (num 6) (name P6) (type passive))))
     (libpart (lib conn) (part CONN_01X07)
-      (description "Connector, single row, 01x07, pin header")
+      (description "Connector, single row, 01x07")
       (footprints
-        (fp Pin_Header_Straight_1X*)
-        (fp Pin_Header_Angled_1X*)
-        (fp Socket_Strip_Straight_1X*)
-        (fp Socket_Strip_Angled_1X*))
+        (fp Pin_Header_Straight_1X07)
+        (fp Pin_Header_Angled_1X07)
+        (fp Socket_Strip_Straight_1X07)
+        (fp Socket_Strip_Angled_1X07))
       (fields
-        (field (name Reference) J)
+        (field (name Reference) P)
         (field (name Value) CONN_01X07))
       (pins
         (pin (num 1) (name P1) (type passive))
@@ -1248,14 +1252,14 @@
         (pin (num 6) (name P6) (type passive))
         (pin (num 7) (name P7) (type passive))))
     (libpart (lib conn) (part CONN_02X02)
-      (description "Connector, double row, 02x02, pin header")
+      (description "Connector, double row, 02x02")
       (footprints
-        (fp Pin_Header_Straight_2X*)
-        (fp Pin_Header_Angled_2X*)
-        (fp Socket_Strip_Straight_2X*)
-        (fp Socket_Strip_Angled_2X*))
+        (fp Pin_Header_Straight_2X02)
+        (fp Pin_Header_Angled_2X02)
+        (fp Socket_Strip_Straight_2X02)
+        (fp Socket_Strip_Angled_2X02))
       (fields
-        (field (name Reference) J)
+        (field (name Reference) P)
         (field (name Value) CONN_02X02))
       (pins
         (pin (num 1) (name P1) (type passive))
@@ -1263,15 +1267,14 @@
         (pin (num 3) (name P3) (type passive))
         (pin (num 4) (name P4) (type passive))))
     (libpart (lib conn) (part CONN_02X05)
-      (description "Connector, double row, 02x05, pin header")
+      (description "Connector, double row, 02x05")
       (footprints
-        (fp Pin_Header_Straight_2X*)
-        (fp Pin_Header_Angled_2X*)
-        (fp Socket_Strip_Straight_2X*)
-        (fp Socket_Strip_Angled_2X*)
-        (fp IDC_Header_Straight_*))
+        (fp Pin_Header_Straight_2X05)
+        (fp Pin_Header_Angled_2X05)
+        (fp Socket_Strip_Straight_2X05)
+        (fp Socket_Strip_Angled_2X05))
       (fields
-        (field (name Reference) J)
+        (field (name Reference) P)
         (field (name Value) CONN_02X05))
       (pins
         (pin (num 1) (name P1) (type passive))
@@ -1285,15 +1288,14 @@
         (pin (num 9) (name P9) (type passive))
         (pin (num 10) (name P10) (type passive))))
     (libpart (lib conn) (part CONN_02X15)
-      (description "Connector, double row, 02x15, pin header")
+      (description "Connector, double row, 02x15")
       (footprints
-        (fp Pin_Header_Straight_2X*)
-        (fp Pin_Header_Angled_2X*)
-        (fp Socket_Strip_Straight_2X*)
-        (fp Socket_Strip_Angled_2X*)
-        (fp IDC_Header_Straight_*))
+        (fp Pin_Header_Straight_2X15)
+        (fp Pin_Header_Angled_2X15)
+        (fp Socket_Strip_Straight_2X15)
+        (fp Socket_Strip_Angled_2X15))
       (fields
-        (field (name Reference) J)
+        (field (name Reference) P)
         (field (name Value) CONN_02X15))
       (pins
         (pin (num 1) (name P1) (type passive))
@@ -1445,9 +1447,7 @@
       (description Inductor)
       (footprints
         (fp Choke_*)
-        (fp *Coil*)
-        (fp Inductor_*)
-        (fp L_*))
+        (fp *Coil*))
       (fields
         (field (name Reference) L)
         (field (name Value) L))
@@ -1538,7 +1538,7 @@
       (description "PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin")
       (docs http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf)
       (fields
-        (field (name Reference) U)
+        (field (name Reference) IC)
         (field (name Value) MT48LC4M16A2TG)
         (field (name Footprint) TSOPII-54))
       (pins
@@ -1608,7 +1608,7 @@
       (description Resistor)
       (footprints
         (fp R_*)
-        (fp R_*))
+        (fp Resistor_*))
       (fields
         (field (name Reference) R)
         (field (name Value) R))
@@ -1660,15 +1660,15 @@
         (pin (num 9) (name SH) (type input)))))
   (libraries
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical memory)
-      (uri /usr/share/kicad/library/memory.lib))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\memory.lib"))
     (library (logical Project)
-      (uri /media/raparram/E4AA707DAA704DD4/Users/Ryu/Documents/GitHub/hdmi-fpga/hard/PCB/LibraryProject/Project.lib))
+      (uri LibraryProject\Project.lib))
     (library (logical HDMIspartan6_Board-cache)
-      (uri /media/raparram/E4AA707DAA704DD4/Users/Ryu/Documents/GitHub/hdmi-fpga/hard/PCB/HDMIspartan6_Board-cache.lib)))
+      (uri C:\Users\Ryu\Documents\GitHub\hdmi-fpga\hard\PCB\HDMIspartan6_Board-cache.lib)))
   (nets
     (net (code 1) (name /spartan6/F_RXD)
       (node (ref U1) (pin 105))
