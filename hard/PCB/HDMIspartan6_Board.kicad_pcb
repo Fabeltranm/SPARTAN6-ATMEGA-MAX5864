@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~52~ubuntu16.10.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
     (links 429)
@@ -1193,6 +1193,11 @@
       (net 153 "Net-(S1-Pad3)"))
     (pad "" thru_hole circle (at 4.1 0 90) (size 1.7 1.7) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
     (pad "" thru_hole circle (at -4.1 0 90) (size 1.7 1.7) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
+    (model ../../../../../../Users/Ryu/Documents/GitHub/hdmi-fpga/hard/PCB/packages3d/slide-sw-spdt-right-angle.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Project:TSOPII54_SDRAM_MT48 (layer F.Cu) (tedit 4A5A6B79) (tstamp 5892018E)
@@ -1521,10 +1526,10 @@
       (net 1 GND))
     (pad "" np_thru_hole circle (at 0.8509 -2.19964 270) (size 0.89916 0.89916) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 0.8509 2.19964 270) (size 0.89916 0.89916) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-    (model C:/Users/Administrador/Documents/kit3/hdmi-fpga/hard/hw/Basic_pcb/packsges3d/usb.wrl
-      (at (xyz 0.15 0 0))
-      (scale (xyz 0.4 0.4 0.4))
-      (rotate (xyz -90 0 90))
+    (model ../../../../../../Users/Ryu/Documents/GitHub/hdmi-fpga/hard/PCB/packages3d/usb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1869,6 +1874,11 @@
     (pad 2 smd rect (at 1.8 0 180) (size 1.5 4.2) (layers F.Cu F.Paste F.Mask)
       (net 81 "Net-(L1-Pad2)"))
     (model Inductors.3dshapes/Inductor_Taiyo-Yuden_NR-50xx.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model C:/Users/Ryu/Documents/GitHub/hdmi-fpga/hard/PCB/packages3d/L_4040.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5275,6 +5285,11 @@
       (net 224 "Net-(HDMI1-Pad18)"))
     (pad 19 smd rect (at -4.25 -0.9 180) (size 0.3 1.9) (layers F.Cu F.Paste F.Mask)
       (net 225 "Net-(HDMI1-Pad19)"))
+    (model ../../../../../../Users/Ryu/Documents/GitHub/hdmi-fpga/hard/PCB/packages3d/hdmi.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 58CD5446) (tstamp 592D635D)
