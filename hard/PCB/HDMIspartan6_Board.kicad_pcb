@@ -1,15 +1,15 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
 
   (general
-    (links 435)
-    (no_connects 413)
+    (links 434)
+    (no_connects 412)
     (area 108.230759 59.595899 164.453801 149.311381)
     (thickness 1.6)
     (drawings 27)
     (tracks 0)
     (zones 0)
     (modules 150)
-    (nets 234)
+    (nets 235)
   )
 
   (page A4)
@@ -337,6 +337,7 @@
   (net 231 "Net-(RS1-Pad2)")
   (net 232 "Net-(RS2-Pad2)")
   (net 233 "Net-(S1-Pad1)")
+  (net 234 "Net-(P1-Pad1)")
 
   (net_class Default "This is the default net class."
     (clearance 0.15)
@@ -502,6 +503,7 @@
     (add_net "Net-(JMS1-Pad3)")
     (add_net "Net-(JMS1-Pad4)")
     (add_net "Net-(L1-Pad2)")
+    (add_net "Net-(P1-Pad1)")
     (add_net "Net-(P1-Pad11)")
     (add_net "Net-(P1-Pad12)")
     (add_net "Net-(P1-Pad13)")
@@ -581,7 +583,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm locked (layer F.Cu) (tedit 5931B3CF) (tstamp 592EF2BA)
-    (at 111.83128 66.69908 180)
+    (at 111.9278 66.694 180)
     (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x20 2.54mm double row")
     (path /54B6445D/592F2BEE)
@@ -611,7 +613,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at -1.19126 -49.59858 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 13 +3V3))
+      (net 234 "Net-(P1-Pad1)"))
     (pad 2 thru_hole oval (at 1.34874 -49.59858 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 50 VDD5V))
     (pad 3 thru_hole oval (at -1.19126 -47.05858 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
