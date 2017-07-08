@@ -447,12 +447,6 @@ Wire Wire Line
 Connection ~ 4950 3850
 Wire Wire Line
 	4750 3850 5150 3850
-Text Label 5000 3850 0    60   ~ 0
-+5V_USB
-Text Label 5900 2400 0    60   ~ 0
-+5V_USB
-Wire Wire Line
-	5850 2400 6550 2400
 $Comp
 L Fuse F1
 U 1 1 58A342AC
@@ -517,8 +511,6 @@ Text Label 7300 5400 0    60   ~ 0
 +5VA
 Wire Wire Line
 	7600 6300 7400 6300
-Text Label 6800 6300 0    60   ~ 0
-+5VA
 Wire Wire Line
 	7600 5400 7200 5400
 Wire Wire Line
@@ -623,4 +615,19 @@ F 4 "490-1218-2-ND" H 6300 5800 60  0001 C CNN "DIGIKEY REF"
 	1    6300 5800
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	5850 2400 6550 2400
+$Comp
+L +5V #PWR019
+U 1 1 595DA814
+P 5850 2400
+F 0 "#PWR019" H 5850 2250 50  0001 C CNN
+F 1 "+5V" H 5850 2540 50  0000 C CNN
+F 2 "" H 5850 2400 50  0000 C CNN
+F 3 "" H 5850 2400 50  0000 C CNN
+	1    5850 2400
+	1    0    0    -1  
+$EndComp
+Text Label 6800 6300 0    60   ~ 0
++5VA
 $EndSCHEMATC

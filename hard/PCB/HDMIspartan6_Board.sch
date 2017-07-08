@@ -63,7 +63,7 @@ U 1 1 555D5DB0
 P 1350 6050
 F 0 "TH1" H 1250 6050 40  0000 C CNN
 F 1 "CONN_1" H 1450 5950 40  0001 C CNN
-F 2 "Project:1Pin_12mil_VIA" H 1350 6050 30  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1350 6050 30  0001 C CNN
 F 3 "" H 1350 6050 60  0000 C CNN
 	1    1350 6050
 	1    0    0    -1  
@@ -794,7 +794,7 @@ U 1 1 592FDD02
 P 3150 7400
 F 0 "TH50" H 3050 7400 40  0000 C CNN
 F 1 "CONN_1" H 3250 7300 40  0001 C CNN
-F 2 "Project:1Pin_12mil_VIA" H 3150 7400 30  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 3150 7400 30  0001 C CNN
 F 3 "" H 3150 7400 60  0000 C CNN
 	1    3150 7400
 	1    0    0    -1  
