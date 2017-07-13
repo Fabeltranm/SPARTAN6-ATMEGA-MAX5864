@@ -69,13 +69,13 @@ build/project.ngc: build/project.xst $(SRC)
 #	cd build && xst -ifn ../dvi_lvds.xst -ofn project.log
 
 build/project.ngd: build/project.ngc $(PINS)
-	cd build && ngdbuild -p $(DEVICE) project.ngc -uc ../$(PINS)
+	cd build && ngdbuild -dd _ngo -nt timestamp -p $(DEVICE) project.ngc -uc ../$(PINS)
 
 build/project.ncd: build/project.ngd
 	cd build && map -pr b -p $(DEVICE) project
 
 build/project_r.ncd: build/project.ncd
-	cd build && par -w project project_r.ncd
+	cd build && par -w  -intstyle ise -ol high -mt off project.ncd project_r.ncd
 
 build/project_r.twr: build/project_r.ncd
 	cd build && trce -v 25 project_r.ncd project.pcf

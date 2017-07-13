@@ -1,9 +1,9 @@
 Release 14.6 par P.68d (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-openbts::  Tue Feb 21 20:37:13 2017
+openbts::  Wed Jul 12 17:48:22 2017
 
-par -w project.ncd project_r.ncd 
+par -w -intstyle ise -ol high -mt off project.ncd project_r.ncd 
 
 
 Constraints file: project.pcf.
@@ -111,7 +111,7 @@ Specific Feature Utilization:
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
 
-Overall effort level (-ol):   Standard 
+Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
 Starting initial Timing Analysis.  REAL time: 3 secs 
@@ -191,7 +191,7 @@ All signals are completely routed.
 Total REAL time to PAR completion: 5 secs 
 Total CPU time to PAR completion: 5 secs 
 
-Peak Memory Usage:  622 MB
+Peak Memory Usage:  621 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

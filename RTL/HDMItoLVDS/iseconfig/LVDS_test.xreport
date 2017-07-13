@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-07-10T15:42:53</DateModified>
+  <DateModified>2017-07-12T15:51:53</DateModified>
   <ModuleName>LVDS_test</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Disponible/Documents/GitHub/hdmi-fpga/RTL/HDMItoLVDS/iseconfig/LVDS_test.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Disponible/Documents/GitHub/hdmi-fpga/RTL/HDMItoLVDS</ImplementationReportsDirectory>
-  <DateInitialized>2017-07-10T15:42:53</DateInitialized>
+  <SavedFilePath>/home/openbts/Escritorio/LVDS_test/iseconfig/LVDS_test.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/openbts/Escritorio/LVDS_test/</ImplementationReportsDirectory>
+  <DateInitialized>2017-07-11T19:25:20</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
