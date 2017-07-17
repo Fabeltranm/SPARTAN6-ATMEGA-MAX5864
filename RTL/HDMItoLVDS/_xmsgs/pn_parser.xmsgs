@@ -8,7 +8,34 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/Escritorio/LVDS_test/video_lvds.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/DRAM16XN.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/LVDS_test.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/chnlbond.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/decode.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/dvi_decoder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/lvds_clockgen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/phsaligner.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/serdes_1_to_5_diff_data.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/serializer.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/video_lvds.v&quot; into library work</arg>
 </msg>
 
 </messages>
