@@ -86,7 +86,7 @@ dcm_main (
 BUFG 	clk_bufg	(.I(clkdcm), 	.O(clo) ) ;
 
 video_lvds videoencoder (
-    .DotClock(clk6x), // se trabaja con el reloj de 12 MHz de la Quacho
+    .DotClock(clk), // se trabaja con el reloj de 12 MHz de la Quacho
     .HSync(rx_hsync), // sincronismo horizontal
     .VSync(rx_vsync),  // sincronismo vertical 
     .DataEnable(rx_de),  // bit que habilita escritura de datos en la pantalla
