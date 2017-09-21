@@ -1,4 +1,4 @@
-update=07/07/2017 07:56:00 p.m.
+update=09/08/2017 02:49:52 p.m.
 version=1
 last_client=kicad
 [cvpcb]
@@ -87,8 +87,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -123,3 +121,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=LibraryProject/Project
+[general]
+version=1
