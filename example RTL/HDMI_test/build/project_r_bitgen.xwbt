@@ -1,0 +1,7 @@
+INFILE=/home/ferney/FERNEY/ECCI/proyectos_Inves/kit3/HDMI_test/build/project_r.ncd
+OUTFILE=/home/ferney/FERNEY/ECCI/proyectos_Inves/kit3/HDMI_test/build/project_r.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=/home/ferney/FERNEY/ECCI/proyectos_Inves/kit3/HDMI_test/build
+LICENSE=WebPack
+USER_INFO=211008208_0_0_072
