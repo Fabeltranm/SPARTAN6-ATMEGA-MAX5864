@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.0-rc1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 631)
     (no_connects 1)
-    (area 97.756207 66.29882 256.369758 137.598071)
+    (area 98.363959 73.303879 197.513961 131.953881)
     (thickness 1.6)
     (drawings 172)
     (tracks 4466)
@@ -7546,6 +7546,11 @@
       (net 218 "Net-(J3-Pad18)"))
     (pad 19 smd rect (at -4.25 -0.9 180) (size 0.3 1.9) (layers F.Cu F.Paste F.Mask)
       (net 219 "Net-(J3-Pad19)"))
+    (model ${KIPRJMOD}/packages3d/hdmi.wrl
+      (at (xyz 0.32 0 0))
+      (scale (xyz 0.393 0.393 0.393))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Buttons_Switches_SMD:SW_SPST_KMR2 (layer F.Cu) (tedit 59DBF8E2) (tstamp 59DC79CA)
@@ -8097,9 +8102,9 @@
     (pad 3 smd rect (at 1.1865 -1.3235) (size 0.7 1) (layers B.Cu B.Paste B.Mask)
       (net 157 /spartan6/usMOSI))
     (pad G4 smd rect (at 5.0514 -3.95) (size 1 0.7) (layers B.Cu B.Paste B.Mask))
-    (model "D:/PCB/packages3d/sd (2).wrl"
+    (model "${KIPRJMOD}/packages3d/sd (2).wrl"
       (at (xyz -0.02 -0.12 0.042))
-      (scale (xyz 0.3937 0.3937 0.3937))
+      (scale (xyz 0.393 0.393 0.393))
       (rotate (xyz 90 180 0))
     )
   )
