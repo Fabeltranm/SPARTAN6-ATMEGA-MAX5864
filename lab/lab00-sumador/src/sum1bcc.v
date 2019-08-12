@@ -1,18 +1,18 @@
-module sum1bcc (xi, yi, ci,co,zi);
+module sum1bcc (A, B, Ci,Cout,S);
 
+  input  A;
+  input  B;
+  input  Ci;
+  output Cout;
+  output S;
 
-  input xi;
-  input yi;
-  input ci;
-  output   co;
-  output  zi;
-
-  reg [1:0] s;
-  assign zi =s[0];
-  assign co =s[1];
+  reg [1:0] st;
+  assign S = st[0];
+  assign Cout = st[1];
 
   always @ ( * ) begin
-     s<= xi+yi+ci;
+  	st  = 	A+B+Ci;
   end
-
+  
 endmodule
+

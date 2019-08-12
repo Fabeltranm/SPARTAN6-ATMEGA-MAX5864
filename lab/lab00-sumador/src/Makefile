@@ -1,4 +1,4 @@
-DESIGN          = sum1bcc
+DESIGN          = sum1bcc_primitive
 PINS            = $(DESIGN).ucf
 DEVICE          = xc7a100t-1csg324
 BGFLAGS         =  -g TdoPin:PULLNONE -g DonePin:PULLUP \
