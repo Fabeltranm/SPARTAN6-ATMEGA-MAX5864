@@ -1,0 +1,61 @@
+$date
+	Mon Aug 12 16:52:31 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sum1bcc_TB $end
+$scope module uut $end
+$var wire 1 ! A $end
+$var wire 1 " B $end
+$var wire 1 # Ci $end
+$var wire 1 $ S $end
+$var wire 1 % Cout $end
+$var reg 2 & st [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+0%
+0$
+0#
+0"
+0!
+$end
+#3
+1$
+b1 &
+1#
+#6
+0#
+1"
+#9
+0$
+1%
+b10 &
+1#
+#12
+1$
+0%
+b1 &
+0#
+0"
+1!
+#15
+0$
+1%
+b10 &
+1#
+#18
+0#
+1"
+#21
+1$
+b11 &
+1#
+#200

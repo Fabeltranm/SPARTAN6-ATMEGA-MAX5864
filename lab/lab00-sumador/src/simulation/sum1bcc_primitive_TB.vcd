@@ -1,0 +1,67 @@
+$date
+	Mon Aug 12 17:03:18 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sum1bcc_primitive_TB $end
+$scope module uut $end
+$var wire 1 ! A $end
+$var wire 1 " B $end
+$var wire 1 # Ci $end
+$var wire 1 $ Cout $end
+$var wire 1 % S $end
+$var wire 1 & a_ab $end
+$var wire 1 ' cout_t $end
+$var wire 1 ( x_ab $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#3
+1%
+1#
+#6
+1(
+0#
+1"
+#9
+1$
+0%
+1'
+1#
+#12
+0$
+1%
+0'
+0#
+0"
+1!
+#15
+1$
+0%
+1'
+1#
+#18
+0'
+1&
+0(
+0#
+1"
+#21
+1%
+1#
+#200
