@@ -1,3 +1,0 @@
-verilog work "serializer.v"
-verilog work "lvds_clockgen.v"
-verilog work "video_lvds.v"

@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/LVDS_test.ncd
-OUTFILE=/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS/LVDS_test.bit
-FAMILY=Spartan6
-PART=xc6slx9-3tqg144
-WORKINGDIR=/home/openbts/github/hdmi-fpga/RTL/HDMItoLVDS
-LICENSE=WebPack
-USER_INFO=211207251_0_0_858
