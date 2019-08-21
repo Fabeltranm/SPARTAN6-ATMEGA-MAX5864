@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Wed Aug 21 17:15:19 2019">
+  <application stringID="Xst" timeStamp="Wed Aug 21 17:32:53 2019">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -33,13 +33,13 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i7-2640M CPU @ 2.80GHz"/>
-          <item stringID="speed" value="798.236 MHz"/>
+          <item stringID="speed" value="798.235 MHz"/>
         </row>
       </table>
     </section>
     <section stringID="XST_OPTION_SUMMARY">
       <item DEFAULT="" label="-top" stringID="XST_TOP" value="sum4b"/>
-      <item DEFAULT="" label="-p" stringID="XST_P" value="xc3s100e-5vq100"/>
+      <item DEFAULT="" label="-p" stringID="XST_P" value="xc3s100e-5cp132"/>
       <item DEFAULT="SPEED" label="-opt_mode" stringID="XST_OPTMODE" value="Area"/>
       <item DEFAULT="1" label="-opt_level" stringID="XST_OPTLEVEL" value="1"/>
       <item DEFAULT="" label="-ifn" stringID="XST_IFN" value="project.src"/>
@@ -85,11 +85,11 @@
       </section>
     </section>
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
-      <item stringID="XST_SELECTED_DEVICE" value="3s100evq100-5"/>
+      <item stringID="XST_SELECTED_DEVICE" value="3s100ecp132-5"/>
       <item AVAILABLE="960" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="4"/>
       <item AVAILABLE="1920" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="8"/>
       <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="13"/>
-      <item AVAILABLE="66" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="13"/>
+      <item AVAILABLE="83" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="13"/>
     </section>
     <section stringID="XST_PARTITION_RESOURCE_SUMMARY">
       <section stringID="XST_NO_PARTITIONS_WERE_FOUND_IN_THIS_DESIGN"/>

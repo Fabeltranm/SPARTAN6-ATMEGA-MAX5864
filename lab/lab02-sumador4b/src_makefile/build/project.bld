@@ -2,7 +2,7 @@ Release 14.7 ngdbuild P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -p
-xc3s100e-5vq100 project.ngc -uc ../sum4b.ucf
+xc3s100e-5cp132 project.ngc -uc ../sum4b.ucf
 
 Reading NGO file
 "/home/ferney/FERNEY/Proyectos/hdmi-fpga/lab/lab02-sumador4b/src_makefile/build/
@@ -28,7 +28,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 393496 kilobytes
+Total memory usage is 393516 kilobytes
 
 Writing NGD file "project.ngd" ...
 Total REAL time to NGDBUILD completion:  10 sec

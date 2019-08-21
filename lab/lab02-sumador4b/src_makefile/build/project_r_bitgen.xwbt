@@ -1,0 +1,7 @@
+INFILE=/home/ferney/FERNEY/Proyectos/hdmi-fpga/lab/lab02-sumador4b/src_makefile/build/project_r.ncd
+OUTFILE=/home/ferney/FERNEY/Proyectos/hdmi-fpga/lab/lab02-sumador4b/src_makefile/build/project_r.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=/home/ferney/FERNEY/Proyectos/hdmi-fpga/lab/lab02-sumador4b/src_makefile/build
+LICENSE=WebPack
+USER_INFO=211538560_0_0_457

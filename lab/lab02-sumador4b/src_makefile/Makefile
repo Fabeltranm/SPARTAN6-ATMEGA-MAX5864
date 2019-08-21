@@ -1,6 +1,6 @@
 DESIGN          = sum4b
 PINS            = $(DESIGN).ucf
-DEVICE          = xc3s100e-5vq100
+DEVICE          = xc3s100e-5cp132
 BGFLAGS         =  -g TdoPin:PULLNONE -g DonePin:PULLUP \
                    -g CRC:enable -g StartUpClk:CCLK
 

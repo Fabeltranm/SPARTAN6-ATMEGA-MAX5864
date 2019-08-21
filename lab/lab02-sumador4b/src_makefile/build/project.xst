@@ -1,6 +1,6 @@
 run
 -top sum4b 
--p xc3s100e-5vq100
+-p xc3s100e-5cp132
 -opt_mode Area
 -opt_level 1
 -ifn project.src

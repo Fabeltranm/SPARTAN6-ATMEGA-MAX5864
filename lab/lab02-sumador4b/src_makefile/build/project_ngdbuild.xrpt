@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="NgdBuild" timeStamp="Wed Aug 21 17:15:50 2019">
+  <application stringID="NgdBuild" timeStamp="Wed Aug 21 17:33:26 2019">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -33,13 +33,13 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i7-2640M CPU @ 2.80GHz"/>
-          <item stringID="speed" value="798.251 MHz"/>
+          <item stringID="speed" value="798.236 MHz"/>
         </row>
       </table>
     </section>
     <task stringID="NGDBUILD_OPTION_SUMMARY">
       <section stringID="NGDBUILD_OPTION_SUMMARY">
-        <item DEFAULT="None" label="-p" stringID="NGDBUILD_partname" value="xc3s100e-5vq100"/>
+        <item DEFAULT="None" label="-p" stringID="NGDBUILD_partname" value="xc3s100e-5cp132"/>
         <item DEFAULT="None" label="-uc" stringID="NGDBUILD_ucf_file" value="../sum4b.ucf"/>
       </section>
     </task>

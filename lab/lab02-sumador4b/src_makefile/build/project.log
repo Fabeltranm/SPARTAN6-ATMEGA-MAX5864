@@ -27,7 +27,7 @@ Input File Name                    : "project.src"
 Input Format                       : mixed
 
 ---- Target Parameters
-Target Device                      : xc3s100e-5vq100
+Target Device                      : xc3s100e-5cp132
 Output File Name                   : "project.ngc"
 Output Format                      : NGC
 
@@ -171,12 +171,12 @@ Cell Usage :
 Device utilization summary:
 ---------------------------
 
-Selected Device : 3s100evq100-5 
+Selected Device : 3s100ecp132-5 
 
  Number of Slices:                        4  out of    960     0%  
  Number of 4 input LUTs:                  8  out of   1920     0%  
  Number of IOs:                          13
- Number of bonded IOBs:                  13  out of     66    19%  
+ Number of bonded IOBs:                  13  out of     83    15%  
 
 ---------------------------
 Partition Resource Summary:
@@ -239,13 +239,13 @@ Delay:               7.234ns (Levels of Logic = 5)
 =========================================================================
 
 
-Total REAL time to Xst completion: 15.00 secs
-Total CPU time to Xst completion: 15.34 secs
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 15.98 secs
  
 --> 
 
 
-Total memory usage is 509772 kilobytes
+Total memory usage is 509776 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)
