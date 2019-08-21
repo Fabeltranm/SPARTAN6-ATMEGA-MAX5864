@@ -1,0 +1,17 @@
+# Pin assignment for LEDs  of out sum
+NET "co" LOC = "N5" ;  # Bank = 2, Signal name = LD4
+NET "zi<3>" LOC = "P6" ; # Bank = 2, Signal name = LD3
+NET "zi<2>" LOC = "P7" ; # Bank = 3, Signal name = LD2
+NET "zi<1>" LOC = "M11" ; # Bank = 2, Signal name = LD1
+NET "zi<0>" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+
+# Pin assignment for SWs
+NET "xi<3>" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "xi<2>" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "xi<1>" LOC = "F3";  # Bank = 3, Signal name = SW5
+NET "xi<0>" LOC = "G3";  # Bank = 3, Signal name = SW4
+
+NET "yi<3>" LOC = "B4";  # Bank = 3, Signal name = SW3
+NET "yi<2>" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "yi<1>" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "yi<0>" LOC = "P11";  # Bank = 2, Signal name = SW0

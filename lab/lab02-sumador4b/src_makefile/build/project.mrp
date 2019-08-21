@@ -1,0 +1,56 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'sum4b'
+
+Design Information
+------------------
+Command Line   : map -pr b -p xc3s100e-5vq100 project.ngd 
+Target Device  : xc3s100e
+Target Package : vq100
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Wed Aug 21 17:15:58 2019
+
+Design Summary
+--------------
+Number of errors   :  12
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:MapLib:30 - LOC constraint N5 on co is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint G3 on xi<0> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint F3 on xi<1> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint E2 on xi<2> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint N3 on xi<3> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint L3 on yi<1> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint K3 on yi<2> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint B4 on yi<3> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint M5 on zi<0> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint M11 on zi<1> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint P7 on zi<2> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint P6 on zi<3> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+
+Section 5 - Removed Logic
+-------------------------
