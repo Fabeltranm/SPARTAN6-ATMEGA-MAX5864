@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-08-28T15:52:28</DateModified>
+  <DateModified>2019-08-28T16:32:31</DateModified>
   <ModuleName>BCDtoSSeg</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/ferney/FERNEY/Proyectos/hdmi-fpga/lab/Lab03-BCD2SSeg/src_ise_basys2/BCD2SSeg/iseconfig/BCDtoSSeg.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ferney/FERNEY/Proyectos/hdmi-fpga/lab/Lab03-BCD2SSeg/src_ise_basys2/BCD2SSeg</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ferney/FERNEY/Proyectos/hdmi-fpga/lab/lab03-BCD2SSeg/src_ise_basys2/BCD2SSeg/iseconfig/BCDtoSSeg.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ferney/FERNEY/Proyectos/hdmi-fpga/lab/lab03-BCD2SSeg/src_ise_basys2/BCD2SSeg/</ImplementationReportsDirectory>
   <DateInitialized>2019-08-28T15:52:28</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
