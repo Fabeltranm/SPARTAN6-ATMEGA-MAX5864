@@ -36,4 +36,3 @@ module BCDtoSSeg_TB;
    end
 
 endmodule
-
