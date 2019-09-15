@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/UECCI/Desktop/ejer01/lab05_multiplicador_ASM/src_ise_basys2/multiplicador/multiplicador.xst" -ofn "C:/Users/UECCI/Desktop/ejer01/lab05_multiplicador_ASM/src_ise_basys2/multiplicador/multiplicador.syr" 
