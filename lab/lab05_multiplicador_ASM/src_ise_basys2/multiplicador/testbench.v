@@ -48,8 +48,6 @@ module testbench;
 	
 	initial begin
 	 #10 init = 0;
-		
-    init = 0;
 	 clk = 0;
 	 MD=0;
 	 for (MR = 0; MR < 8; MR = MR + 1) begin
@@ -58,9 +56,7 @@ module testbench;
 		end
     	#2; init = 1;
    	#2; init = 0;
-		#20 
-	  // while (done==0);
-		#5 $display("el valor de %d * %d = %d", MD,MR,pp) ;
+		#25 $display("el valor de %d * %d = %d", MD,MR,pp) ;
     end
 	end
 	
