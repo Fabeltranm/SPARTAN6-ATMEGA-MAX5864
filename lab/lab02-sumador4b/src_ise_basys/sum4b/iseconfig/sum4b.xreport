@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-08-28T16:31:54</DateModified>
+  <DateModified>2019-10-12T09:47:49</DateModified>
   <ModuleName>sum4b</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/ferney/FERNEY/Proyectos/hdmi-fpga/lab/lab02-sumador4b/src_ise_basys/sum4b/iseconfig/sum4b.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ferney/FERNEY/Proyectos/hdmi-fpga/lab/lab02-sumador4b/src_ise_basys/sum4b/</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab02-sumador4b/src_ise_basys/sum4b/iseconfig/sum4b.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab02-sumador4b/src_ise_basys/sum4b\</ImplementationReportsDirectory>
   <DateInitialized>2019-08-21T17:57:08</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

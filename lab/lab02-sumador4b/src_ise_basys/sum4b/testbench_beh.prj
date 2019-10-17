@@ -1,0 +1,4 @@
+verilog work "sum1bcc.v"
+verilog work "sum4b.v"
+verilog work "testbench.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

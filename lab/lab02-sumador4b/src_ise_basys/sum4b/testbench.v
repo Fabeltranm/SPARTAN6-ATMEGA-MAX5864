@@ -46,7 +46,7 @@ module testbench;
 	 for (yi = 0; yi < 16; yi = yi + 1) begin
       if (yi==0)
         xi=xi+1;
-      #5 $display("el valor de %d + %d = %d", xi,yi,zi) ;
+      #5 $display("el valor de %d + %d = 0x%d%d", xi,yi,co,zi) ;
     end
   end      
 

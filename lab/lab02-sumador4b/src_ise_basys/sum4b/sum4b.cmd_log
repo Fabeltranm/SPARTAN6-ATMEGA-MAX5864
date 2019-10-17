@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab02-sumador4b/src_ise_basys/sum4b/sum4b.xst" -ofn "C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab02-sumador4b/src_ise_basys/sum4b/sum4b.syr" 

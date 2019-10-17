@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-09-15T23:27:21</DateModified>
+  <DateModified>2019-09-18T11:29:40</DateModified>
   <ModuleName>alu</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab06_Unidad_aritmetica/alu/iseconfig/alu.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab06_Unidad_aritmetica/alu</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab06_Unidad_aritmetica/alu\</ImplementationReportsDirectory>
   <DateInitialized>2019-09-15T23:27:20</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
