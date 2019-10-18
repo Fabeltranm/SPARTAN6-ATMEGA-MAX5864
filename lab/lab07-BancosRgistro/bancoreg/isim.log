@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab07-BancosRgistro\TestBench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/TestBench_isim_beh.wdb 
+Running: C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab07-BancosRgistro\bancoreg\TestBench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/bancoreg/TestBench_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
 Time resolution is 1 ps
@@ -23,33 +23,24 @@ This is a Full version of ISim.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+el valor de registro  0 =  15 y  8 = 15
+el valor de registro  1 =  14 y  9 = 14
+el valor de registro  2 =  13 y 10 = 13
+el valor de registro  3 =  12 y 11 = 12
+el valor de registro  4 =  11 y 12 = 11
+el valor de registro  5 =  10 y 13 = 10
+el valor de registro  6 =   9 y 14 =  9
+el valor de registro  7 =   8 y 15 =  8
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
+el valor de registro  0 =  15 y  8 = 15
+el valor de registro  1 =  14 y  9 =  7
+el valor de registro  2 =  13 y 10 =  6
+el valor de registro  3 =  12 y 11 =  5
+el valor de registro  4 =  11 y 12 =  4
+el valor de registro  5 =  10 y 13 =  3
+el valor de registro  6 =   9 y 14 =  2
+el valor de registro  7 =   8 y 15 =  1

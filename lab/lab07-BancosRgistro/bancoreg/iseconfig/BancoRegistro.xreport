@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-10-16T19:45:19</DateModified>
+  <DateModified>2019-10-17T23:00:13</DateModified>
   <ModuleName>BancoRegistro</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/iseconfig/BancoRegistro.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro\</ImplementationReportsDirectory>
-  <DateInitialized>2019-10-12T09:55:28</DateInitialized>
+  <SavedFilePath>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/bancoreg/iseconfig/BancoRegistro.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/bancoreg</ImplementationReportsDirectory>
+  <DateInitialized>2019-10-17T23:00:04</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

@@ -1,0 +1,28 @@
+Command line:
+   Unidad_BanRegDiisplay_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64449
+
+Thu Oct 17 23:49:22 2019
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5476.98 Meg
+
+ Total Signals          : 39
+ Total Nets             : 72
+ Total Signal Drivers   : 12
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 18
+ Total Traceable Variables  : 31
+ Total Scalar Nets and Variables : 618
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5476.98 Meg
+
+Thu Oct 17 23:49:57 2019
+
