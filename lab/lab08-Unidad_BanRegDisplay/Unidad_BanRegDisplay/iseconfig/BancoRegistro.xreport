@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-10-17T23:11:10</DateModified>
+  <DateModified>2019-10-18T00:02:02</DateModified>
   <ModuleName>Unidad_BanRegDiisplay</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2019-10-17T23:44:18</SummaryTimeStamp>
   <SavedFilePath>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab08-Unidad_BanRegDisplay/Unidad_BanRegDisplay/iseconfig/BancoRegistro.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab08-Unidad_BanRegDisplay/Unidad_BanRegDisplay\</ImplementationReportsDirectory>
   <DateInitialized>2019-10-17T23:11:10</DateInitialized>

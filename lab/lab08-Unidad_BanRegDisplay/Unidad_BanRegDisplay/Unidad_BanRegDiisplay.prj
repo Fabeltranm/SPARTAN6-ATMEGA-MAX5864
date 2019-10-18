@@ -1,4 +1,0 @@
-verilog work "src/BCDtoSSeg.v"
-verilog work "src/display.v"
-verilog work "src/BancoRegistro.v"
-verilog work "src/Unidad_BanRegDiisplay.v"
