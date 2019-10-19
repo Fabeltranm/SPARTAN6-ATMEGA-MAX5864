@@ -48,6 +48,7 @@ assign  datOutRa = breg[addrRa];
 assign  datOutRb = breg[addrRb];
 
 always @(posedge clk) begin
+
 	if (RegWrite == 1)
      breg[addrW] <= datW;
   end
