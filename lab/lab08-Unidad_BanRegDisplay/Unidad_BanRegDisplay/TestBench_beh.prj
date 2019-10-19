@@ -1,0 +1,6 @@
+verilog work "src/BCDtoSSeg.v"
+verilog work "src/display.v"
+verilog work "src/BancoRegistro.v"
+verilog work "src/Unidad_BanRegDiisplay.v"
+verilog work "src/TestBench.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

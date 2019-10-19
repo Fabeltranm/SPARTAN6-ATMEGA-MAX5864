@@ -1,0 +1,39 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc src/Unidad_BanReg_display.ucf -p
+xc3s100e-cp132-5 Unidad_BanRegDiisplay.ngc Unidad_BanRegDiisplay.ngd
+
+Reading NGO file
+"C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab08-Unidad_BanReg
+Display/Unidad_BanRegDisplay/Unidad_BanRegDiisplay.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "src/Unidad_BanReg_display.ucf"
+...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4406252 kilobytes
+
+Writing NGD file "Unidad_BanRegDiisplay.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "Unidad_BanRegDiisplay.bld"...

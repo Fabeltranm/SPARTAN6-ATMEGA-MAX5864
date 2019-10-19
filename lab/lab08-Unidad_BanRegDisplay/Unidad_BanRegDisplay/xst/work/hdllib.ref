@@ -1,0 +1,4 @@
+MO BancoRegistro NULL src/BancoRegistro.v vlg02/_banco_registro.bin 1571499190
+MO display NULL src/display.v vlg1E/display.bin 1571499190
+MO BCDtoSSeg NULL src/BCDtoSSeg.v vlg32/_b_c_dto_s_seg.bin 1571499190
+MO Unidad_BanRegDiisplay NULL src/Unidad_BanRegDiisplay.v vlg0E/_unidad___ban_reg_diisplay.bin 1571499190

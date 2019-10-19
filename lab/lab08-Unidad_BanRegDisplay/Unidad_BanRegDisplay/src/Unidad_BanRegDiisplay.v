@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Unidad_BanRegDiisplay #(      		 //   #( Parametros
          parameter BIT_ADDR = 4,  //   BIT_ADDR Número de bit para la dirección
-         parameter BIT_DATO = 4,  //  BIT_DATO  Número de bit para el dato
+         parameter BIT_DATO = 8,  //  BIT_DATO  Número de bit para el dato
 			parameter   RegFILE= "src/Reg16.men")
 	(
     input [BIT_ADDR-1:0] addrRa,
@@ -41,6 +41,12 @@ module Unidad_BanRegDiisplay #(      		 //   #( Parametros
 
 wire [BIT_DATO-1:0] datOutRa;
 wire [BIT_DATO-1:0] datOutRb;
+wire [15:0] _num;
+
+
+assign _num[BIT_DATO-1+8:8]= datOutRb;
+assign _num[BIT_DATO-1:0]= datOutRa;
+
 
  BancoRegistro #(  BIT_ADDR , BIT_DATO, RegFILE)
 	bp (
@@ -58,7 +64,7 @@ wire [BIT_DATO-1:0] datOutRb;
     );
 
 display dp(
-    .num({datOutRa,4'h0,datOutRb,4'h0}),
+    .num(_num),
     .clk(clk),
     .sseg(sseg),
     .an(an),
