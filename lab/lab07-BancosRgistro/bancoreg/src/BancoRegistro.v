@@ -19,7 +19,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module BancoRegistro #(      		 //   #( Parametros
-         parameter BIT_ADDR = 4,  //   BIT_ADDR Número de bit para la dirección
+         parameter BIT_ADDR = 8,  //   BIT_ADDR Número de bit para la dirección
          parameter BIT_DATO = 4,  //  BIT_DATO  Número de bit para el dato
 			parameter   RegFILE= "src/Reg16.men")
 	(

@@ -1,0 +1,78 @@
+ISim log file
+Running: C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\P01-01RAM\testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/P01-01RAM/testbench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+el valor de memoria     0 =      x
+el valor de memoria     1 =      x
+el valor de memoria     2 =      x
+el valor de memoria     3 =      x
+el valor de memoria     4 =      x
+el valor de memoria     5 =      x
+el valor de memoria     6 =      x
+el valor de memoria     7 =      x
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+el valor de memoria     0 =      x
+el valor de memoria     1 =      x
+el valor de memoria     2 =      x
+el valor de memoria     3 =      x
+el valor de memoria     4 =      x
+el valor de memoria     5 =      x
+el valor de memoria     6 =      x
+el valor de memoria     7 =      x
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+el valor de memoria     0 =   4660
+el valor de memoria     1 =      0
+el valor de memoria     2 =      0
+el valor de memoria     3 =      0
+el valor de memoria     4 =      0
+el valor de memoria     5 =      0
+el valor de memoria     6 =      0
+el valor de memoria     7 =      0
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+el valor de memoria     0 =   4660
+el valor de memoria     1 =      0
+el valor de memoria     2 =   9029
+el valor de memoria     3 =  43981
+el valor de memoria     4 =  19771
+el valor de memoria     5 =      1
+el valor de memoria     6 =     15
+el valor de memoria     7 =      8
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+el valor de memoria     0 =   4660
+el valor de memoria     1 =      0
+el valor de memoria     2 =   9029
+el valor de memoria     3 =  43981
+el valor de memoria     4 =  19771
+el valor de memoria     5 =      1
+el valor de memoria     6 =     15
+el valor de memoria     7 =      8
+el valor de memoria     0 =      0
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+el valor de memoria     0 =   4660
+el valor de memoria     0 =    234

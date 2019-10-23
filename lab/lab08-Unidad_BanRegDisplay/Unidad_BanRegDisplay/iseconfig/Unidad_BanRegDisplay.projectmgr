@@ -2,22 +2,24 @@
 <!--This is an ISE project configuration file.-->
 <!--It holds project specific layout data for the projectmgr plugin.-->
 <!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
-<Project version="2" owner="projectmgr" name="lab07-BancosRgistro" >
+<Project version="2" owner="projectmgr" name="Unidad_BanRegDisplay" >
    <!--This is an ISE project configuration file.-->
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/display C:|Users|UECCI|Documents|GitHub|SPARTAN6-ATMEGA-MAX5864|lab|lab08-Unidad_BanRegDisplay|Unidad_BanRegDisplay|src|display.v</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>BancoRegistro (C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/bancoreg/src/BancoRegistro.v)</SelectedItem>
+         <SelectedItem>bp - BancoRegistro (C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab08-Unidad_BanRegDisplay/Unidad_BanRegDisplay/src/BancoRegistro.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000033e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000033e0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000413000000020000000000000000000000000200000064ffffffff000000810000000300000002000004130000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>BancoRegistro (C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/bancoreg/src/BancoRegistro.v)</CurrentItem>
+      <CurrentItem>bp - BancoRegistro (C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab08-Unidad_BanRegDisplay/Unidad_BanRegDisplay/src/BancoRegistro.v)</CurrentItem>
    </ItemView>
-   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
@@ -27,13 +29,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a6000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a60000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -42,9 +44,9 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002e3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000002280000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003cc000000040101000100000000000000000000000064ffffffff000000810000000000000004000002d500000001000000000000004800000001000000000000005d0000000100000000000000520000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab07-BancosRgistro\bancoreg\src\BancoRegistro.v</CurrentItem>
+      <CurrentItem>C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab08-Unidad_BanRegDisplay\Unidad_BanRegDisplay\src\BancoRegistro.v</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -58,36 +60,35 @@
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
-   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Design Utilities</ClosedNode>
-         <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Synthesize - XST</SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010b0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a6000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a60000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Synthesize - XST</CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/TestBench C:|Users|UECCI|Documents|GitHub|SPARTAN6-ATMEGA-MAX5864|lab|lab07-BancosRgistro|TestBench.v</ClosedNode>
+         <ClosedNode>/Unidad_BanRegDiisplay C:|Users|UECCI|Documents|GitHub|SPARTAN6-ATMEGA-MAX5864|lab|lab08-Unidad_BanRegDisplay|Unidad_BanRegDisplay|src|Unidad_BanRegDiisplay.v</ClosedNode>
+         <ClosedNode>/display C:|Users|UECCI|Documents|GitHub|SPARTAN6-ATMEGA-MAX5864|lab|lab08-Unidad_BanRegDisplay|Unidad_BanRegDisplay|src|display.v</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>TestBench (C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/bancoreg/src/TestBench.v)</SelectedItem>
+         <SelectedItem>TestBench (C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab08-Unidad_BanRegDisplay/Unidad_BanRegDisplay/src/TestBench.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000035f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000035f0000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>TestBench (C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/bancoreg/src/TestBench.v)</CurrentItem>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000434000000020000000000000000000000000200000064ffffffff000000810000000300000002000004340000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>TestBench (C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab08-Unidad_BanRegDisplay/Unidad_BanRegDisplay/src/TestBench.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -95,40 +96,41 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010b0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a6000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a60000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>ISim Simulator</SelectedItem>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010b0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a6000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a60000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>ISim Simulator</CurrentItem>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
-   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="ManualCompile" >
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
       <ClosedNodes>
-         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab07-BancosRgistro\bancoreg\BancoRegistro.v (C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/bancoreg/BancoRegistro.v)</SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000348000000020000000000000000000000000000000064ffffffff000000810000000000000002000002d80000000100000000000000700000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a6000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a60000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab07-BancosRgistro\bancoreg\BancoRegistro.v (C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/lab07-BancosRgistro/bancoreg/BancoRegistro.v)</CurrentItem>
+      <CurrentItem/>
    </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
 </Project>

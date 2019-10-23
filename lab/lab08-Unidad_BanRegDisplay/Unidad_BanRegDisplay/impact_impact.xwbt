@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab08-Unidad_BanRegDisplay\Unidad_BanRegDisplay\impact.xsl
+OUTFILE=C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab08-Unidad_BanRegDisplay\Unidad_BanRegDisplay\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab08-Unidad_BanRegDisplay\Unidad_BanRegDisplay
+LICENSE=iMPACT
+USER_INFO=iMPACT

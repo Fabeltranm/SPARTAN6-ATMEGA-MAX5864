@@ -148,3 +148,29 @@ INFO:iMPACT - '1': Checking done pin....done.
 '1': Programmed successfully.
 PROGRESS_END - End Operation.
 Elapsed time =      1 sec.
+Project:'C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab08-Unidad_BanRegDisplay\Unidad_BanRegDisplay\\auto_project.ipf' created.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : saveProjectFile -file"C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab08-Unidad_BanRegDisplay\Unidad_BanRegDisplay\\auto_project.ipf"
+// *** BATCH CMD : setMode -bs
+INFO:iMPACT - Launching WebTalk, please refer to the webtalk log at   C:\Users\UECCI\Documents\GitHub\SPARTAN6-ATMEGA-MAX5864\lab\lab08-Unidad_BanR   egDisplay\Unidad_BanRegDisplay\webtalk.log for details.
+INFO:iMPACT - Running wbtc successfully.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
