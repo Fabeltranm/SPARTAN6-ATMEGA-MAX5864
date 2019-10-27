@@ -72,6 +72,7 @@ module testbench;
 		  #10 
 		  regwrite=0;
 		  addr_out=0;
+		  #1
 		  regread=1;
 		  $display("el valor de memoria %d =  %d", addr_out,data_out) ;
 

@@ -40,6 +40,10 @@
     <transform xil_pn:end_ts="1571849725" xil_pn:in_ck="7204144486916169559" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1571849725">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ramdp/buffer_ram_dp.v"/>
       <outfile xil_pn:name="testbench.v"/>
     </transform>
@@ -58,12 +62,22 @@
     <transform xil_pn:end_ts="1571849725" xil_pn:in_ck="7204144486916169559" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1571849725">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ramdp/buffer_ram_dp.v"/>
       <outfile xil_pn:name="testbench.v"/>
     </transform>
     <transform xil_pn:end_ts="1571849729" xil_pn:in_ck="7204144486916169559" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4057335136015247887" xil_pn:start_ts="1571849725">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
@@ -74,6 +88,9 @@
     <transform xil_pn:end_ts="1571849729" xil_pn:in_ck="7130759491340027311" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6765454836195340814" xil_pn:start_ts="1571849729">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="testbench_isim_beh.wdb"/>

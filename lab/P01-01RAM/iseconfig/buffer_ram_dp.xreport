@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-10-23T11:58:20</DateModified>
+  <DateModified>2019-10-24T08:17:39</DateModified>
   <ModuleName>buffer_ram_dp</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/P01-01RAM/iseconfig/buffer_ram_dp.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/P01-01RAM</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/P01-01RAM\</ImplementationReportsDirectory>
   <DateInitialized>2019-10-23T11:50:00</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
